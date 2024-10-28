@@ -1,5 +1,5 @@
 .hero {
-    background-color: burlywood;
+    // background-color: #999;
     text-align: center;
     padding: 2rem;
 
@@ -9,7 +9,7 @@
     }
 
     .game-blocks{
-        background-color: teal;
+        // background-color: teal;
         width: 95%;
         max-width: 1000px;
         height: auto;
@@ -52,6 +52,14 @@
                         url("../../assets/images/terminus.webp");
                     background-position: center;
                     background-size: cover;
+                }
+
+                .block-title{
+                    color: white;
+                    font-size: 2rem;
+                    font-weight: 700;
+                    letter-spacing: 0.5ch;
+                    // background-color: bisque;
                 }
 
             }

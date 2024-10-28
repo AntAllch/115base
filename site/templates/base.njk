@@ -16,11 +16,13 @@
     </head>
     <body>
 
-        {% include 'header.njk' %}
-        <main>
-            {{ content | safe }}
-        </main>
-        {# {% include 'footer.njk' %} #}
+        <div class="wrapper">
+            {% include 'header.njk' %}
+            <main>
+                {{ content | safe }}
+            </main>
+            {# {% include 'footer.njk' %} #}
+        </div>
 
         
 

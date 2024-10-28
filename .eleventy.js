@@ -32,7 +32,7 @@ module.exports = function(eleventyConfig) {
     })
 
     eleventyConfig.addGlobalData('site', {
-        name: 'Your Site Name',
+        name: '115base',
         url: 'https://yoursitename.com',
         host: process.env.NODE_ENV === 'production' ? 'https://gearset.com' : 'http://localhost:8080',
         slogan: 'Your Gaming Guide',
