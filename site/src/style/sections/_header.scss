@@ -1,35 +1,75 @@
-@use '../abstracts/variables' as *;
+// @use '../abstracts/variables' as *;
 
-/* //////////////////////
-  Header
-  /////////////////////// */
+// /* //////////////////////
+//   Header
+//   /////////////////////// */
 
-.page-header {
-  padding: 2em 0;
+// .page-header {
+//   padding: 2em 0;
 
-  &__content {
-    display: flex;
-    justify-content: space-between;
-  }
+//   &__content {
+//     display: flex;
+//     justify-content: space-between;
+//   }
   
-}
+// }
 
-.nav-list {
-  margin: 0;
-  padding: 0;
-  font-family: $ff-heading;
+// .nav-list {
+//   margin: 0;
+//   padding: 0;
+//   font-family: $ff-heading;
 
-  a {
-    color: $clr-primary;
-    text-decoration: none;
+//   a {
+//     color: $clr-primary;
+//     text-decoration: none;
 
-    &:focus,
-    &:hover {
-      text-decoration: underline;
-    }
+//     &:focus,
+//     &:hover {
+//       text-decoration: underline;
+//     }
+//   }
+// }
+
+// [aria-current="page"] {
+//   font-weight: bold;
+// }
+
+header{
+  background-color: orange;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding-block: 1rem;
+
+  //115base Logo
+  svg{
+      width: 10rem;
+      margin-bottom: 2rem;
   }
-}
 
-[aria-current="page"] {
-  font-weight: bold;
+  .nav-list{
+      display: flex;
+      gap: 4rem;
+      text-transform: uppercase;
+      font-size: 1.5rem;
+
+      .nav-item{
+          
+          .nav-link{
+              text-decoration: none;
+              letter-spacing: 0.5ch;
+              color: black;
+              transition: all 200ms ease-in-out;
+              padding: 0.4ch 0.3ch 0.4ch 0.7ch;
+              border-radius: 10px;
+              
+              &:hover{
+                  color: white;
+                  background-color: #111;
+              }
+          }
+
+      }
+  }
 }

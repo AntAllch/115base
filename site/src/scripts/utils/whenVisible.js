@@ -1,6 +1,6 @@
 // Apply when the 'element' is visible
 export default function whenVisible() {
-    const whenVisible = document.querySelectorAll('[data-when-visible');
+    const whenVisible = document.querySelectorAll('[data-when-visible]');
 
     if(whenVisible) {
         window.addEventListener('scroll', () => {

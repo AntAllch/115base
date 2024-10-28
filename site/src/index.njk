@@ -1,5 +1,48 @@
 ---
 layout: base.njk 
-title: Example
+title: 115base | Home
+pageClass: lego
 ---
+{# 
+<ul>
+  {% for post in collections.featuredPosts %}
+    <li>
+      <h2>{{ post.data.title }}</h2>
+      <p>{{ post.data.description }}</p>
+    </li>
+  {% endfor %}
+</ul> #}
 
+<main class="hero">
+
+  <h1 class="hero-title">Select a Map</h1>
+
+  <div class="game-blocks">
+
+    <a href="#" class="block-link">
+      <div class="game-block" id="liberty-falls">
+        <p class="block-title">Liberty Falls</p>
+      </div>
+    </a>
+
+    <a href="#" class="block-link">
+      <div class="game-block" id="terminus">
+        <p class="block-title">Terminus</p>
+      </div>
+    </a>
+
+    <a href="#" class="block-link">
+      <div class="game-block" id="liberty-falls">
+        <p class="block-title">Liberty Falls</p>
+      </div>
+    </a>
+
+    <a href="#" class="block-link">
+      <div class="game-block" id="terminus">
+        <p class="block-title">Terminus</p>
+      </div>
+    </a>
+
+  </div>
+
+</main>

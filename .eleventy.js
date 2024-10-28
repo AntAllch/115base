@@ -35,7 +35,7 @@ module.exports = function(eleventyConfig) {
         name: 'Your Site Name',
         url: 'https://yoursitename.com',
         host: process.env.NODE_ENV === 'production' ? 'https://gearset.com' : 'http://localhost:8080',
-        slogan: 'Your global site slogan',
+        slogan: 'Your Gaming Guide',
         description: "your default site description"
     });
 
