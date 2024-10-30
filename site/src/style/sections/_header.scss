@@ -24,7 +24,7 @@ header{
               text-decoration: none;
               letter-spacing: 0.5ch;
               color: black;
-              transition: all 200ms ease-in-out;
+              // transition: all 200ms ease-in-out;
               padding: 0.4ch 0.3ch 0.4ch 0.7ch;
               border-radius: 10px;
               
@@ -38,4 +38,8 @@ header{
 
       }
   }
+}
+
+[aria-current="page"]{
+  background-color: red !important;
 }

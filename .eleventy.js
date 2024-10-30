@@ -1,6 +1,7 @@
 const htmlmin = require("html-minifier"); //minify html
 
 const prettyDate = require('./lib/pretty-date.js')
+const kebab = require('./lib/kebab.js')
 
 module.exports = function(eleventyConfig) {
 
@@ -11,8 +12,13 @@ module.exports = function(eleventyConfig) {
         return collection.getFilteredByTag("post").filter(item => item.data.featured);
     });
 
+    eleventyConfig.addCollection("mainEggs", collection => {
+        return collection.getFilteredByTag("mainEgg")
+    });
+
     // Expose Nunjucks filters
     eleventyConfig.addFilter("prettyDate", prettyDate);
+    eleventyConfig.addFilter("kebab", kebab);
 
     // Automatically open up the browser on script runs
     eleventyConfig.setBrowserSyncConfig({
