@@ -5,44 +5,58 @@ layout: eggSteps.njk
 tags: mainEgg
 ---
 
-### Step 1
+### Boats and Cheese
 
 this is the first step
 
 ---
 
-### Step 2
+Main egg
+go to the tenticle trap and shoot it with the wonder weapon
 
-this is the 2nd step
+take it to peck and give it to him to hack
 
----
+go to the bio lab again and activate the container in the center
 
-### Step 2
 
-this is the 2nd step
+Add the 3 digit code to the number pad - 
 
----
+ - hour hand from clock
 
-### Step 2
+ - card number pinned board in mess hall (one with dining tables) ﻿
 
-this is the 2nd step
+ - engineering (days since last injury on wall)
 
----
 
-### Step 2
+8	turn the valves on the cylinder at same time
 
-this is the 2nd step
+boss fight
 
----
+jump into water and grab the keycard
 
-### Step 2
+go to communications room and you see a computer with green writing - network connection error
 
-this is the 2nd step
+hold SQUARE on it and it will eventually light up
 
----
+go to crashed ship in the water and climb up ladders and grab the cylinders
 
-### Step 2
+survive lockdown
 
-this is the 2nd step
 
+take cylinder to a pipe wiht a gap in it
+
+ - crab island
+
+ - main island in cave near speed cola
+
+ - under the sea tower (with the grapple line)
+
+
+go to peck and get the hacking device
+
+get a boat and go to the boyes and hack them - should be 3
+
+go down to bio lab and defuse 3 bombs
+
+GET POWERFUL WEAPONS - LEGENDARY 3 PACKED (WITH DEADWIRE IS GOOD)
 
