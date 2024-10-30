@@ -14,6 +14,8 @@ header{
 
   .nav-list{
       display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
       gap: 4rem;
       text-transform: uppercase;
       font-size: 1.5rem;
@@ -42,4 +44,23 @@ header{
 
 [aria-current="page"]{
   background-color: red !important;
+}
+
+@media screen and (max-width: 730px){
+  
+  header{
+
+    .nav-list{
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 2rem;
+
+      // .nav-link{
+      //   background-color: red;
+      // }
+    }
+    
+  }
+
 }
