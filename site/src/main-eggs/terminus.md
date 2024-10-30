@@ -5,12 +5,6 @@ layout: eggSteps.njk
 tags: mainEgg
 ---
 
-### Boats and Cheese
-
-this is the first step
-
----
-
 ### Step 1
 
 go to the tenticle trap and shoot it with the wonder weapon
