@@ -19,13 +19,13 @@ pageClass: lego
 
   <div class="game-blocks">
 
-    <a href="#" class="block-link">
+    <a class="block-link" {% if page.fileSlug === 'libertyfalls' %}aria-current="page"{% endif %} href="/libertyfalls">
       <div class="game-block" id="liberty-falls">
         <p class="block-title">Liberty Falls</p>
       </div>
     </a>
 
-    <a href="#" class="block-link">
+    <a class="block-link" {% if page.fileSlug === 'terminus' %}aria-current="page"{% endif %} href="/terminus">
       <div class="game-block" id="terminus">
         <p class="block-title">Terminus</p>
       </div>
