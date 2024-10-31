@@ -81,11 +81,11 @@ Survive lockdown
 
 Take cylinder to a pipe wiht a gap in it
 
- - Crab island
+- Crab island
 
- - Main island in cave near speed cola
+- Main island in cave near speed cola
 
- - Under the sea tower (with the grapple line)
+- Under the sea tower (with the grapple line)
 
 ---
 

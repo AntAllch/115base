@@ -7,8 +7,11 @@
         justify-content: center;
 
         .weapon-location{
-            // background-color: teal;
+            background-color: rgba(white, 0.1);
+            padding: 1.5rem;
             margin-top: 3.5rem;
+            border-radius: 10px;
+            height: fit-content;
 
             .weapons-title{
                 font-size: 3rem;
@@ -29,12 +32,13 @@
 
             hr{
                 background-image: linear-gradient(to right, rgba(orange, 0.75), rgba(orange, 0.75), rgba(0, 0, 0, 0));
+                margin: 1rem 0;
             }
         }
 
         .egg{
 
-            // background: green;
+            // background: green
             
             .egg-notes{
         
@@ -56,7 +60,7 @@
             .egg-steps{
                 // background-color: orange;
                 width: 95%;
-                max-width: 900px;
+                max-width: 600px;
                 // margin: 0 auto;
                 padding-bottom: 2rem;
                 // text-align: center;
@@ -89,13 +93,13 @@
         
                 li{
                     width: fit-content;
-                    margin: 0 auto;
+                    // margin: 0 auto;
                 }
         
                 hr{
-                    width: 200px;
-                    margin-block: 2rem;
-                    // color: orange;
+                    width: 400px;
+                    margin: 2rem 0;
+                    background-image: linear-gradient(to right, rgba(orange, 0.75), rgba(orange, 0.75), transparent);
                 }
                 
                 .note{
