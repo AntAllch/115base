@@ -26,14 +26,15 @@ header{
           .nav-link{
               text-decoration: none;
               letter-spacing: 0.5ch;
-              color: black;
+              // color: black;
+              color: white;
               // transition: all 200ms ease-in-out;
               padding: 0.4ch 0.3ch 0.4ch 0.7ch;
               border-radius: 10px;
               
               &:hover{
-                //   color: white;
-                //   background-color: #111;
+                // color: white;
+                // background-color: #111;
                 position: relative;
                 top: -3px;
               }

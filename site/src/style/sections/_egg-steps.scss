@@ -1,81 +1,116 @@
 
 #page-egg-steps{
 
-    .egg-notes{
-        
-        position: sticky;
-        top: 1rem;
-        z-index: 5;
-        
-        .mintex{
-            font-size: 2rem;
-            position: absolute;
-            top: 0;
-            right: 30%;
-        }
+    .guide-bodies{
 
-        .notes-area{
-            display: block;
-            margin: 0 auto 2rem;
-            width: min(90%, 500px);
-            font-size: 1.5rem;
-            position: relative;
-        }
+        display: flex;
+        justify-content: center;
 
-    }
+        .weapon-location{
+            // background-color: teal;
+            margin-top: 3.5rem;
 
-    .egg-steps{
-        // background-color: orange;
-        width: 95%;
-        max-width: 900px;
-        margin: 0 auto;
-        padding-bottom: 2rem;
-        text-align: center;
-        
-        h3{
-            font-size: 2rem;
-            letter-spacing: 0.1ch;
-        }
-    
-        p{
-            font-size: 1.5rem;
-            position: relative;
-            display: inline-block;
-
-            &.complete{
-                color: orangered;
-                text-decoration: line-through;
+            .weapons-title{
+                font-size: 3rem;
+                color: rgb(66, 181, 4);
+                margin-bottom: 2rem;
+                font-weight: bold;
             }
 
-            &:hover{
-                cursor: pointer;
+            .weapon{
+                font-size: 1.3rem;
+                margin-bottom: 1rem;
+
+                .weapon-name{
+                    font-size: 2rem;
+                    color: orange;
+                }
+            }
+
+            hr{
+                background-image: linear-gradient(to right, rgba(orange, 0.75), rgba(orange, 0.75), rgba(0, 0, 0, 0));
             }
         }
 
-        ul{
-            padding-left: 0;
-        }
+        .egg{
 
-        li{
-            width: fit-content;
-            margin: 0 auto;
-        }
-
-        hr{
-            width: 200px;
-            margin-block: 2rem;
-        }
+            // background: green;
+            
+            .egg-notes{
         
-        .note{
-            font-size: 2rem;
-            background-color: rgba(orange, 0.5);
-            border-radius: 5px;
-            padding: 1rem;
+                // position: sticky;
+                // top: 1rem;
+                // z-index: 5;
+        
+                .notes-area{
+                    display: block;
+                    // margin: 0 auto 2rem;
+                    margin-bottom: 2rem;
+                    width: min(90%, 500px);
+                    font-size: 1.5rem;
+                    // position: relative;
+                }
+        
+            }
+        
+            .egg-steps{
+                // background-color: orange;
+                width: 95%;
+                max-width: 900px;
+                // margin: 0 auto;
+                padding-bottom: 2rem;
+                // text-align: center;
+                
+                h3{
+                    font-size: 2rem;
+                    letter-spacing: 0.1ch;
+                    color: rgb(66, 181, 4);
+                }
+            
+                p{
+                    font-size: 1.5rem;
+                    position: relative;
+                    display: inline-block;
+                    color: white;
+        
+                    &.complete{
+                        color: orangered;
+                        text-decoration: line-through;
+                    }
+        
+                    &:hover{
+                        cursor: pointer;
+                    }
+                }
+        
+                ul{
+                    padding-left: 0;
+                }
+        
+                li{
+                    width: fit-content;
+                    margin: 0 auto;
+                }
+        
+                hr{
+                    width: 200px;
+                    margin-block: 2rem;
+                    // color: orange;
+                }
+                
+                .note{
+                    font-size: 2rem;
+                    background-color: rgba(orange, 0.5);
+                    border-radius: 5px;
+                    padding: 1rem;
+                }
+            }
+        
+            // .minimise{
+            //     background-color: orange;
+            // }
         }
-    }
 
-    .minimise{
-        background-color: orange;
     }
     
 }
