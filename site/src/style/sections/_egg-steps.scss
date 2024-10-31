@@ -1,11 +1,27 @@
 
 #page-egg-steps{
 
-    textarea{
-        display: block;
-        margin: 0 auto 2rem;
-        width: min(90%, 500px);
-        font-size: 1.5rem;
+    .egg-notes{
+        
+        position: sticky;
+        top: 1rem;
+        z-index: 5;
+        
+        .mintex{
+            font-size: 2rem;
+            position: absolute;
+            top: 0;
+            right: 30%;
+        }
+
+        .notes-area{
+            display: block;
+            margin: 0 auto 2rem;
+            width: min(90%, 500px);
+            font-size: 1.5rem;
+            position: relative;
+        }
+
     }
 
     .egg-steps{
@@ -36,6 +52,15 @@
             }
         }
 
+        ul{
+            padding-left: 0;
+        }
+
+        li{
+            width: fit-content;
+            margin: 0 auto;
+        }
+
         hr{
             width: 200px;
             margin-block: 2rem;
@@ -47,6 +72,10 @@
             border-radius: 5px;
             padding: 1rem;
         }
+    }
+
+    .minimise{
+        background-color: orange;
     }
     
 }
