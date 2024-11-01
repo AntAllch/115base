@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">     
         <title>{% include "header/uniqueTitle.njk" %}</title>
 
-        {% include "header/social.njk" %}
+        {# {% include "header/social.njk" %} #}
 
         {% if noindex %}
         <meta name="robots" content="noindex" />
@@ -16,13 +16,13 @@
     </head>
     <body>
 
-        <div class="wrapper">
-            {% include 'header.njk' %}
-            <div>
-                {{ content | safe }}
-            </div>
-            {# {% include 'footer.njk' %} #}
+        {% include 'header.njk' %}
+        <div>
+            {{ content | safe }}
         </div>
+        {# {% include 'footer.njk' %} #}
+        {# <div class="wrapper">
+        </div> #}
 
         
 
