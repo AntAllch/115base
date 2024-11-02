@@ -4,8 +4,8 @@ date: 2024-10-30
 
 weaponLocations: 
 -
- weapon: GS45 East
- location: Main Street
+ weapon: GS45
+ location: East Main Street
 -
  weapon: ASG-89
  location: Grease Trap Patio
