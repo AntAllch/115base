@@ -14,10 +14,11 @@
 
         <link rel="stylesheet" href="{{ '/style/style.css' | url }}">
     </head>
+
     <body>
 
         {% include 'header.njk' %}
-        <div>
+        <div class="page-content">
             {{ content | safe }}
         </div>
         {# {% include 'footer.njk' %} #}

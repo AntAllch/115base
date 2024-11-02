@@ -1,6 +1,8 @@
 /* //////////////////////
   Utility Classes
   /////////////////////// */
+
+@use '../abstracts/mixins' as r;
   
 hr {
   border: 0;
@@ -10,4 +12,38 @@ hr {
   // background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(orange, 0.75), rgba(0, 0, 0, 0));
   // background-color: orange;
+
+  @include r.until(450px){
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(orange, 0.75), rgba(0, 0, 0, 0)) !important;
+  }
+
+}
+
+.center-text {
+  text-align: center;
+}
+
+.flex{
+  display: flex;
+}
+
+.container{
+  // background-color: blue;
+  max-width: 1400px;
+  margin-inline: auto;
+
+  &.small{
+    max-width: 750px;
+  }
+
+  @include r.until(450px){
+    &.mob-center{
+      text-align: center;
+    }
+  }
+}
+
+.w400{
+  width: 95%;
+  max-width: 500px;
 }

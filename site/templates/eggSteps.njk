@@ -3,98 +3,51 @@ layout: base.njk
 pageClass: egg-steps
 ---
 
+<div class="container mob-center">
 
-
-
-<div class="guide-bodies">
-
+    <div class="guide-bodies">
     
-    <div class="egg">
+        <div class="egg">
     
-        <h1 class="page-title">{{ title }} Easter Egg</h1>
-
-        <div class="egg-notes">
-            <textarea class="notes-area" name="" id="" cols="30" rows="10" placeholder="Notes for your egg run..."></textarea>
+            <h1 class="page-title">{{ title }} Easter Egg</h1>
+    
+            <div class="egg-notes">
+                <textarea class="notes-area" name="" id="" cols="55" rows="10" placeholder="Notes for your egg run..."></textarea>
+                <span class="mintex"></span>
+            </div>
+    
+            <div class="egg-steps">
+                {{ content | safe }}
+            </div>
+    
         </div>
-
-        <div class="egg-steps">
-            {{ content | safe }}
+    
+        <div class="listed-item">
+    
+            <div class="elements">
+                <p class="listed-title">Weapon <br> Locations</p>
+                {% for item in weaponLocations %}
+                    <div class="item">
+                        <p class="item-name" >{{ item.weapon }}</p>
+                        <p>{{ item.location }}</p>
+                        <hr>
+                    </div>
+                {% endfor %}
+            </div>
+    
+            <div class="elements">
+                <p class="listed-title">Perk <br> Locations</p>
+                {% for item in perkLocations %}
+                    <div class="item">
+                        <p class="item-name" >{{ item.perk }}</p>
+                        <p>{{ item.location }}</p>
+                        <hr>
+                    </div>
+                {% endfor %}
+            </div>
+    
         </div>
-
-    </div>
-
-    <div class="weapon-location">
-        <p class="weapons-title">Weapon <br> Locations</p>
-        <div class="weapon">
-            <p class="weapon-name" >GS45</p>
-            <p>Holding Cells</p>
-            <hr>
-        </div>
-        <div class="weapon">
-            <p class="weapon-name" >Tanto .22</p>
-            <p>Interrogation Rooms</p>
-            <hr>
-        </div>
-        <div class="weapon">
-            <p class="weapon-name" >ASG-89</p>
-            <p>Control Center</p>
-            <hr>
-        </div>
-        <div class="weapon">
-            <p class="weapon-name" >C9</p>
-            <p>Commmunications</p>
-            <hr>
-        </div>
-        <div class="weapon">
-            <p class="weapon-name" >Marine SP</p>
-            <p>Rec Yard</p>
-            <hr>
-        </div>
-        <div class="weapon">
-            <p class="weapon-name" >Goblin MK2</p>
-            <p>Gun Platform</p>
-            <hr>
-        </div>
-        <div class="weapon">
-            <p class="weapon-name" >PP-919</p>
-            <p>Sea Tower</p>
-            <hr>
-        </div>
-        <div class="weapon">
-            <p class="weapon-name" >AS Val</p>
-            <p>Sea Caves</p>
-            <hr>
-        </div>
-        <div class="weapon">
-            <p class="weapon-name" >XM-4</p>
-            <p>Bio Lab</p>
-            <hr>
-        </div>
-        <div class="weapon">
-            <p class="weapon-name" >AK-74</p>
-            <p>Mining Tunnels</p>
-            <hr>
-        </div>
-        <div class="weapon">
-            <p class="weapon-name" >SVD</p>
-            <p>Shipwreck</p>
-            <hr>
-        </div>
-        <div class="weapon">
-            <p class="weapon-name" >Tsarkov 7.62</p>
-            <p>Crab Island</p>
-            <hr>
-        </div>
-        <div class="weapon">
-            <p class="weapon-name" >PU-21</p>
-            <p>Temple Island</p>
-            <hr>
-        </div>
-        <div class="weapon">
-            <p class="weapon-name" >XMG</p>
-            <p>Castle Rock Island</p>
-        </div>
-
+    
     </div>
 
 </div>

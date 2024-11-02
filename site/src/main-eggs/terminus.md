@@ -1,13 +1,86 @@
 ---
 title: Terminus
 date: 2024-10-30
+weaponLocations: 
+-
+    weapon: GS45
+    location: Holding Cells
+-
+    weapon: Tanto .22
+    location: Interrogation Rooms
+-
+    weapon: ASG-89
+    location: Control Center
+-
+    weapon: C9
+    location: Communications
+-
+    weapon: Marine SP
+    location: Rec Yard
+-
+    weapon: Goblin MK2
+    location: Gun Platform
+-
+    weapon: PP-919
+    location: Seat Tower
+-
+    weapon: AS Val
+    location: Sea Caves
+-
+    weapon: XM-4
+    location: Bio-Lab
+-
+    weapon: AK-74
+    location: Mining Tunnels
+-
+    weapon: SVD
+    location: Shipwreck (Bottom left of map)
+-
+    weapon: Tsarkov 7.62
+    location: Crab Island
+-
+    weapon: PU-21
+    location: Temple Island (Top Left of map)
+-
+    weapon: XMG
+    location: Right Center Island
+
+perkLocations: 
+-
+    perk: Quick Revive
+    location: Interrogation Rooms
+-
+    perk: Staminup
+    location: Control Center
+-
+    perk: Juggernog
+    location: Living Quarters
+-
+    perk: Deadshot
+    location: Seaside Path
+-
+    perk: Speed Cola
+    location: Sea Caves
+-
+    perk: Elemental Pop
+    location: Sea Tower
+-
+    perk: PHD Flopper
+    location: Mining Tunnels
+-
+    perk: Melee Macchiato
+    location: Bio Lab
+-
+    perk: Wunderfizz
+    location: Shipwreck (Rnd 25)
+
 layout: eggSteps.njk
 tags: mainEgg
 ---
 
 ### Step 1
 
-Go to the tenticle trap and shoot it with the wonder weapon
+Shoot the tenticle trap with the wonder weapon and it will drop a hard drive
 
 ---
 

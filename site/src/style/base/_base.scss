@@ -1,4 +1,5 @@
 @use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as r;
 
 /* //////////////////////
   General styling
@@ -13,4 +14,13 @@ body {
   // max-width: 1400px;
   margin: 0 auto;
   color: white;
+}
+
+.page-content {
+  // background-color: red;
+  padding: 2rem;
+
+  @include r.tablet {
+    padding: .5rem;
+  }
 }

@@ -1,0 +1,25 @@
+---
+title: Weapon Builds
+layout: base.njk
+pageClass: weapon-builds
+---
+
+<div class="container">
+    
+    <h1 class="page-content_title center-text">Weapons Builds</h1>
+    
+    <div class="game-blocks center-text">
+    
+    {% for build in collections.weaponBuilds %}
+    
+        <a class="block-link" href="{{ build.url }}">
+        <div class="game-block" id="{{ build.data.title | kebab }}">
+            <p class="block-title">{{ build.data.title }}</p>
+        </div>
+        </a>
+    
+    {% endfor %}
+    
+    </div>
+
+</div>

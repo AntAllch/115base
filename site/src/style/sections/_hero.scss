@@ -1,69 +1,64 @@
-.page-content {
-    // background-color: #999;
-    text-align: center;
-    padding: 2rem;
+.page-content_title{
+    font-size: 4rem;
+    letter-spacing: 0.1ch;
+    color: orange;
+    margin-bottom: 2rem;
+}
 
-    .page-content_title{
-        font-size: 4rem;
-        letter-spacing: 0.1ch;
-        color: orange;
-    }
+.game-blocks{
+    // background-color: teal;
+    width: 95%;
+    max-width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
 
-    .game-blocks{
-        // background-color: teal;
-        width: 95%;
-        max-width: 1000px;
-        height: auto;
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 1rem;
-
-        .block-link{
-            text-decoration: none;
-            color: white;
-            font-size: 2rem;
-            font-weight: 700;
-            letter-spacing: 0.5ch;
-            // outline: 2px solid red;
-            // background-color: bisque;
-            
-            .game-block{
-                width: 300px;
-                padding: 4rem 3rem;
-
-                &#liberty-falls{
-                    background: 
-                        linear-gradient(
-                            rgba(0, 0, 0, 0.5),
-                            rgba(0, 0, 0, 0.7)
-                        ),
-                        url("../../assets/images/liberty-falls.webp");
-                    background-position: center;
-                    background-size: cover;
-                }
+    .block-link{
+        text-decoration: none;
+        color: white;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 0.5ch;
+        // outline: 2px solid red;
+        // background-color: bisque;
         
-                &#terminus{
-                    background: 
-                        linear-gradient(
-                            rgba(0, 0, 0, 0.5),
-                            rgba(0, 0, 0, 0.7)
-                        ),
-                        url("../../assets/images/terminus.webp");
-                    background-position: center;
-                    background-size: cover;
-                }
+        .game-block{
+            width: 300px;
+            padding: 4rem 3rem;
 
-                .block-title{
-                    color: white;
-                    font-size: 2rem;
-                    font-weight: 700;
-                    letter-spacing: 0.5ch;
-                    // background-color: bisque;
-                }
-
+            &#liberty-falls{
+                background: 
+                    linear-gradient(
+                        rgba(0, 0, 0, 0.5),
+                        rgba(0, 0, 0, 0.7)
+                    ),
+                    url("../../assets/images/liberty-falls.webp");
+                background-position: center;
+                background-size: cover;
             }
+    
+            &#terminus{
+                background: 
+                    linear-gradient(
+                        rgba(0, 0, 0, 0.5),
+                        rgba(0, 0, 0, 0.7)
+                    ),
+                    url("../../assets/images/terminus.webp");
+                background-position: center;
+                background-size: cover;
+            }
+
+            .block-title{
+                color: white;
+                font-size: 2rem;
+                font-weight: 700;
+                letter-spacing: 0.5ch;
+                // background-color: bisque;
+            }
+
         }
     }
 }

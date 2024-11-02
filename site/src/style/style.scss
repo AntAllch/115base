@@ -1,5 +1,6 @@
 @use 'abstracts/variables';
 @use 'abstracts/utility';
+@use 'abstracts/mixins';
 
 @use 'base/reset';
 @use 'base/typography';
@@ -8,5 +9,7 @@
 
 @use 'sections/header';
 @use 'sections/hero';
+@use 'sections/weapons';
+@use 'sections/listed-item';
 @use 'sections/egg-steps';
 @use 'sections/footer';

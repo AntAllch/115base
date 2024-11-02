@@ -1,39 +1,22 @@
 
+@use '../abstracts/mixins' as r;
+
 #page-egg-steps{
 
     .guide-bodies{
 
         display: flex;
         justify-content: center;
+        padding: 1rem;
+        gap: 2rem;
 
-        .weapon-location{
-            background-color: rgba(white, 0.1);
-            padding: 1.5rem;
-            margin-top: 3.5rem;
-            border-radius: 10px;
-            height: fit-content;
+        @include r.tablet{
+            display: block;
+        }
 
-            .weapons-title{
-                font-size: 3rem;
-                color: rgb(66, 181, 4);
-                margin-bottom: 2rem;
-                font-weight: bold;
-            }
-
-            .weapon{
-                font-size: 1.3rem;
-                margin-bottom: 1rem;
-
-                .weapon-name{
-                    font-size: 2rem;
-                    color: orange;
-                }
-            }
-
-            hr{
-                background-image: linear-gradient(to right, rgba(orange, 0.75), rgba(orange, 0.75), rgba(0, 0, 0, 0));
-                margin: 1rem 0;
-            }
+        @include r.until(1100px){
+            flex-direction: column;
+            align-items: center;
         }
 
         .egg{
@@ -42,19 +25,40 @@
             
             .egg-notes{
         
-                // position: sticky;
-                // top: 1rem;
-                // z-index: 5;
-        
-                .notes-area{
-                    display: block;
-                    // margin: 0 auto 2rem;
-                    margin-bottom: 2rem;
-                    width: min(90%, 500px);
-                    font-size: 1.5rem;
-                    // position: relative;
+                position: sticky;
+                top: 1rem;
+                z-index: 5;
+                // isolation: isolate;
+                display: inline-block;
+                margin-bottom: 1rem;
+
+                .mintex{
+                    font-size: 2rem;
+                    color: orange;
+                    position: absolute;
+                    right: 6%;
+                    z-index: 5;
+                    text-align: right;
+                    cursor: pointer;
                 }
         
+                .notes-area{
+                    width: 95%;
+                    max-width: 500px;
+                    font-size: 1.5rem;
+                    border-radius: 5px;
+                    border: none;
+                    padding: .5rem;
+
+                    &:focus,
+                    &:focus-within {
+                        outline: none;
+                    }
+
+                    @include r.until(450px){
+                        margin: 0 auto;
+                    }
+                }
             }
         
             .egg-steps{
@@ -63,7 +67,11 @@
                 max-width: 600px;
                 // margin: 0 auto;
                 padding-bottom: 2rem;
-                // text-align: center;
+                padding-top: 1rem;
+
+                @include r.until(450px){
+                    margin: 0 auto;
+                }
                 
                 h3{
                     font-size: 2rem;
@@ -97,9 +105,13 @@
                 }
         
                 hr{
-                    width: 400px;
+                    max-width: 400px;
                     margin: 2rem 0;
                     background-image: linear-gradient(to right, rgba(orange, 0.75), rgba(orange, 0.75), transparent);
+
+                    @include r.until(450px){
+                        margin: 2rem auto;
+                    }
                 }
                 
                 .note{
@@ -110,9 +122,10 @@
                 }
             }
         
-            // .minimise{
-            //     background-color: orange;
-            // }
+            .minimise{
+                height: 40px !important;
+                // background: red;
+            }
         }
 
     }

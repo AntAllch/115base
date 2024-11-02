@@ -16,6 +16,10 @@ module.exports = function(eleventyConfig) {
         return collection.getFilteredByTag("mainEgg")
     });
 
+    eleventyConfig.addCollection("weaponBuilds", collection => {
+        return collection.getFilteredByTag("weaponBuild")
+    });
+
     // Expose Nunjucks filters
     eleventyConfig.addFilter("prettyDate", prettyDate);
     eleventyConfig.addFilter("kebab", kebab);

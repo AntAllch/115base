@@ -1,8 +1,65 @@
 ---
 title: Liberty Falls
 date: 2024-10-30
+
+weaponLocations: 
+-
+ weapon: GS45 East
+ location: Main Street
+-
+ weapon: ASG-89
+ location: Grease Trap Patio
+-
+ weapon: XM4
+ location: Savings & Loan (Bank)
+-
+ weapon: C9
+ location: Riverside
+-
+ weapon: DM-10
+ location: Motor Lodge
+-
+ weapon: Marine SP
+ location: Fuller's Liberty Lanes
+-
+ weapon: Tanto .22
+ location: West Main Street
+-
+ weapon: XMG
+ location: Cemetery
+-
+ weapon: AK-74
+ location: Hill Street
+-
+ weapon: LR 7.62
+ location: Washington Ave. Rooftops
+
+perkLocations:
+-
+ perk: Quick revive
+ location: Olly's Comics
+-
+ perk: Juggernog
+ location: Savings & Loan (Bank)
+-
+ perk: Speed Cola
+ location: Washington Ave.
+-
+ perk: Staminup
+ location: Fuller's Liberty Lanes
+-
+ perk: PHD Flopper
+ location: Hilltop Stairs
+-
+ perk: Melee Macchiato
+ location: Forecourt
+-
+ perk: Wunderfizz
+ location: The Alamo
+
 layout: eggSteps.njk
 tags: mainEgg
+
 ---
 
 ### Step 1

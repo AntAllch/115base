@@ -1,0 +1,41 @@
+---
+layout: base.njk 
+title: weapons
+pageClass: weapon-build
+---
+
+<div class="container small mob-center">
+
+    <h1 class="page-content_title center-text">{{ title }}</h1>
+    
+    <div class="listed-item">
+    
+        <div class="elements w400 halved">
+            <p class="listed-title">Zombie Build</p>
+            <div class="items">
+                {% for item in zomBuild %}
+                    <div class="item">
+                        <p class="item-name" >{{ item.attachment }}</p>
+                        <p>{{ item.item }}</p>
+                        <hr>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    
+        <div class="elements w400 halved">
+            <p class="listed-title">MP Build</p>
+            <div class="items">
+                {% for item in mpBuild %}
+                    <div class="item">
+                        <p class="item-name" >{{ item.attachment }}</p>
+                        <p>{{ item.item }}</p>
+                        <hr>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    
+    </div>
+
+</div>
