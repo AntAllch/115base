@@ -53,11 +53,19 @@
             color: orange;
         }
         
+        .weapon-type{
+            color: orange;
+
+            @include r.until(450px){
+                display: inline-block;
+                background-color: rgba(white, 0.1);
+                padding-inline: 0.5rem;
+                border-radius: 4px;
+                margin-top: 0.5rem;
+            }
+        }
     }
 
-    .weapon-type{
-        color: orange
-    }
 
     hr{
         background-image: linear-gradient(to right, rgba(orange, 0.75), rgba(orange, 0.75), rgba(0, 0, 0, 0));
