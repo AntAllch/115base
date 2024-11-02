@@ -23,6 +23,7 @@
 
             // background: green
             
+            //The collapsable textarea at the top of the easter egg steps
             .egg-notes{
         
                 position: sticky;
@@ -42,6 +43,7 @@
                     cursor: pointer;
                 }
         
+                //The <textarea> itself
                 .notes-area{
                     width: 95%;
                     max-width: 500px;
@@ -114,6 +116,7 @@
                     }
                 }
                 
+                //The highlighted section inside the easter egg steps that gives tips about the steps
                 .note{
                     font-size: 2rem;
                     background-color: rgba(orange, 0.5);
@@ -122,6 +125,7 @@
                 }
             }
         
+            //The class that is toggled to minimise the textarea at the top of the easter egg steps
             .minimise{
                 height: 40px !important;
                 // background: red;

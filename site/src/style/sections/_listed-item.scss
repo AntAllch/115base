@@ -12,6 +12,7 @@
         align-items: center;
     }
 
+    //Weapon Locations and Perk Locations Blocks
     .elements{
         background-color: rgba(white, 0.1);
         padding: 1.5rem;
@@ -30,12 +31,17 @@
         }
     }
 
+    //Zombie Build, MP Build, Weapon Locations, Perk Locations
     .listed-title{
         font-size: 3rem;
         color: rgb(66, 181, 4);
         margin-bottom: 2rem;
         font-weight: bold;
         text-align: left;
+
+        @include r.until(450px){
+            text-align: center;
+        }
     }
 
     .item{
@@ -46,6 +52,11 @@
             font-size: 2rem;
             color: orange;
         }
+        
+    }
+
+    .weapon-type{
+        color: orange
     }
 
     hr{

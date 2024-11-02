@@ -6,33 +6,43 @@ weaponLocations:
 -
  weapon: GS45
  location: East Main Street
+ type: Pistol
 -
  weapon: ASG-89
  location: Grease Trap Patio
+ type: Shotgun
 -
  weapon: XM4
  location: Savings & Loan (Bank)
+ type: Assault Rifle
 -
  weapon: C9
  location: Riverside
+ type: SMG
 -
  weapon: DM-10
  location: Motor Lodge
+ type: Marksman Rifle
 -
  weapon: Marine SP
  location: Fuller's Liberty Lanes
+ type: Shotgun
 -
  weapon: Tanto .22
  location: West Main Street
+ type: SMG
 -
  weapon: XMG
  location: Cemetery
+ type: LMG
 -
  weapon: AK-74
  location: Hill Street
+ type: Assault Rifle
 -
  weapon: LR 7.62
  location: Washington Ave. Rooftops
+ type: Sniper
 
 perkLocations:
 -

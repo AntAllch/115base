@@ -5,45 +5,59 @@ weaponLocations:
 -
     weapon: GS45
     location: Holding Cells
+    type: Pistol
 -
     weapon: Tanto .22
     location: Interrogation Rooms
+    type: SMG
 -
     weapon: ASG-89
     location: Control Center
+    type: Shotgun
 -
     weapon: C9
     location: Communications
+    type: SMG
 -
     weapon: Marine SP
     location: Rec Yard
+    type: Shotgun
 -
     weapon: Goblin MK2
     location: Gun Platform
+    type: Assault Rifle
 -
     weapon: PP-919
     location: Seat Tower
+    type: SMG
 -
     weapon: AS Val
     location: Sea Caves
+    type: Assault Rifle
 -
     weapon: XM-4
     location: Bio-Lab
+    type: Assault Rifle
 -
     weapon: AK-74
     location: Mining Tunnels
+    type: Assault Rifle
 -
     weapon: SVD
     location: Shipwreck (Bottom left of map)
+    type: Sniper Rifle
 -
     weapon: Tsarkov 7.62
     location: Crab Island
+    type: Marksman Rifle
 -
     weapon: PU-21
     location: Temple Island (Top Left of map)
+    type: LMG
 -
     weapon: XMG
     location: Right Center Island
+    type: LMG
 
 perkLocations: 
 -
@@ -116,7 +130,7 @@ Add the 3 digit code to the number pad -
 
 ### Step 6
 
-<p class="note"><strong>Boss Fight</strong></p>
+<p class="note"><strong>Mini Boss Fight</strong></p>
 
 ---
 

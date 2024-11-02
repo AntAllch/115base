@@ -1,16 +1,16 @@
+@use '../abstracts/mixins' as r;
+
 header{
   // background-color: orange;
   background-color: rgba(white, 0.05);
   display: flex;
   justify-content: space-around;
   align-items: center;
-  // flex-direction: column;
   padding-block: 1.5rem;
 
   //115base Logo
   svg{
       width: 7rem;
-      // margin-bottom: 2rem;
       fill: orange
   }
 
@@ -21,6 +21,10 @@ header{
       gap: 4rem;
       text-transform: uppercase;
       font-size: 1.3rem;
+
+      @include r.until(450px){
+          margin-bottom: 0;
+      }
 
       .nav-item{
           

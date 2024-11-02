@@ -8,6 +8,7 @@ module.exports = function(eleventyConfig) {
     // Recomplile 11ty when files change
     eleventyConfig.addWatchTarget("./src/style/")
 
+    // Collections -----------------
     eleventyConfig.addCollection("featuredPosts", collection => {
         return collection.getFilteredByTag("post").filter(item => item.data.featured);
     });
@@ -19,6 +20,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addCollection("weaponBuilds", collection => {
         return collection.getFilteredByTag("weaponBuild")
     });
+
 
     // Expose Nunjucks filters
     eleventyConfig.addFilter("prettyDate", prettyDate);
