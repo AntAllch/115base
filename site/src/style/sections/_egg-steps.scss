@@ -36,10 +36,11 @@
                 .mintex{
                     font-size: 2rem;
                     color: orange;
+                    text-align: right;
                     position: absolute;
                     right: 6%;
+                    bottom: 0;
                     z-index: 5;
-                    text-align: right;
                     cursor: pointer;
                 }
         
@@ -103,7 +104,10 @@
         
                 li{
                     width: fit-content;
-                    // margin: 0 auto;
+
+                    @include r.until(450px){
+                        margin: 0 auto;
+                    }
                 }
         
                 hr{
