@@ -1,0 +1,42 @@
+---
+layout: base.njk
+title: Youtube Builds
+pageClass: weapon-build
+---
+
+<div class="container small mob-center">
+
+    <h1 class="page-content_title center-text">{{ title }}</h1>
+    
+    <div class="listed-item">
+    
+        <div class="elements w400 halved">
+            <p class="listed-title">PP-919</p>
+            <div class="items">
+                {% for item in pp919 %}
+                    <div class="item">
+                        <p class="item-name" >{{ item.attachment }}</p>
+                        <p>{{ item.item }}</p>
+                        <hr>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+        
+        <div class="elements w400 halved">
+            <p class="listed-title">ASG-89</p>
+            <div class="items">
+                {% for item in asg89 %}
+                    <div class="item">
+                        <p class="item-name" >{{ item.attachment }}</p>
+                        <p>{{ item.item }}</p>
+                        <hr>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+
+    
+    </div>
+
+</div>

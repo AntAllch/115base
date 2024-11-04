@@ -17,8 +17,14 @@ module.exports = function(eleventyConfig) {
         return collection.getFilteredByTag("mainEgg")
     });
 
+    //A collection for MY weapon builds
     eleventyConfig.addCollection("weaponBuilds", collection => {
         return collection.getFilteredByTag("weaponBuild")
+    });
+
+    //A collection for YouTubers builds
+    eleventyConfig.addCollection("youtubeBuilds", collections => {
+        return collections.getFilteredByTag("youtubeBuild")
     });
 
 
