@@ -19,6 +19,6 @@ asg89:
     attachment: Ammo Mod
     item: Seaside Path
 
-layout: youtubeBuilds.njk
+layout: youtubeBuildsLayout.njk
 tags: youtubeBuild
 ---

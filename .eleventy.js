@@ -23,8 +23,12 @@ module.exports = function(eleventyConfig) {
     });
 
     //A collection for YouTubers builds
-    eleventyConfig.addCollection("youtubeBuilds", collections => {
-        return collections.getFilteredByTag("youtubeBuild")
+    eleventyConfig.addCollection("youtubeBuilds", collection => {
+        return collection.getFilteredByTag("youtubeBuild")
+    });
+
+    eleventyConfig.addCollection("weaponTypes", collection => {
+        return collection.getFilteredByTag("weaponType")
     });
 
 

@@ -8,18 +8,16 @@
 body {
   font-family: $ff-body;
   font-size: $fs-6;
-  // background-color: rgb(14, 14, 28);
-  background: radial-gradient(circle, rgb(10, 10, 45) 0%, rgb(7, 7, 27) 50%);
+  background: radial-gradient(at center top, #0A0A2D, #07071B);
   background-attachment: fixed;
-  // width: 95%;
-  // max-width: 1400px;
   margin: 0 auto;
   color: white;
 }
 
 .page-content {
-  // background-color: red;
+  // // background-color: red;
   padding: 2rem;
+  
 
   @include r.tablet {
     padding: .5rem;

@@ -56,6 +56,6 @@ pp919:
     item: Recoil Springs 
 
 
-layout: youtubeBuilds.njk
+layout: youtubeBuildsLayout.njk
 tags: youtubeBuild
 ---
