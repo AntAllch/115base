@@ -1,8 +1,17 @@
 #page-weapon-builds{
-
+    
     .game-block{
-        width: 300px;
-        padding: 4rem 3rem;
+
+        // width: 300px;
+        // padding: 4rem 3rem;
+
+        // .block-title{
+        //     // color: white;
+        //     // font-size: 2rem;
+        //     // font-weight: 700;
+        //     // letter-spacing: 0.5ch;
+        //     // background-color: bisque;
+        // }
 
         &#ames-85{
             background: 
@@ -58,14 +67,28 @@
             background-position: center;
             background-size: cover;
         }
-        
-        .block-title{
-            color: white;
-            font-size: 2rem;
-            font-weight: 700;
-            letter-spacing: 0.5ch;
-            // background-color: bisque;
+
+        &#assault-rifles{
+            background: 
+                linear-gradient(
+                    rgba(0, 0, 0, 0.5),
+                    rgba(0, 0, 0, 0.7)
+                ),
+                url("../../assets/images/liberty-falls.webp");
+            background-position: center;
+            background-size: cover;
         }
+        &#smg{
+            background: 
+                linear-gradient(
+                    rgba(0, 0, 0, 0.5),
+                    rgba(0, 0, 0, 0.7)
+                ),
+                url("../../assets/images/liberty-falls.webp");
+            background-position: center;
+            background-size: cover;
+        }
+        
 
     }
 }

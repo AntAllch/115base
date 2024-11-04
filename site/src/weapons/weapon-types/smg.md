@@ -1,18 +1,18 @@
 ---
-title: Assault Rifles
-date: 2024-10-30
+title: SMG
+date: 2024-11-04
 
-xm4zom: 
+c9zom: 
 -
     attachment: Scope Z
     item: Interrogation Rooms
 
-xm4mp: 
+c9mp: 
 -
     attachment: Scope MP
     item: Interrogation Rooms
 
-ames85mp: 
+ksvzom: 
 -
     attachment: Scope
     item: Interrogation Rooms
@@ -29,7 +29,7 @@ ames85mp:
     attachment: Ammo Mod
     item: Seaside Path
 
-ames85zom: 
+ksvmp: 
 -
     attachment: Scope
     item: Interrogation Rooms
@@ -55,46 +55,46 @@ ames85zom:
     attachment: Ammo Mod
     item: Seaside Path
 
-ar3zom: 
+tanto22zom: 
 -
     attachment: Scope Z
     item: Interrogation Rooms
 
-ar3mp: 
+tanto22mp: 
 -
     attachment: Scope MP
     item: Interrogation Rooms
 
-ar4zom: 
+pp919zom: 
 -
     attachment: Scope Z
     item: Interrogation Rooms
 
-ar4mp: 
+pp919mp: 
 -
     attachment: Scope MP
     item: Interrogation Rooms
 
-ar5zom: 
+jackalpdwzom: 
 -
     attachment: Scope Z
     item: Interrogation Rooms
 
-ar5mp: 
+jackalpdwmp: 
 -
     attachment: Scope MP
     item: Interrogation Rooms
 
-ar6zom: 
+kompakt92zom: 
 -
     attachment: Scope Z
     item: Interrogation Rooms
 
-ar6mp: 
+kompakt92mp: 
 -
     attachment: Scope MP
     item: Interrogation Rooms
 
-layout: guns/assaultRiflesLayout.njk
+layout: guns/smgLayout.njk
 tags: weaponType
 ---

@@ -16,9 +16,9 @@
     flex-wrap: wrap;
     gap: 1rem;
 
+    //The actual block itself
     .block-link{
         text-decoration: none;
-        color: white;
         font-size: 2rem;
         font-weight: 700;
         letter-spacing: 0.5ch;
@@ -27,7 +27,16 @@
         
         .game-block{
             width: 300px;
-            padding: 4rem 3rem;
+            padding: 4rem 1rem;
+
+
+            .block-title{
+                color: white;
+                font-size: 2rem;
+                font-weight: 700;
+                letter-spacing: 0.5ch;
+                // background-color: bisque;
+            }
 
             &#liberty-falls{
                 background: 
@@ -51,13 +60,6 @@
                 background-size: cover;
             }
 
-            .block-title{
-                color: white;
-                font-size: 2rem;
-                font-weight: 700;
-                letter-spacing: 0.5ch;
-                // background-color: bisque;
-            }
 
         }
     }
