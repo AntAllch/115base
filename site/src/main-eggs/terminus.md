@@ -124,7 +124,7 @@ Add the 3 digit code to the number pad -
 
 ### Step 5
 
-8 Turn the valves on the cylinder at same time
+Turn the valves on the cylinder at same time
 
 ---
 
