@@ -22,7 +22,7 @@ module.exports = function(eleventyConfig) {
         return collection.getFilteredByTag("weaponBuild")
     });
 
-    //A collection for YouTubers builds
+    //A collection for creator builds
     eleventyConfig.addCollection("creatorBuilds", collection => {
         return collection.getFilteredByTag("weaponBuild").filter(item => item.data.creator)
     });
