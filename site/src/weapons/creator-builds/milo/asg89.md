@@ -1,8 +1,8 @@
 ---
-title: Rofl Waffles
+title: ASG89
 date: 2024-11-04
 
-asg89: 
+weapon: 
 -
     attachment: Scope
     item: Interrogation Rooms
@@ -19,6 +19,7 @@ asg89:
     attachment: Ammo Mod
     item: Seaside Path
 
+creator: Milo
 layout: creatorBuildsLayout.njk
-tags: creatorBuild
+tags: weaponBuild
 ---

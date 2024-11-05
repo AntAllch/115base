@@ -25,14 +25,27 @@ pageClass: weapon-builds
     <h2 class="page-content_title center-text">Creator builds</h2>
 
     <div class="game-blocks center-text">
+        {% set creators = [] %}
+        {% for build in collections.creatorBuilds %}
+            {% if creators.indexOf(build.data.creator) == -1 %}
+                {% set ignore = creators.push(build.data.creator) %}
+            {% endif %}
+        {% endfor %}
+
+        {% for creator in creators %}
+        <a class="block-link" href="{{ creator | kebab }}">
+            <div class="game-block" id="{{ creator | kebab }}">
+                <p class="block-title">{{ creator }}</p>
+            </div>
+        </a>
+        {% endfor %}
+
+
+
+
 
         {% for type in collections.creatorBuilds %} 
         
-            <a class="block-link" href="{{ type.url }}">
-            <div class="game-block" id="{{ type.data.title | kebab }}">
-                <p class="block-title">{{ type.data.title }}</p>
-            </div>
-            </a>
         
         {% endfor %}
 
