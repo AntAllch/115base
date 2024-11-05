@@ -33,20 +33,11 @@ pageClass: weapon-builds
         {% endfor %}
 
         {% for creator in creators %}
-        <a class="block-link" href="{{ creator | kebab }}">
+        <a class="block-link" href="creator-builds/{{ creator | kebab }}">
             <div class="game-block" id="{{ creator | kebab }}">
                 <p class="block-title">{{ creator }}</p>
             </div>
         </a>
-        {% endfor %}
-
-
-
-
-
-        {% for type in collections.creatorBuilds %} 
-        
-        
         {% endfor %}
 
     </div>
