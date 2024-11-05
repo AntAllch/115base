@@ -25,16 +25,23 @@ pageClass: weapon-builds
     <h2 class="page-content_title center-text">Creator builds</h2>
 
     <div class="game-blocks center-text">
+
+        {# Create an array of creators #}
         {% set creators = [] %}
+
         {% for build in collections.creatorBuilds %}
+            {# Check if the creator is not already in the array #}
             {% if creators.indexOf(build.data.creator) == -1 %}
-                {% set ignore = creators.push(build.data.creator) %}
+                {# If the above condition is true, add the creator to the array #}
+                {% set addCreator = creators.push(build.data.creator) %}
             {% endif %}
         {% endfor %}
 
+        {# Loop through the creators array to add them to the page #}
+        {# This array will look like ['Milo', 'Dalek', 'Pizza'] for example #}
         {% for creator in creators %}
         <a class="block-link" href="creator-builds/{{ creator | kebab }}">
-            <div class="game-block" id="{{ creator | kebab }}">
+            <div class="game-block" id="{{ creator | kebab }}-builds">
                 <p class="block-title">{{ creator }}</p>
             </div>
         </a>
