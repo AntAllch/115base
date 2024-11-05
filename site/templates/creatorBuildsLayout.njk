@@ -15,7 +15,10 @@ pageClass: weapon-build
 
         <div class="elements w400 halved">
 
-            <p class="listed-title">{{ build.data.title }}</p>
+            {% set titleSuffix = '' %}
+            {% if build.data.zombieBuild %}{% set titleSuffix = ' MP build' %}{% endif %}
+            
+            <p class="listed-title">{{ build.data.title + titleSuffix }}</p>
 
             <div class="items">
                 {% for item in build.data.weapon %}
@@ -28,6 +31,24 @@ pageClass: weapon-build
             </div>
 
         </div>
+
+        {% if build.data.zombieBuild %}
+        <div class="elements w400 halved">
+
+            <p class="listed-title">{{ build.data.title }} Zombie build</p>
+
+            <div class="items">
+                {% for item in build.data.zombieBuild %}
+                    <div class="item">
+                        <p class="item-name" >{{ item.attachment }}</p>
+                        <p>{{ item.item }}</p>
+                        <hr>
+                    </div>
+                {% endfor %}
+            </div>
+
+        </div>
+        {% endif %}
 
         {% endif %}
         
