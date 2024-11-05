@@ -27,9 +27,16 @@ module.exports = function(eleventyConfig) {
         return collection.getFilteredByTag("weaponBuild").filter(item => item.data.creator)
     });
 
+    //A collection for Ant's builds
+    eleventyConfig.addCollection("antBuilds", collection => {
+        return collection.getFilteredByTag("weaponBuild").filter(item => item.data.weaponClass)
+    });
+
+
     eleventyConfig.addCollection("weaponTypes", collection => {
         return collection.getFilteredByTag("weaponType")
     });
+
 
 
     // Expose Nunjucks filters
