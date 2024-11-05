@@ -10,7 +10,7 @@ module.exports = function(eleventyConfig) {
 
     // Collections -----------------
     eleventyConfig.addCollection("featuredPosts", collection => {
-        return collection.getFilteredByTag("post").filter(item => item.data.featured);
+        return collection.getFilteredByTag("post").filter(item => item.data.featured)
     });
 
     eleventyConfig.addCollection("mainEggs", collection => {
@@ -22,9 +22,9 @@ module.exports = function(eleventyConfig) {
         return collection.getFilteredByTag("weaponBuild")
     });
 
-    //A collection for YouTubers builds
-    eleventyConfig.addCollection("youtubeBuilds", collection => {
-        return collection.getFilteredByTag("youtubeBuild")
+    //A collection for creator builds
+    eleventyConfig.addCollection("creatorBuilds", collection => {
+        return collection.getFilteredByTag("weaponBuild").filter(item => item.data.creator)
     });
 
     eleventyConfig.addCollection("weaponTypes", collection => {
