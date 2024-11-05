@@ -32,6 +32,10 @@ module.exports = function(eleventyConfig) {
         return collection.getFilteredByTag("weaponBuild").filter(item => item.data.weaponClass)
     });
 
+    //A collection for Stefan's builds
+    eleventyConfig.addCollection("stefanBuilds", collection => {
+        return collection.getFilteredByTag("weaponBuild").filter(item => item.data.stefanWeaponClass)
+    });
 
     eleventyConfig.addCollection("weaponTypes", collection => {
         return collection.getFilteredByTag("weaponType")

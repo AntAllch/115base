@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-title: Ants Builds
+title: Stefan Builds
 pageClass: weapon-build
 ---
 
@@ -9,9 +9,9 @@ pageClass: weapon-build
     <h1 class="page-content_title center-text">{{ title }}</h1>
     
     <div class="listed-item">
-    {% for build in collections.antBuilds %}
+    {% for build in collections.stefanBuilds %}
 
-        {% if (build.data.weaponClass | kebab) === page.fileSlug %}
+        {% if (build.data.stefanWeaponClass | kebab) === page.fileSlug %}
 
         <div class="elements w400 halved">
 
