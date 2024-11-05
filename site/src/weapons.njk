@@ -6,23 +6,36 @@ pageClass: weapon-builds
 
 <div class="container">
     
-    <h1 class="page-content_title center-text">Weapon Builds</h1>
+<h1 class="page-content_title center-text">{{ title }}</h1>
     
     <div class="game-blocks center-text">
-    
-    {% for build in collections.weaponBuilds %}
-    
-        <a class="block-link" href="{{ build.url }}">
-        <div class="game-block" id="{{ build.data.title | kebab }}">
-            <p class="block-title">{{ build.data.title }}</p>
-        </div>
-        </a>
-    
-    {% endfor %}
 
+        {% for build in collections.weaponTypes %} 
+        
+            <a class="block-link" href="{{ build.url }}">
+            <div class="game-block" id="{{ build.data.title | kebab }}">
+                <p class="block-title">{{ build.data.title }}</p>
+            </div>
+            </a>
+        
+        {% endfor %}
 
-    
-    
+    </div>
+
+    <h2 class="page-content_title center-text">Creator builds</h2>
+
+    <div class="game-blocks center-text">
+
+        {% for type in collections.youtubeBuilds %} 
+        
+            <a class="block-link" href="{{ type.url }}">
+            <div class="game-block" id="{{ type.data.title | kebab }}">
+                <p class="block-title">{{ type.data.title }}</p>
+            </div>
+            </a>
+        
+        {% endfor %}
+
     </div>
 
 </div>
