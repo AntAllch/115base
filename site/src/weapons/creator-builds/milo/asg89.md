@@ -36,7 +36,5 @@ zombieBuild:
     attachment: Ammo Mod
     item: Seaside Path
 
-creator: Milo
-layout: creatorBuildsLayout.njk
 tags: weaponBuild
 ---
