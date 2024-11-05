@@ -1,4 +1,4 @@
 module.exports = {
-    stefanWeaponClass: 'Stefan AR',
+    stefanWeaponClass: 'AR',
     layout: 'stefanBuildsLayout.njk'
 }

@@ -1,5 +1,5 @@
 ---
-title: XM4
+title: Stefan's XM4
 date: 2024-11-05
 
 weapon: 
