@@ -8,19 +8,34 @@ pageClass: weapon-builds
     
 <h1 class="page-content_title center-text">{{ title }}</h1>
     
-    <div class="game-blocks center-text">
+    
+     <div class="game-blocks center-text">
 
-        {% for build in collections.weaponTypes %} 
-        
-            <a class="block-link" href="{{ build.url }}">
-            <div class="game-block" id="{{ build.data.title | kebab }}">
-                <p class="block-title">{{ build.data.title }}</p>
+        {# Create an array of creators #}
+        {% set weaponClasses = [] %}
+
+        {% for build in collections.antBuilds %}
+            {# Check if the build is not already in the array #}
+            {% if weaponClasses.indexOf(build.data.weaponClass) == -1 %}
+                {# If the above condition is true, add the creator to the array #}
+                {% set addWeapon = weaponClasses.push(build.data.weaponClass) %}
+            {% endif %}
+        {% endfor %}
+
+        {# Loop through the creators array to add them to the page #}
+        {# This array will look like ['AR', 'Pistol', 'SMG'] for example #}
+        {% for weapon in weaponClasses %}
+        <a class="block-link" href="weapon-builds/{{ weapon | kebab }}">
+            <div class="game-block" id="{{ weapon | kebab }}-builds">
+                <p class="block-title">{{ weapon }}</p>
             </div>
-            </a>
-        
+        </a>
         {% endfor %}
 
     </div>
+
+    {# --------------------------------------------------- #}
+
 
     <h2 class="page-content_title center-text">Creator builds</h2>
 
