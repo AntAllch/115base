@@ -4,12 +4,13 @@
   "description": "These are the starting files for an 11ty website with the Nunjucks template engine. For styling SCSS is used. The site comprises of a couple of pages",
   "main": "index.js",
   "scripts": {
+    "clean": "rimraf public",
     "dev:11ty": "cross-env NODE_ENV=dev npx @11ty/eleventy --serve",
     "build:11ty": "cross-env NODE_ENV=production npx @11ty/eleventy",
     "dev:assets": "mix watch",
     "build:assets": "mix --production",
-    "dev": "concurrently --kill-others \"npm run dev:assets\" \"npm run dev:11ty\"",
-    "production": "npm run build:11ty && npm run build:assets"
+    "dev": "npm run clean && concurrently --kill-others \"npm run dev:assets\" \"npm run dev:11ty\"",
+    "production": "npm run clean && npm run build:11ty && npm run build:assets"
   },
   "repository": {
     "type": "git",
