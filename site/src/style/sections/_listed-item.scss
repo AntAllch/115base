@@ -30,7 +30,7 @@
             display: grid;
             grid-template-columns: repeat(2, 1fr);
 
-            @include r.until(450px){
+            @include r.mobile{
                 grid-template-columns: 1fr;
             }
         }
@@ -44,7 +44,7 @@
         font-weight: bold;
         text-align: left;
 
-        @include r.until(450px){
+        @include r.mobile{
             text-align: center;
         }
     }
@@ -61,7 +61,7 @@
         .weapon-type{
             color: orange;
 
-            @include r.until(450px){
+            @include r.mobile{
                 display: inline-block;
                 background-color: rgba(white, 0.1);
                 padding-inline: 0.5rem;

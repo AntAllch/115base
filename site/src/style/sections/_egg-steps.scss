@@ -102,7 +102,7 @@
                 li{
                     width: fit-content;
 
-                    @include r.until(450px){
+                    @include r.mobile{
                         margin: 0 auto;
                     }
                 }

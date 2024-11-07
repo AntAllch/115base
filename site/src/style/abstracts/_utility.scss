@@ -41,7 +41,7 @@ hr {
   margin-inline: auto;
 
 
-  @include r.until(450px){
+  @include r.mobile{
     &.mob-center{
       text-align: center;
       

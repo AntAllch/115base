@@ -5,7 +5,7 @@
     --box-size: 50px;
 }
 
-@include r.until(450px){
+@include r.mobile{
     :root {
         --gap: 0.5rem;
         --box-size: 40px;
