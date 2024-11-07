@@ -1,4 +1,5 @@
 const moment = require("moment") // For date formatting
+import { terminusCalculator } from "./terminuscalc"
 
 document.addEventListener('DOMContentLoaded', () => {
 
@@ -19,6 +20,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // If notestate is true, display "Close" otherwise display "Open"
     closeNoteBtn.textContent = noteState ? "Minimise" : "Expand"
+
+    if (document.querySelector('.terminus-calculator')) {
+        console.log ('running terminus calc')
+        terminusCalculator();
+    }
 
     // Initial state of the note area
     if (!noteState) {

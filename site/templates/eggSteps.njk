@@ -17,7 +17,12 @@ pageClass: egg-steps
             </div>
     
             <div class="egg-steps">
-                {% incldue 'terminusCalc.njk' %}
+
+                {% if(page.fileSlug === 'terminus') %}
+                    {% include 'terminusCalc.njk' %}
+                {% endif %}
+    
+
                 {{ content | safe }}
             </div>
     
