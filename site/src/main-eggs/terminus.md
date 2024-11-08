@@ -92,6 +92,34 @@ layout: eggSteps.njk
 tags: mainEgg
 ---
 
+---
+
+### How to get the Wonder Weapon (MUST BE DONE BEFORE STARTING EASTER EGG)
+ 
+ - Turn on Power
+ 
+ - Activate all 3 laptops (this can be done while turning on each corresponding power block)
+
+ - Shoot the electrical boxes using a gun with Dead Wire on it, so you can open the room
+
+ - Shoot the zombie on the floor and grab the item it drops
+
+ - Run to the Sea Tower and grab the item inside the briefcase.
+
+ - Run back to that room and interact with the computer to put the item into it
+ 
+ - Solve the numbers using the whiteboards in that room or the Terminus Calculator above these steps
+
+ - Wait until Round 9 and then pick up the item from the computer
+
+ - Get on a boat and go the the island, place the ITEM underneath the big orb and wait for it to turn a zombie, kill the zombie, pick up the little orb it drops and take it to the big orb, once you have done this TWICE, the orb will fly away, pick up the item it leaves behind and head to the next island
+
+ - There are 3 islands and they have to be done in a certain order (Blue Orb, Green Orb, Purple Orb)
+
+ - Once you have picked up the item from the last orb, head back to the room with the computer in it and build the wonder weapon at the back of the room
+
+---
+
 ### Step 1
 
 Shoot the tenticle trap with the wonder weapon and it will drop a hard drive
@@ -164,9 +192,9 @@ Survive lockdown
 
 ---
 
-### Step 12
+### Step 12 - Get the cylinders
 
-Take cylinder to a pipe with a gap in it. You have to do this twice. So do it once, go back to the ship, grab the other canister and do it again. (If on co-op, you can grab them all at the same time)
+Take a cylinder to a pipe with a gap in it, then interact with it. You have to do this twice. So do it once, go back to the ship, grab the other canister and do it again. (If you're on co-op, you can grab them all at the same time)
 
 - Crab island (on one of the shorelines)
 
@@ -184,13 +212,17 @@ Go to peck and get the hacking device
 
 ### Step 14
 
-Get a boat and go to the boyes and hack them - should be 3
+Get a boat and go to each buoy and hack them - there are 3 of them
 
 ---
 
 ### Step 15
 
-Go down to bio lab and defuse 3 bombs
+Go down to the bio lab and defuse 3 bombs
+
+ - One is underneath the room with the x2 symbol
+
+ - The other 2 are on the same level (the floor above Melee Macchiato)
 
 ---
 
