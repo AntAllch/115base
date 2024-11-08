@@ -120,25 +120,25 @@ tags: mainEgg
 
 ---
 
-### Step 1
+### Step 1 - Get the Hard Drive
 
 Shoot the tenticle trap with the wonder weapon and it will drop a hard drive
 
 ---
 
-### Step 2
+### Step 2 - Give it to Peck
 
 Take it to peck and give it to him to hack
 
 ---
 
-### Step 3
+### Step 3 - Activate Nathans Container
 
 Go to the bio lab again and activate the container in the center
 
 ---
 
-### Step 4
+### Step 4 - Enter Key on Nathans Pod
 
 Add the 3 digit code to the number pad - 
 
@@ -150,7 +150,7 @@ Add the 3 digit code to the number pad -
 
 ---
 
-### Step 5
+### Step 5 - Turn the Valves
 
 Turn the valves on the cylinder at same time
 
@@ -162,37 +162,37 @@ Turn the valves on the cylinder at same time
 
 ---
 
-### Step 7
+### Step 7 - Grab the Keycard
 
 Jump into water and grab the keycard
 
 ---
 
-### Step 8
+### Step 8 - Go to Comms room
 
 Go to communications room and you see a computer with green writing - network connection error
 
 ---
 
-### Step 9
+### Step 9 - Interact with Computer
 
 Hold SQUARE on it and it will eventually light up
 
 ---
 
-### Step 10
+### Step 10 - Grab the Cylinders
 
 Go to crashed ship in the water and climb up ladders and grab the cylinders
 
 ---
 
-### Step 11
+### Step 11 - SURVIVE
 
 Survive lockdown
 
 ---
 
-### Step 12 - Get the cylinders
+### Step 12 - Get the cylinders - Add cylinder to cables
 
 Take a cylinder to a pipe with a gap in it, then interact with it. You have to do this twice. So do it once, go back to the ship, grab the other canister and do it again. (If you're on co-op, you can grab them all at the same time)
 
@@ -204,19 +204,19 @@ Take a cylinder to a pipe with a gap in it, then interact with it. You have to d
 
 ---
 
-### Step 13
+### Step 13 - Hacking Device
 
 Go to peck and get the hacking device
 
 ---
 
-### Step 14
+### Step 14 - Hacking the Buoys
 
 Get a boat and go to each buoy and hack them - there are 3 of them
 
 ---
 
-### Step 15
+### Step 15 - Bomb Defusing
 
 Go down to the bio lab and defuse 3 bombs
 
@@ -226,7 +226,7 @@ Go down to the bio lab and defuse 3 bombs
 
 ---
 
-### Step 16
+### Step 16 - BOSS FIGHT
 
 GET POWERFUL WEAPONS - LEGENDARY 3 PACKED (WITH DEADWIRE OR NAPALM BURST IS GOOD)
 
