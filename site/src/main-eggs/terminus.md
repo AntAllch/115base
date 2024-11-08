@@ -98,25 +98,25 @@ tags: mainEgg
  
  - Turn on Power
  
- - Activate all 3 laptops (this can be done while turning on each corresponding power block)
+ - Activate all 3 laptops (this can be done while turning on each corresponding Aethereum Maturation Pod)
 
- - Shoot the electrical boxes using a gun with Dead Wire on it, so you can open the room
+ - Shoot the electrical boxes using a gun with Dead Wire on it, so you can open the Research Office
 
- - Shoot the zombie on the floor and grab the item it drops
+ - Shoot the zombie on the floor and grab the item it drops (EMF FOB)
 
- - Run to the Sea Tower and grab the item inside the briefcase.
+ - Run to the Sea Tower and grab the item inside the briefcase (Multiphasic Resonator)
 
- - Run back to that room and interact with the computer to put the item into it
+ - Run back to that room and interact with the computer to put the Multiphasic Resonator into it
  
  - Solve the numbers using the whiteboards in that room or the Terminus Calculator above these steps
 
- - Wait until Round 9 and then pick up the item from the computer
+ - Wait until Round 9 and then pick up the Multiphasic Resonator from the computer
 
- - Get on a boat and go the the island, place the ITEM underneath the big orb and wait for it to turn a zombie, kill the zombie, pick up the little orb it drops and take it to the big orb, once you have done this TWICE, the orb will fly away, pick up the item it leaves behind and head to the next island
+ - Get on a boat and go the the island, place the Multiphasic Resonator underneath the big orb and wait for it to turn a zombie, kill the zombie, pick up the little orb it drops and take it to the big orb, once you have done this TWICE, the orb will fly away, pick up the Multiphasic Resonator it leaves behind and head to the next island
 
  - There are 3 islands and they have to be done in a certain order (Blue Orb, Green Orb, Purple Orb)
 
- - Once you have picked up the item from the last orb, head back to the room with the computer in it and build the wonder weapon at the back of the room
+ - Once you have picked up the Multiphasic Resonator from the last orb, head back to the Research Office and build the wonder weapon at the back of the room
 
 ---
 
@@ -222,7 +222,7 @@ Go down to the bio lab and defuse 3 bombs
 
  - One is underneath the room with the x2 symbol
 
- - The other 2 are on the same level (the floor above Melee Macchiato)
+ - The other 2 are on the same section as Melee Macchiato, either end (the floor below the Crafting Bench)
 
 ---
 
