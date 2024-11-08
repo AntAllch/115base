@@ -166,9 +166,9 @@ Survive lockdown
 
 ### Step 12
 
-Take cylinder to a pipe wiht a gap in it
+Take cylinder to a pipe with a gap in it. You have to do this twice. So do it once, go back to the ship, grab the other canister and do it again. (If on co-op, you can grab them all at the same time)
 
-- Crab island
+- Crab island (on one of the shorelines)
 
 - Main island in cave near speed cola
 
@@ -196,6 +196,6 @@ Go down to bio lab and defuse 3 bombs
 
 ### Step 16
 
-GET POWERFUL WEAPONS - LEGENDARY 3 PACKED (WITH DEADWIRE IS GOOD)
+GET POWERFUL WEAPONS - LEGENDARY 3 PACKED (WITH DEADWIRE OR NAPALM BURST IS GOOD)
 
 
