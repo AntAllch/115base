@@ -35,6 +35,17 @@
             background-size: cover;
         }
 
+        &#chopper-builds{
+            background: 
+                linear-gradient(
+                    rgba(0, 0, 0, 0.5),
+                    rgba(0, 0, 0, 0.7)
+                ),
+                url("../../assets/images/liberty-falls.webp");
+            background-position: center;
+            background-size: cover;
+        }
+
         &#pizza-builds{
             background: 
                 linear-gradient(
