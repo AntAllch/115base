@@ -78,7 +78,7 @@ Build the Jet Gun
 
 ---
 
-### Step 2: Collection LTG parts
+### Step 2: Collect the LTG parts
 
 Collect the 3 parts for the LTG using the Jet Gun
 
@@ -90,13 +90,13 @@ Build the LTG using the build table on the Bank roof (The Alomo, Where Wunderfiz
 
 ---
 
-### Step 4: Interact with church machine
+### Step 4: Interact with Church machine
 
 Head to the Church and interact with the machine (on the right hand side, as you go in through the main entrance)
 
 ---
 
-### Step 5: Place tube on trap
+### Step 5: Place cannister on trap
 
 Once the dialog has ended, pick up the tube that is inside the machine and place it on the floor on top one of the traps near Speed Cola
 
@@ -120,13 +120,13 @@ Once the 1 minute timer is up, a HVT wll spawn in (a Mangler or an Abomination),
 
 ---
 
-### Step 9: Take tube back to church
+### Step 9: Take cannister back to Church
 
 Pick up the tube, once you do this, you have 1m 29s to get back to the church (NOTE: you can't sprint while holding the tube), once you are there you must interact with the machine to place the tube back into it
 
 ---
 
-### Step 10: Grab Strauss counter
+### Step 10: Grab Strauss Counter
 
 Interact with the computer on the left side of the machine and a draw will open, pickup the Strauss Counter that appears inside the draw and then pick up the LTG device from the Graveyard
 
