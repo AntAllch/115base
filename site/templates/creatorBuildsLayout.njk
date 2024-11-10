@@ -9,50 +9,50 @@ pageClass: weapon-build
     <h1 class="page-content_title center-text">{{ title }}</h1>
     
     <div class="listed-item">
-    {% for build in collections.creatorBuilds %}
+        {% for build in collections.creatorBuilds %}
 
-        {% if (build.data.creator | kebab) === page.fileSlug %}
+            {% if (build.data.creator | kebab) === page.fileSlug %}
 
-        <div class="elements w400 halved">
+                <div class="elements w400 halved">
 
-            {% set titleSuffix = '' %}
-            {% if build.data.zombieBuild %}{% set titleSuffix = ' MP build' %}{% endif %}
+                    {% set titleSuffix = '' %}
+                    {% if build.data.zombieBuild %}{% set titleSuffix = ' MP build' %}{% endif %}
+                    
+                    <p class="listed-title">{{ build.data.title + titleSuffix }}</p>
+
+                    <div class="items">
+                        {% for item in build.data.weapon %}
+                            <div class="item">
+                                <p class="item-name" >{{ item.attachment }}</p>
+                                <p>{{ item.item }}</p>
+                                <hr>
+                            </div>
+                        {% endfor %}
+                    </div>
+
+                </div>
+
+                {% if build.data.zombieBuild %}
+                    <div class="elements w400 halved">
+
+                        <p class="listed-title">{{ build.data.title }} Zombie build</p>
+
+                        <div class="items">
+                            {% for item in build.data.zombieBuild %}
+                                <div class="item">
+                                    <p class="item-name" >{{ item.attachment }}</p>
+                                    <p>{{ item.item }}</p>
+                                    <hr>
+                                </div>
+                            {% endfor %}
+                        </div>
+
+                    </div>
+                {% endif %}
+
+            {% endif %}
             
-            <p class="listed-title">{{ build.data.title + titleSuffix }}</p>
-
-            <div class="items">
-                {% for item in build.data.weapon %}
-                    <div class="item">
-                        <p class="item-name" >{{ item.attachment }}</p>
-                        <p>{{ item.item }}</p>
-                        <hr>
-                    </div>
-                {% endfor %}
-            </div>
-
-        </div>
-
-        {% if build.data.zombieBuild %}
-        <div class="elements w400 halved">
-
-            <p class="listed-title">{{ build.data.title }} Zombie build</p>
-
-            <div class="items">
-                {% for item in build.data.zombieBuild %}
-                    <div class="item">
-                        <p class="item-name" >{{ item.attachment }}</p>
-                        <p>{{ item.item }}</p>
-                        <hr>
-                    </div>
-                {% endfor %}
-            </div>
-
-        </div>
-        {% endif %}
-
-        {% endif %}
-        
-    {% endfor %}
+        {% endfor %}
     </div>
 
 </div>
