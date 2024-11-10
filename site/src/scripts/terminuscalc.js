@@ -8,7 +8,7 @@ export function terminusCalculator() {
         const box = container.querySelector('.box')
     
     
-        box.addEventListener('click', () => {
+        radioInput.addEventListener('click', () => {
             processValue(radioInput);
             console.log(answers);
     
