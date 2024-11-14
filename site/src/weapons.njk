@@ -8,6 +8,7 @@ pageClass: weapon-builds
     
     <h1 class="page-content_title center-text">Weapon Encyclopedia</h1>
 
+        {# --------------------------------------------------- #}
 
         <h1 class="page-content_subtitle center-text">Weapon Information</h1>
 
@@ -27,7 +28,7 @@ pageClass: weapon-builds
             {# Loop through the creators array to add them to the page #}
             {% for weaponSet in weaponStatClasses %}
             <a class="block-link" href="weapon-sets/{{ weaponSet | kebab }}">
-                <div class="game-block" id="{{ weaponSet | kebab }}-sets">
+                <div class="game-block" id="{{ weaponSet | kebab }}-stats">
                     <p class="block-title">{{ weaponSet }}</p>
                 </div>
             </a>
