@@ -1,4 +1,5 @@
 @use '../abstracts/mixins' as r;
+@use '../abstracts/variables' as c;
 
 
 .listed-item{
@@ -39,7 +40,7 @@
     //Zombie Build, MP Build, Weapon Locations, Perk Locations
     .listed-title{
         font-size: 3rem;
-        color: rgb(66, 181, 4);
+        color: c.$clr-green;
         margin-bottom: 2rem;
         font-weight: bold;
         text-align: left;

@@ -1,5 +1,6 @@
 
 @use '../abstracts/mixins' as r;
+@use '../abstracts/variables' as c;
 
 #page-egg-steps{
 
@@ -76,7 +77,7 @@
                 h3{
                     font-size: 2rem;
                     letter-spacing: 0.1ch;
-                    color: rgb(66, 181, 4);
+                    color: c.$clr-green;
                 }
             
                 p{

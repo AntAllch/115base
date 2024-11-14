@@ -1,5 +1,6 @@
 @use '../abstracts/variables' as *;
 @use '../abstracts/mixins' as r;
+@use '../abstracts/variables' as c;
 
 /* typgraphy */
 
@@ -33,5 +34,5 @@
 }
 
 .subtitle{
-    color: rgb(66, 181, 4);
+    color: c.$clr-green;
 }

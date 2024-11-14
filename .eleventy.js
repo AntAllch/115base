@@ -18,8 +18,9 @@ module.exports = function(eleventyConfig) {
     });
 
     //A collection for MY weapon builds
-    eleventyConfig.addCollection("weaponBuilds", collection => {
-        return collection.getFilteredByTag("weaponBuild")
+    eleventyConfig.addCollection("weaponStats", collection => {
+        return collection.getFilteredByTag("weaponBuild").filter(item => item.data.weaponSetClass)
+
     });
 
     //A collection for creator builds

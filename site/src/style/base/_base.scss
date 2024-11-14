@@ -1,5 +1,6 @@
 @use '../abstracts/variables' as *;
 @use '../abstracts/mixins' as r;
+@use '../abstracts/variables' as c;
 
 /* //////////////////////
   General styling
@@ -24,9 +25,19 @@ body {
   }
 }
 
+.page-content_title,
+.page-content_subtitle{
+  letter-spacing: 0.1ch;
+}
+
 .page-content_title{
   font-size: 4rem;
-  letter-spacing: 0.1ch;
   color: orange;
   margin: 2rem 0 2rem;
+}
+
+.page-content_subtitle{
+  font-size: 3rem;
+  color: c.$clr-green;
+  margin-block: 3rem 1rem;
 }
