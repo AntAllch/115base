@@ -4,29 +4,23 @@ date: 2024-11-04
 
 weapon: 
 -
-    attachment: Optic
-    item: Kepler Microflex 
+    primary: Military Camo's
+    item: 2000 Critical Kills 
 -
-    attachment: Muzzle
-    item: Compensator
+    primary: Special Camo 1
+    item: Do THIS
 -
-    attachment: Barrel
-    item: CHF Barrel
+    primary: Special Camo 2
+    item: Do THAT
 -
-    attachment: Magazine
-    item: Extended Mag I
+    primary: Gold Camo
+    item: Also Do THIS
 -
-    attachment: Rear Grip 
-    item: Commando Grip
+    primary: Liberty Falls Location
+    item: Savings & Loans (Bank)
 -
-    attachment: Stock  
-    item: Balanced Stock
--
-    attachment: Laser  
-    item: Steady Aim Laser
--
-    attachment: Fire Mods  
-    item: Recoil Springs 
+    primary: Terminus Location
+    item: Bio-Lab
 
 tags: weaponBuild
 ---

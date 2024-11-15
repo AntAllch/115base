@@ -12,7 +12,7 @@ pageClass: weapon-build
 
         {% for build in collections.weaponStats %}
 
-            {% if (build.data.weaponStat | kebab) === page.fileSlug %}
+            {% if (build.data.weaponSetClass | kebab) === page.fileSlug %}
 
                 <div class="elements w400 halved">
 
@@ -24,7 +24,7 @@ pageClass: weapon-build
                     <div class="items">
                         {% for item in build.data.weapon %}
                             <div class="item">
-                                <p class="item-name" >{{ item.attachment }}</p>
+                                <p class="item-name" >{{ item.primary }}</p>
                                 <p>{{ item.item }}</p>
                                 <hr>
                             </div>
