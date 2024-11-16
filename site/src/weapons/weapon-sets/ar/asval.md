@@ -1,29 +1,26 @@
 ---
-title: XM4
+title: AS Val
 date: 2024-11-04
 
 weapon: 
 -
     primary: Max Level
-    item: Level 48
+    item: Level 42
 -
     primary: Military Camo's
     item: 2000 Critical Kills 
 -
     primary: Special Camo 1
-    item: 300 kills with Napalm equipped
+    item: 30 Parasite kills
 -
     primary: Special Camo 2
-    item: 30 Vermin kills
+    item: 300 kills with Dead Wire equipped
 -
     primary: Gold Camo
     item: 10 kills rapidly 15 times
 -
-    primary: Liberty Falls Location
-    item: Savings & Loans (Bank)
--
     primary: Terminus Location
-    item: Bio-Lab
+    item: Sea Caves
 -
     primary: Uncommon (Green)
     item: 1750

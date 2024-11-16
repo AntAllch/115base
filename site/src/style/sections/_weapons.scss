@@ -68,6 +68,17 @@
             background-size: cover;
         }
 
+        &#smg-stats{
+            background: 
+                linear-gradient(
+                    rgba(0, 0, 0, 0.3),
+                    rgba(0, 0, 0, 0.5)
+                ),
+                url("../../assets/images/weapons/smg.jpg");
+            background-position: center;
+            background-size: cover;
+        }
+
         &#ar-builds{
             background: 
                 linear-gradient(

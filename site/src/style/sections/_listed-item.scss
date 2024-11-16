@@ -30,6 +30,7 @@
         &.halved .items{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
 
             @include r.mobile{
                 grid-template-columns: 1fr;
