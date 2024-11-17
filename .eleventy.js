@@ -8,7 +8,9 @@ module.exports = function(eleventyConfig) {
     // Recomplile 11ty when files change
     eleventyConfig.addWatchTarget("./src/style/")
 
-    // Collections -----------------
+    // ---------------------------- BLACK OPS 6 COLLECTIONS ----------------------------
+
+    // Featured Post Collection -----------------
     eleventyConfig.addCollection("featuredPosts", collection => {
         return collection.getFilteredByTag("post").filter(item => item.data.featured)
     });

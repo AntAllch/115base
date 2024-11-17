@@ -1,25 +1,11 @@
 ---
-layout: base.njk 
+layout: bo6base.njk 
 title: 115base | Home
 pageClass: lego
 ---
 
 <div class="container">
 
-  <h1 class="page-content_title center-text">Select a Map</h1>
-  
-  <div class="game-blocks center-text">
-  
-    {% for map in collections.mainEggs %}
-  
-      <a class="block-link" href="{{ map.url }}">
-        <div class="game-block" id="{{ map.data.title | kebab }}">
-          <p class="block-title">{{ map.data.title }}</p>
-        </div>
-      </a>
-  
-    {% endfor %}
-  
-  </div>
+  <h1 class="page-content_title center-text">Select a Game</h1>
 
 </div>
