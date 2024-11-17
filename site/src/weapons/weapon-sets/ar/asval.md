@@ -31,8 +31,8 @@ weapon:
 #     primary: Epic (Purple)
 #     item: 
 # -
-#     primary: Legendary (Orange)
-#     item: 
+    primary: Legendary (Orange)
+    item: 6250
 
 tags: weaponBuild
 ---

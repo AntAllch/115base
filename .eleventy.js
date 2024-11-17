@@ -44,7 +44,7 @@ module.exports = function(eleventyConfig) {
         return collection.getFilteredByTag("weaponType")
     });
 
-
+    // ---------------------------------------------------------------------------------
 
     // Expose Nunjucks filters
     eleventyConfig.addFilter("prettyDate", prettyDate);
