@@ -24,7 +24,7 @@ weapon:
 -
     primary: Uncommon (Green)
     item: 1750
-# -
+-
 #     primary: Rare (Blue)
 #     item: 
 # -
