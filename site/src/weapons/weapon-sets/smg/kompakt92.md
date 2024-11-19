@@ -1,5 +1,5 @@
 ---
-title: C9
+title: Kompakt 92
 date: 2024-11-04
 
 weapon: 
@@ -11,22 +11,13 @@ weapon:
     item: 2000 Critical Kills 
 -
     primary: Special Camo 1
-    item: 30 Parasite Kills
+    item: 300 kills at Rare or higher rarity
 -
     primary: Special Camo 2
-    item: 300 kills while packed
+    item: 300 Point Blank kills
 -
     primary: Gold Camo
     item: 10 kills rapidly 15 times
-# -
-#     primary: Rare (Blue)
-#     item: 
-# -
-#     primary: Epic (Purple)
-#     item: 
-# -
-#     primary: Legendary (Orange)
-#     item: 
 
 tags: weaponBuild
 ---

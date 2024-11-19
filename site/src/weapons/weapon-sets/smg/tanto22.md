@@ -11,7 +11,7 @@ weapon:
     item: 2000 Critical Kills 
 -
     primary: Special Camo 1
-    item: 5 kills rapidly 15 times
+    item: 5 critical kills rapidly 15 times
 -
     primary: Special Camo 2
     item: 300 kills while packed

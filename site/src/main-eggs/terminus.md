@@ -28,7 +28,7 @@ weaponLocations:
     type: Assault Rifle
 -
     weapon: PP-919
-    location: Seat Tower
+    location: Sea Tower
     type: SMG
 -
     weapon: AS Val
