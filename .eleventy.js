@@ -10,32 +10,32 @@ module.exports = function(eleventyConfig) {
 
     // ---------------------------- BLACK OPS 6 COLLECTIONS ----------------------------
 
-    // Featured Post Collection -----------------
+    // A collection for Featured Posts -----------------
     eleventyConfig.addCollection("featuredPosts", collection => {
         return collection.getFilteredByTag("post").filter(item => item.data.featured)
     });
 
+    // A Collection for main Easter Eggs -----------------
     eleventyConfig.addCollection("mainEggs", collection => {
         return collection.getFilteredByTag("mainEgg")
     });
 
-    //A collection for MY weapon builds
+    // A collection for MY weapon builds -----------------
     eleventyConfig.addCollection("weaponStats", collection => {
         return collection.getFilteredByTag("weaponBuild").filter(item => item.data.weaponSetClass)
-
     });
 
-    //A collection for creator builds
+    // A collection for creator builds -----------------
     eleventyConfig.addCollection("creatorBuilds", collection => {
         return collection.getFilteredByTag("weaponBuild").filter(item => item.data.creator)
     });
 
-    //A collection for Ant's builds
+    // A collection for Ant's builds -----------------
     eleventyConfig.addCollection("antBuilds", collection => {
         return collection.getFilteredByTag("weaponBuild").filter(item => item.data.weaponClass)
     });
 
-    //A collection for Stefan's builds
+    // A collection for Stefan's builds -----------------
     eleventyConfig.addCollection("stefanBuilds", collection => {
         return collection.getFilteredByTag("weaponBuild").filter(item => item.data.stefanWeaponClass)
     });
@@ -45,6 +45,7 @@ module.exports = function(eleventyConfig) {
     });
 
     // ---------------------------------------------------------------------------------
+
 
     // Expose Nunjucks filters
     eleventyConfig.addFilter("prettyDate", prettyDate);

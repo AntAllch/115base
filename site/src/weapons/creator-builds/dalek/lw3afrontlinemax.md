@@ -1,5 +1,5 @@
 ---
-title: Dalek's Max Damage  LW3A1 Frostline
+title: Dalek's Max Damage LW3A1 Frostline - Lvl 33
 date: 2024-11-04
 
 weapon: 

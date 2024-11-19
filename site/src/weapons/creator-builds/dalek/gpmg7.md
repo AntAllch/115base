@@ -1,11 +1,8 @@
 ---
-title: Dalek's PP-919 - Lvl 29
+title: Dalek's GPMG-7 - Lvl 43
 date: 2024-11-04
 
 weapon: 
--
-    attachment: Optic
-    item: Kepler Microflex 
 -
     attachment: Muzzle
     item: Compensator
@@ -13,20 +10,20 @@ weapon:
     attachment: Barrel
     item: CHF Barrel
 -
-    attachment: Magazine
-    item: Extended Mag I
+    attachment: Underbarrel
+    item: Crossbar
 -
-    attachment: Rear Grip 
+    attachment: Magazine
+    item: Extended Mag IV
+-
+    attachment: Rear Grip  
     item: Commando Grip
 -
     attachment: Stock  
-    item: Balanced Stock
+    item: Light Stock
 -
     attachment: Laser  
-    item: Strelok Laser
--
-    attachment: Fire Mods  
-    item: Recoil Springs 
+    item: Steady Aim Laser
 
 tags: weaponBuild
 ---

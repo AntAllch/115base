@@ -1,32 +1,32 @@
 ---
-title: Dalek's LW3A1 Frostline
+title: Dalek's Krig C - Lvl 35
 date: 2024-11-04
 
 weapon: 
 -
-    attachment: Optic
-    item: Kepler Microflex 
--
     attachment: Muzzle
-    item: Suppressor 
+    item: Suppressor
 -
     attachment: Barrel
     item: CHF Barrel
 -
-    attachment: Stock Pad
-    item: Lightweight Pad 
+    attachment: Underbarrel
+    item: Ranger Foregrip
 -
     attachment: Magazine
     item: Extended Mag II
 -
-    attachment: Comb  
-    item: Quickdraw Riser 
+    attachment: Rear Grip  
+    item: Commando Grip
 -
     attachment: Stock  
     item: Balanced Stock
 -
     attachment: Laser  
-    item: Target Laser
+    item: Steady Aim Laser
+-
+    attachment: Fire Mods  
+    item: Rapid Fire 
 
 tags: weaponBuild
 ---

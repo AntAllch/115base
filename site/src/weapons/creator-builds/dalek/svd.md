@@ -1,11 +1,11 @@
 ---
-title: Dalek's SVD
+title: Dalek's SVD - Lvl 42
 date: 2024-11-04
 
 weapon: 
 -
     attachment: Optic
-    item: VMF Variable Scope 
+    item: Kepler Red Dor 
 -
     attachment: Muzzle
     item: Suppressor 
@@ -14,7 +14,7 @@ weapon:
     item: Precision Handguard 
 -
     attachment: Magazine
-    item: Extended Mag II
+    item: Extended Mag I
 -
     attachment: Comb  
     item: Commando Riser 
