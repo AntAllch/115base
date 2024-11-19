@@ -1,5 +1,5 @@
 ---
-title: Dalek's AS Val
+title: Dalek's AS Val - Lvl 33
 date: 2024-11-04
 
 weapon: 
