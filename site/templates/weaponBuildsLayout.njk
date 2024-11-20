@@ -1,6 +1,6 @@
 ---
 layout: bo6base.njk
-title: Ants Builds
+title: Public Builds
 pageClass: weapon-build
 ---
 
@@ -9,9 +9,10 @@ pageClass: weapon-build
     <h1 class="page-content_title center-text">{{ title }}</h1>
     
     <div class="listed-item">
-    {% for build in collections.weaponBuilds %}
+        
+    {% for build in collections.publicBuilds %}
 
-        {% if (build.data.weaponClass | kebab) === page.fileSlug %}
+        {% if (build.data.person | kebab) === page.fileSlug %}
 
         <div class="elements w400 halved">
 
