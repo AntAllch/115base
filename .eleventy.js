@@ -24,10 +24,10 @@ module.exports = function(eleventyConfig) {
         return collection.getFilteredByTag("codMedal").filter(item => item.data.bo6ZombieMedal)
     });
 
-     // A collection for Featured Posts -----------------
-    eleventyConfig.addCollection("featuredPosts", collection => {
-        return collection.getFilteredByTag("post").filter(item => item.data.featured)
-    });
+    //  // A collection for Featured Posts -----------------
+    // eleventyConfig.addCollection("featuredPosts", collection => {
+    //     return collection.getFilteredByTag("post").filter(item => item.data.featured)
+    // });
 
     // A collection for weapon stats -----------------
     eleventyConfig.addCollection("weaponStats", collection => {
@@ -40,7 +40,7 @@ module.exports = function(eleventyConfig) {
     });
 
     // A collection for public builds -----------------
-    eleventyConfig.addCollection("weaponsBuilds", collection => {
+    eleventyConfig.addCollection("publicBuilds", collection => {
         return collection.getFilteredByTag("weaponBuild").filter(item => item.data.weaponClass)
     });
 
