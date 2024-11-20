@@ -70,35 +70,6 @@ pageClass: weapon-builds
 
         {# --------------------------------------------------- #}
 
-        <h2 class="page-content_subtitle center-text">Stefan's Builds</h2>
-
-        <div class="game-blocks center-text">
-
-            {# Create an array of creators #}
-            {% set stefansWeaponClasses = [] %}
-
-            {% for build in collections.stefanBuilds %}
-                {# Check if the creator is not already in the array #}
-                {% if stefansWeaponClasses.indexOf(build.data.stefanWeaponClass) == -1 %}
-                    {# If the above condition is true, add the creator to the array #}
-                    {% set addStefansWeaponClasses = stefansWeaponClasses.push(build.data.stefanWeaponClass) %}
-                {% endif %}
-            {% endfor %}
-
-            {# Loop through the creators array to add them to the page #}
-            {# This array will look like ['Milo', 'Dalek', 'Pizza'] for example #}
-            {% for stefanWeapon in stefansWeaponClasses %}
-            <a class="block-link" href="stefan-builds/{{ stefanWeapon | kebab }}">
-                <div class="game-block" id="{{ stefanWeapon | kebab }}-builds">
-                    <p class="block-title">{{ stefanWeapon }}</p>
-                </div>
-            </a>
-            {% endfor %}
-
-        </div>
-
-        <hr class="mb">
-
         {# --------------------------------------------------- #}
 
         <h2 class="page-content_subtitle center-text">Creator Builds</h2>

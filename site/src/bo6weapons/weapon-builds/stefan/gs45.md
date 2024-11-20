@@ -28,5 +28,5 @@ weapon:
     attachment: Fire Mods  
     item: Recoil Springs 
 
-tags: weaponBuild
+tags: publicBuild
 ---

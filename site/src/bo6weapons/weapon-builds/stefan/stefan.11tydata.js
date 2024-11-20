@@ -1,4 +1,4 @@
 module.exports = {
-    weaponClass: 'AR',
+    person: 'Stefan',
     layout: 'weaponBuildsLayout.njk'
 }

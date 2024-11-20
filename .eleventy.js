@@ -41,7 +41,7 @@ module.exports = function(eleventyConfig) {
 
     // A collection for public builds -----------------
     eleventyConfig.addCollection("publicBuilds", collection => {
-        return collection.getFilteredByTag("weaponBuild").filter(item => item.data.weaponClass)
+        return collection.getFilteredByTag("publicBuild").filter(item => item.data.person)
     });
 
     // // A collection for Stefan's builds -----------------
