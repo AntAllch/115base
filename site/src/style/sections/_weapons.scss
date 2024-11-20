@@ -2,9 +2,6 @@
     
     .game-block{
 
-        background-position: center;
-        background-size: cover;
-
         // .block-title{
         //     // color: white;
         //     // font-size: 2rem;
@@ -84,6 +81,20 @@
                     rgba(0, 0, 0, 0.5)
                 ),
                 url("../../assets/images/weapons/handgun.jpg");
+        }
+
+        &#chopper-builds,
+        &#pizza-builds,
+        &#ar-builds,
+        &#ar-stats,
+        &#smg-builds,
+        &#smg-stats,
+        &#shotgun-stats,
+        &#handgun-builds,
+        &#milo-builds,
+        &#dalek-builds{
+            background-position: center;
+            background-size: cover;
         }
     }
 }

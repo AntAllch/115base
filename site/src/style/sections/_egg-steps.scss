@@ -101,17 +101,18 @@
                 }
         
                 ul{
-                    padding-left: 0;
+                    padding-left: 1.5rem;
+                    // list-style-position: outside;
                 }
-        
+                
                 li{
-                    width: fit-content;
+                    // width: auto;
                     display: list-item;
+                    margin-bottom: 1rem;
 
                     //768px
                     @include r.tablet{
-                        margin: 0 auto;
-                        list-style-type: circle;
+                        margin: 0 auto 1rem;
 
                         p{
                             color: orange;
