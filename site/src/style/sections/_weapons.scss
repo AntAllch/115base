@@ -10,12 +10,13 @@
         //     // background-color: bisque;
         // }
         
-        &#milo-builds{
-            background: linear-gradient(
-                rgba(0, 0, 0, 0.7),
-                rgba(0, 0, 0, 0.9)
-            ),
-            url("../../assets/images/creators/milo.png");
+        &#chopper-builds{
+            background: 
+                linear-gradient(
+                    rgba(0, 0, 0, 0.7),
+                    rgba(0, 0, 0, 0.9)
+                ),
+                url("../../assets/images/creators/chopper.jpg");
         }
 
         &#dalek-builds{
@@ -27,13 +28,12 @@
                 url("../../assets/images/creators/dalek.jpg");
         }
 
-        &#chopper-builds{
-            background: 
-                linear-gradient(
-                    rgba(0, 0, 0, 0.7),
-                    rgba(0, 0, 0, 0.9)
-                ),
-                url("../../assets/images/creators/chopper.jpg");
+        &#milo-builds{
+            background: linear-gradient(
+                rgba(0, 0, 0, 0.7),
+                rgba(0, 0, 0, 0.9)
+            ),
+            url("../../assets/images/creators/milo.png");
         }
 
         &#pizza-builds{
@@ -43,25 +43,6 @@
                     rgba(0, 0, 0, 0.7)
                 ),
                 url("../../assets/images/terminus.webp");
-        }
-
-        &#smg-builds,
-        &#smg-stats{
-            background: 
-                linear-gradient(
-                    rgba(0, 0, 0, 0.3),
-                    rgba(0, 0, 0, 0.5)
-                ),
-                url("../../assets/images/weapons/smg.jpg");
-        }
-
-        &#shotgun-stats{
-            background: 
-                linear-gradient(
-                    rgba(0, 0, 0, 0.5),
-                    rgba(0, 0, 0, 0.7)
-                ),
-                url("../../assets/images/weapons/shotgun.jpg");
         }
 
         &#ar-builds,
@@ -77,24 +58,62 @@
         &#handgun-builds{
             background: 
                 linear-gradient(
-                    rgba(0, 0, 0, 0.3),
-                    rgba(0, 0, 0, 0.5)
+                    rgba(0, 0, 0, 0.5),
+                    rgba(0, 0, 0, 0.7)
                 ),
                 url("../../assets/images/weapons/handgun.jpg");
         }
 
+        &#lmg-builds,
+        &#lmg-stats{
+            background: 
+                linear-gradient(
+                    rgba(0, 0, 0, 0.5),
+                    rgba(0, 0, 0, 0.7)
+                ),
+                url("../../assets/images/weapons/lmg.jpg");
+        }
+
+        &#shotgun-stats{
+            background: 
+                linear-gradient(
+                    rgba(0, 0, 0, 0.5),
+                    rgba(0, 0, 0, 0.7)
+                ),
+                url("../../assets/images/weapons/shotgun.jpg");
+        }
+
+        &#smg-builds,
+        &#smg-stats{
+            background: 
+                linear-gradient(
+                    rgba(0, 0, 0, 0.5),
+                    rgba(0, 0, 0, 0.7)
+                ),
+                url("../../assets/images/weapons/smg.jpg");
+        }
+
         &#chopper-builds,
+        &#dalek-builds,
+        &#milo-builds,
         &#pizza-builds,
         &#ar-builds,
         &#ar-stats,
-        &#smg-builds,
-        &#smg-stats,
-        &#shotgun-stats,
         &#handgun-builds,
-        &#milo-builds,
-        &#dalek-builds{
+        &#shotgun-stats,
+        &#lmg-builds,
+        &#lmg-stats,
+        &#smg-builds,
+        &#smg-stats{
             background-position: center;
             background-size: cover;
+        }
+
+        &#ar-stats,
+        &#shotgun-stats,
+        &#lmg-stats,
+        &#smg-stats{
+            border-color: rgba(orangered, 0.5);
         }
     }
 }
