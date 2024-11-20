@@ -10,41 +10,25 @@ pageClass: lego
   
   <div class="game-blocks center-text">
 
-    <div class="medals">
+    {# Create an array of creators #}
+    {% set medals = [] %}
 
-      <p class="medals-group_title">Streaks</p>
+    {% for medal in collections.bo6ZombieMedals %}
+        {# Check if the creator is not already in the array #}
+        {% if medals.indexOf(medal.data.medalCategory) == -1 %}
+            {# If the above condition is true, add the creator to the array #}
+            {% set addMedals = medals.push(medal.data.medalCategory) %}
+        {% endif %}
+    {% endfor %}
 
-      <div class="medals-group">
-
-        <div class="medal">
-          <p class="medal-name">Jackrabbit</p>
-          <p class="medal-desc">Killed 15 Zombies in a row without taking damage</p>
-        </div>
-        
-        <div class="medal">
-          <p class="medal-name">Nimble</p>
-          <p class="medal-desc">Killed 30 Zombies in a row without taking damage</p>
-        </div>
-        <div class="medal">
-          <p class="medal-name">Elusive</p>
-          <p class="medal-desc">Killed 50 Zombies in a row without taking damage</p>
-        </div>
-        <div class="medal">
-          <p class="medal-name">Intangible</p>
-          <p class="medal-desc">Killed 75 Zombies in a row without taking damage</p>
-        </div>
-        <div class="medal">
-          <p class="medal-name">Escape Artist</p>
-          <p class="medal-desc">Killed 100 Zombies in a row without taking damage</p>
-        </div>
-        <div class="medal">
-          <p class="medal-name">Invincible</p>
-          <p class="medal-desc">Killed 200 Zombies in a row without taking damage</p>
-        </div>
-
-      </div>
-
-    </div>
+    {# Loop through the creators array to add them to the page #}
+    {% for medal in medals %}
+      <a class="block-link" href="medals/bo6medals/bo6zombies/{{ medal | kebab }}">
+          <div class="game-block" id="{{ medal | kebab }}-builds">
+              <p class="block-title">{{ medal }}</p>
+          </div>
+      </a>
+    {% endfor %}
   
   </div>
 

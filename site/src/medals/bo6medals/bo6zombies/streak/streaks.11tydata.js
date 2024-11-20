@@ -1,4 +1,4 @@
 module.exports = {
-    medalCat: 'Streaks',
-    layout: 'creatorBuildsLayout.njk',
+    medalCategory: 'Streaks',
+    layout: 'medalsLayout.njk',
 }

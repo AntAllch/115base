@@ -8,12 +8,51 @@ pageClass: weapon-build
 
     <h1 class="page-content_title center-text">{{ title }}</h1>
     
-    <div class="medals-group">
-        {% for medal in collections.bo6ZombieMedals %}
+    <div class="listed-item">
 
-            {% if (build.data.medalCat | kebab) === page.fileSlug %}
+        {% for build in collections.creatorBuilds %}
 
-                
+            {% if (medal.data.medalCategory | kebab) === page.fileSlug %}
+
+                <div class="medals">
+
+                    <p class="medals-group_title">Streaks</p>
+
+                    <div class="medals-group">
+
+                        <div class="medal">
+                        <p class="medal-name">Jackrabbit</p>
+                        <p class="medal-desc">Killed 15 Zombies in a row without taking damage</p>
+                        </div>
+                        
+                        <div class="medal">
+                        <p class="medal-name">Nimble</p>
+                        <p class="medal-desc">Killed 30 Zombies in a row without taking damage</p>
+                        </div>
+
+                        <div class="medal">
+                        <p class="medal-name">Elusive</p>
+                        <p class="medal-desc">Killed 50 Zombies in a row without taking damage</p>
+                        </div>
+
+                        <div class="medal">
+                        <p class="medal-name">Intangible</p>
+                        <p class="medal-desc">Killed 75 Zombies in a row without taking damage</p>
+                        </div>
+
+                        <div class="medal">
+                        <p class="medal-name">Escape Artist</p>
+                        <p class="medal-desc">Killed 100 Zombies in a row without taking damage</p>
+                        </div>
+
+                        <div class="medal">
+                        <p class="medal-name">Invincible</p>
+                        <p class="medal-desc">Killed 200 Zombies in a row without taking damage</p>
+                        </div>
+
+                    </div>
+
+                </div>
 
             {% endif %}
             
