@@ -29,7 +29,7 @@ module.exports = function(eleventyConfig) {
         return collection.getFilteredByTag("post").filter(item => item.data.featured)
     });
 
-    // A collection for MY weapon builds -----------------
+    // A collection for weapon stats -----------------
     eleventyConfig.addCollection("weaponStats", collection => {
         return collection.getFilteredByTag("weaponBuild").filter(item => item.data.weaponSetClass)
     });
@@ -39,15 +39,15 @@ module.exports = function(eleventyConfig) {
         return collection.getFilteredByTag("weaponBuild").filter(item => item.data.creator)
     });
 
-    // A collection for Ant's builds -----------------
-    eleventyConfig.addCollection("antBuilds", collection => {
+    // A collection for public builds -----------------
+    eleventyConfig.addCollection("weaponsBuilds", collection => {
         return collection.getFilteredByTag("weaponBuild").filter(item => item.data.weaponClass)
     });
 
-    // A collection for Stefan's builds -----------------
-    eleventyConfig.addCollection("stefanBuilds", collection => {
-        return collection.getFilteredByTag("weaponBuild").filter(item => item.data.stefanWeaponClass)
-    });
+    // // A collection for Stefan's builds -----------------
+    // eleventyConfig.addCollection("stefanBuilds", collection => {
+    //     return collection.getFilteredByTag("weaponBuild").filter(item => item.data.stefanWeaponClass)
+    // });
 
     // ---------------------------------------------------------------------------------
 
