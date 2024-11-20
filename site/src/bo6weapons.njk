@@ -49,9 +49,9 @@ pageClass: weapon-builds
 
             {% for build in collections.publicBuilds %}
                 {# Check if the build is not already in the array #}
-                {% if weaponClasses.indexOf(build.data.weaponClass) == -1 %}
+                {% if weaponClasses.indexOf(build.data.person) == -1 %}
                     {# If the above condition is true, add the creator to the array #}
-                    {% set addWeapon = weaponClasses.push(build.data.weaponClass) %}
+                    {% set addWeapon = weaponClasses.push(build.data.person) %}
                 {% endif %}
             {% endfor %}
 
