@@ -20,8 +20,13 @@ module.exports = function(eleventyConfig) {
     });
 
     // A collection for Black Ops 6 Zombie Medals -----------------
-    eleventyConfig.addCollection("codMedals", collection => {
-        return collection.getFilteredByTag("codMedal").filter(item => item.data.bo6ZombieMedal)
+    eleventyConfig.addCollection("bo6ZombieMedals", collection => {
+        return collection.getFilteredByTag("bo6Medal").filter(item => item.data.bo6ZombieMedal)
+    });
+
+    // A collection for Black Ops 6 MP Medals -----------------
+    eleventyConfig.addCollection("bo6MPMedals", collection => {
+        return collection.getFilteredByTag("bo6Medal").filter(item => item.data.bo6MPMedal)
     });
 
     //  // A collection for Featured Posts -----------------
