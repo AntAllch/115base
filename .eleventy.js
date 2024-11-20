@@ -10,14 +10,23 @@ module.exports = function(eleventyConfig) {
 
     // ---------------------------- BLACK OPS 6 COLLECTIONS ----------------------------
 
-    // A collection for Featured Posts -----------------
-    eleventyConfig.addCollection("featuredPosts", collection => {
-        return collection.getFilteredByTag("post").filter(item => item.data.featured)
-    });
-
     // A Collection for main Easter Eggs -----------------
     eleventyConfig.addCollection("mainEggs", collection => {
         return collection.getFilteredByTag("mainEgg")
+    });
+
+    eleventyConfig.addCollection("weaponTypes", collection => {
+        return collection.getFilteredByTag("weaponType")
+    });
+
+    // A collection for Black Ops 6 Zombie Medals -----------------
+    eleventyConfig.addCollection("codMedals", collection => {
+        return collection.getFilteredByTag("codMedal").filter(item => item.data.bo6ZombieMedal)
+    });
+
+     // A collection for Featured Posts -----------------
+    eleventyConfig.addCollection("featuredPosts", collection => {
+        return collection.getFilteredByTag("post").filter(item => item.data.featured)
     });
 
     // A collection for MY weapon builds -----------------
@@ -38,10 +47,6 @@ module.exports = function(eleventyConfig) {
     // A collection for Stefan's builds -----------------
     eleventyConfig.addCollection("stefanBuilds", collection => {
         return collection.getFilteredByTag("weaponBuild").filter(item => item.data.stefanWeaponClass)
-    });
-
-    eleventyConfig.addCollection("weaponTypes", collection => {
-        return collection.getFilteredByTag("weaponType")
     });
 
     // ---------------------------------------------------------------------------------
