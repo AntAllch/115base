@@ -1,6 +1,6 @@
 ---
-title: Category 1
-medalCategory: 'Category 1'
+title: Streaks Medal
+medalCategory: 'Streaks'
 bo6ZombieMedal: true
 
 medals: 

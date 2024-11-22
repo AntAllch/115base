@@ -9,17 +9,27 @@ pageClass: weapon-build
     <h1 class="page-content_title center-text">{{ title }}</h1>
     
     <div class="medals">
+
         <div class="medals-group">
+
+            {# Loop through each "item" or medal in this case, in the bo6ZombieMedals colleciton #}
             {% for medal in collections.bo6ZombieMedals %}
+
                 {% if (medal.data.medalCategory | kebab) === page.fileSlug %}
+
                     {% for meds in medal.data.medals %}
-                    <div class="medal">
-                        <p class="medal-name">{{ meds.name }}</p>
-                        <p class="medal-desc">{{ meds.description }}</p>
-                    </div>
+
+                        <div class="medal">
+                            <p class="medal-name">{{ meds.name }}</p>
+                            <p class="medal-desc">{{ meds.description }}</p>
+                        </div>
+
                     {% endfor %}
+
                 {% endif %}
+
             {% endfor %}
+
         </div>
     </div>
 

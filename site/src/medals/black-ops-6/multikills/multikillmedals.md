@@ -1,6 +1,6 @@
 ---
-title: Category 2
-medalCategory: 'Category 2'
+title: Multikills Medals`
+medalCategory: 'Multikills'
 bo6ZombieMedal: true
 
 medals: 
