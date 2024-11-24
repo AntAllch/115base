@@ -14,26 +14,14 @@
     </ul>
   </nav>
 
-  {# this will only appear on the Terminus page #}
-  {% if page.fileSlug === 'terminus' %}
-
-    <div class="page-nav">
-      <ul class="nav-list">
-        <li class="nav-item"><a href="#egg-steps" class="page-nav-link">Easter Egg</a></li>
-        <li class="nav-item"><a href="#terminus-calculator" class="page-nav-link">Calculator</a></li>
-        <li class="nav-item"><a href="#wl" class="page-nav-link">Weapons Locations</a></li>
-        <li class="nav-item"><a href="#pl" class="page-nav-link">Perk locations</a></li>
-      </ul>
-    </div>
-    
-  {% endif %}
 
   {# this will only appear on the Liberty Falls page #}
-  {% if page.fileSlug === 'liberty-falls' %}
+  {% if page.fileSlug === 'liberty-falls' or page.fileSlug === 'terminus' %}
 
     <div class="page-nav">
       <ul class="nav-list">
         <li class="nav-item"><a href="#egg-steps" class="page-nav-link">Easter Egg</a></li>
+        {% if page.fileSlug === 'terminus' %}<li class="nav-item"><a href="#terminus-calculator" class="page-nav-link">Calculator</a></li>{% endif %}
         <li class="nav-item"><a href="#wl" class="page-nav-link">Weapons Locations</a></li>
         <li class="nav-item"><a href="#pl" class="page-nav-link">Perk locations</a></li>
       </ul>
