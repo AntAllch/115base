@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
         //When scrolling down, the header moves up, out of view and when scrolling down the header moves back into view
         header.style.transform = (currentScroll > lastScrollY) ? 'translateY(-100%)' : 'translateY(0)';
         header.style.backgroundColor = (window.scrollY < 50) ? 'rgba(255, 255, 255, 0.05)' : 'rgba(10, 10, 45, 0.5)';
-        pageNav.style.backgroundColor = (window.scrollY < 50) ? 'rgba(255, 255, 255, 0.1)' : 'rgba(10, 10, 45, 0.7)';
+        pageNav.style.backgroundColor = (window.scrollY < 50) ? 'rgba(255, 255, 255, 0.1)' : 'rgba(13, 13, 58, 0.7)';
 
         //Update the scroll position to the current position
         lastScrollY = currentScroll;
