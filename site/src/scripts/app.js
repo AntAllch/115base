@@ -42,22 +42,71 @@ document.addEventListener('DOMContentLoaded', () => {
     // document.getElementById('is-year').innerHTML = moment().year();
 
 
+    // ------------------------ MOVING HEADER -------------------------
+
     //This stores the initial scroll position
-    let lastScrollY = window.scrollY
+    let lastScrollY = window.scrollY;
+    //Gets the initial background color
+    // const initialBGColor = getComputedStyle(header).backgroundColor;
     
     window.addEventListener('scroll', () => {
 
         const header = document.querySelector('header');
+        const pageNav = document.querySelector('.page-nav');
         const currentScroll = window.scrollY;
 
         //When scrolling down, the header moves up, out of view and when scrolling down the header moves back into view
         header.style.transform = (currentScroll > lastScrollY) ? 'translateY(-100%)' : 'translateY(0)';
+        header.style.backgroundColor = (window.scrollY < 50) ? 'rgba(255, 255, 255, 0.05)' : 'rgba(10, 10, 45, 0.5)';
+        pageNav.style.backgroundColor = (window.scrollY < 50) ? 'rgba(255, 255, 255, 0.1)' : 'rgba(10, 10, 45, 0.7)';
 
         //Update the scroll position to the current position
         lastScrollY = currentScroll;
 
     })
 
+    // ----------------------------------------------------------------
+
+    // ----------------- ADJUSTING SCROLL TO POSITION -----------------
+
+    document.querySelectorAll('.page-nav-link').forEach(link => {
+        link.addEventListener('click', function(e) {
+            //Prevent default acnhor behaviour
+            e.preventDefault();
+
+            //Get the target ID
+            const targetId = this.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+            //Adjust this value based on the header height + extra space
+            const headerOffset = 150;
+            //Get the position relative to viewport
+            const elementPosition = targetElement.getBoundingClientRect().top;
+            //Calculate adjusted scroll position
+            const offsetPosition = elementPosition + window.scrollY - headerOffset;
+
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: 'smooth'
+            });
+        });
+    });
+
+    // ----------------------------------------------------------------
+
+    // ---- CHANGING HEADER COLOUR BASED ON POSITION FROM TOP OF WINDOW -------
+
+    document.addEventListener('scroll', () => {
+        const header = querySelector('header');
+        const scrollThreshold = 100;
+
+        if (windows.scrollY > scrollThreshold){
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
+    });
+
+    // ------------------------------------------------------------------------
 
     // Function to check the position of block1 relative to block2
     // function checkPosition(block1, block2) {

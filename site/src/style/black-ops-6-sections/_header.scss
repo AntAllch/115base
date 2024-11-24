@@ -1,4 +1,5 @@
 @use '../abstracts/mixins' as r;
+@use '../abstracts/variables' as v;
 
 header{
   // background-color: orange;
@@ -12,12 +13,16 @@ header{
   backdrop-filter: blur(3rem);
   z-index: 5;
   // transition: transform 1ms ease-in-out;
-  transition: transform 0.3s ease-in-out;;
+  transition: v.$transform-transition, v.$bg-transition;
 
   //115base Logo
   svg{
       width: 7rem;
       fill: orange
+  }
+
+  header.scrolled{
+    background-color: orange;
   }
 
   .nav-list{
@@ -63,6 +68,7 @@ header{
     bottom: 0;
     transform: translateY(100%);
     backdrop-filter: blur(3rem);
+    transition: v.$bg-transition;
     
     .nav-list{
       margin-block: 0.5rem;
@@ -73,8 +79,11 @@ header{
       
       .nav-item{
 
-        .nav-link{
+        .page-nav-link{
           color: orange;
+          text-decoration: none;
+          letter-spacing: 0.5ch;
+          padding: 0.4ch 0.3ch 0.4ch 0.7ch;
         }
 
       }

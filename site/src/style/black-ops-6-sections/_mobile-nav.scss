@@ -1,6 +1,6 @@
 @use '../abstracts/mixins' as r;
 
-h3{
+h6{
   display: none;
 
   @include r.tablet{

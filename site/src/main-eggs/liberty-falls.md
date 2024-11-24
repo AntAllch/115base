@@ -72,7 +72,8 @@ tags: mainEgg
 
 ---
 
-### Step 1: Build the jet gun
+<h3 id='egg-steps'>Step 1: Build the jet gun</h3>
+
 
 Build the Jet Gun
 
