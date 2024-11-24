@@ -1,9 +1,40 @@
 @use '../abstracts/mixins' as r;
 
-h6{
+.mobile{
   display: none;
-
+  
   @include r.tablet{
     display: block;
+    isolation: isolate;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    // height: auto;
+    // background-color: teal; 
   }
+  
+  svg{
+    width: 5.5rem;
+    fill: orange
+  }
+  
+  .mobile-header{
+    // background-color: rgba(white, 0.05);
+    background-color: maroon;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: orange;
+    padding: 1.5rem 2rem;
+    z-index: 2;
+  }
+  
+  .mobile-nav{
+      width: 350px;
+      height: auto;
+      padding: 2rem;
+      background-color: orange;
+  }
+  
+
 }
