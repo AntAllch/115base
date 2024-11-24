@@ -32,7 +32,7 @@ pageClass: egg-steps
         <div class="listed-item">
     
             <div class="elements">
-                <p class="listed-title">Weapon <br> Locations</p>
+                <p class="listed-title" id='wl'>Weapon <br> Locations</p>
                 {% for item in weaponLocations %}
                     <div class="item">
                         <p class="item-name" >{{ item.weapon }}</p>
@@ -44,7 +44,7 @@ pageClass: egg-steps
             </div>
     
             <div class="elements">
-                <p class="listed-title">Perk <br> Locations</p>
+                <p class="listed-title" id='pl'>Perk <br> Locations</p>
                 {% for item in perkLocations %}
                     <div class="item">
                         <p class="item-name" >{{ item.perk }}</p>

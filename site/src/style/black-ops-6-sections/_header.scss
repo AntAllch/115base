@@ -6,7 +6,13 @@ header{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-block: 1.5rem;
+  padding-block: 1rem;
+  position: fixed;
+  width: 100%;
+  backdrop-filter: blur(3rem);
+  z-index: 5;
+  // transition: transform 1ms ease-in-out;
+  transition: transform 0.3s ease-in-out;;
 
   //115base Logo
   svg{
@@ -47,27 +53,66 @@ header{
 
       }
   }
+
+  // Navigation under main nav
+  .page-nav{
+    // background-color: orange;
+    background-color: rgba(white, 0.1);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(100%);
+    backdrop-filter: blur(3rem);
+    
+    .nav-list{
+      margin-block: 0.5rem;
+      list-style: none;
+      font-size: 1rem;
+      gap: 3rem;
+      padding: 0;
+      
+      .nav-item{
+
+        .nav-link{
+          color: orange;
+        }
+
+      }
+    }
+
+  }
+
 }
 
 // [aria-current="page"]{
 //   text-decoration: underline;
 // }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 768px){
   
   header{
 
     flex-direction: column;
-
+    display: none;
+    
     .nav-list{
       flex-direction: column;
       align-items: center;
       gap: 1rem;
       margin-block: 1rem;
-
+      
       // .nav-link{
-      //   background-color: red;
-      // }
+        //   background-color: red;
+        // }
+      }
+      
+    .page-nav{
+      
+      .nav-list{
+        flex-direction: row;
+        gap: 1rem;
+    }
+  
     }
     
   }

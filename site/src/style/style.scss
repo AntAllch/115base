@@ -7,11 +7,12 @@
 @use 'base/base';
 @use 'base/wrapper';
 
-@use 'sections/header';
-@use 'sections/game-blocks';
-@use 'sections/weapons';
-@use 'sections/listed-item';
-@use 'sections/egg-steps';
-@use 'sections/terminus-calc';
-@use 'sections/medals';
-@use 'sections/footer';
+@use 'black-ops-6-sections/header';
+@use 'black-ops-6-sections/mobile-nav';
+@use 'black-ops-6-sections/game-blocks';
+@use 'black-ops-6-sections/weapons';
+@use 'black-ops-6-sections/listed-item';
+@use 'black-ops-6-sections/egg-steps';
+@use 'black-ops-6-sections/terminus-calc';
+@use 'black-ops-6-sections/medals';
+@use 'black-ops-6-sections/footer';

@@ -94,7 +94,7 @@ tags: mainEgg
 
 ---
 
-### How to get the Wonder Weapon (MUST BE DONE BEFORE STARTING EASTER EGG)
+<h3 id='egg-steps'>How to get the Wonder Weapon (MUST BE DONE BEFORE STARTING EASTER EGG)</h3>
  
  - Turn on Power
  

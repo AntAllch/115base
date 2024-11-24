@@ -1,0 +1,9 @@
+@use '../abstracts/mixins' as r;
+
+h3{
+  display: none;
+
+  @include r.tablet{
+    display: block;
+  }
+}

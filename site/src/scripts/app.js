@@ -42,7 +42,21 @@ document.addEventListener('DOMContentLoaded', () => {
     // document.getElementById('is-year').innerHTML = moment().year();
 
 
+    //This stores the initial scroll position
+    let lastScrollY = window.scrollY
+    
+    window.addEventListener('scroll', () => {
 
+        const header = document.querySelector('header');
+        const currentScroll = window.scrollY;
+
+        //When scrolling down, the header moves up, out of view and when scrolling down the header moves back into view
+        header.style.transform = (currentScroll > lastScrollY) ? 'translateY(-100%)' : 'translateY(0)';
+
+        //Update the scroll position to the current position
+        lastScrollY = currentScroll;
+
+    })
 
 
     // Function to check the position of block1 relative to block2

@@ -29,10 +29,10 @@
             //The collapsable textarea at the top of the easter egg steps
             .egg-notes{
         
-                position: sticky;
-                top: 1rem;
-                z-index: 5;
-                // isolation: isolate;
+                position: relative;
+                // top: 1rem;
+                // z-index: 5;
+                isolation: isolate;
                 display: inline-block;
                 margin-bottom: 1rem;
                 
