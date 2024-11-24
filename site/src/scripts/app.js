@@ -3,9 +3,9 @@ import { terminusCalculator } from "./terminuscalc"
 
 document.addEventListener('DOMContentLoaded', () => {
 
-    const path = window.location.pathname
+    const egg = document.querySelector('.egg');
 
-    if (path.includes('/liberty-falls') || path.includes('/terminus')){
+    if (egg){
 
         // alert('app.js is loaded');
         console.log(`The path is: localhost:8080${path}`);
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
             closeNoteBtn.textContent = noteState ? "Minimise" : "Expand"
             textbody.classList.toggle("minimise") 
         })
-        
+
     }
     
 
