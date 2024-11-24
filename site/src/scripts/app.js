@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // ----------------------------------------------------------------
+    // ---------------------------------------------------------------------
 
     // ---- CHANGING HEADER COLOUR BASED ON POSITION FROM TOP OF WINDOW -------
 
@@ -107,6 +107,28 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // ------------------------------------------------------------------------
+
+    // ----------------- MOBILE NAV -----------------
+    
+    const hamburger = document.querySelector('.hamburger');
+    const close = document.querySelector('.close');
+
+    hamburger.addEventListener('click', () => {
+        document.querySelector('.mobile-nav').classList.toggle('open');
+        console.log('hamburger clicked');
+        hamburger.style.display = 'none';
+        close.style.display = 'block';
+    });
+
+    close.addEventListener('click', () => {
+        document.querySelector('.mobile-nav').classList.remove('open');
+        console.log('close clicked');
+        close.style.display = 'none';
+        hamburger.style.display = 'block';
+
+    });
+
+    // ---------------------------------------------------------------------
 
     // Function to check the position of block1 relative to block2
     // function checkPosition(block1, block2) {
@@ -136,4 +158,4 @@ document.addEventListener('DOMContentLoaded', () => {
     // checkPosition(textbody, eggSteps);
 
 
-})
+});

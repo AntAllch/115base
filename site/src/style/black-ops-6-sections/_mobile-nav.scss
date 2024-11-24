@@ -1,16 +1,13 @@
 @use '../abstracts/mixins' as r;
+@use '../abstracts/variables' as v;
 
 .mobile{
   display: none;
   
   @include r.tablet{
     display: block;
-    isolation: isolate;
-    position: fixed;
-    width: 100%;
-    z-index: 100;
+    z-index: 2000;
     // height: auto;
-    // background-color: teal; 
   }
   
   svg{
@@ -20,21 +17,66 @@
   
   .mobile-header{
     // background-color: rgba(white, 0.05);
-    background-color: maroon;
+    // background-color: maroon;
+    background-color: teal; 
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: orange;
     padding: 1.5rem 2rem;
-    z-index: 2;
+    z-index: 1000;
+    width: 100%;
+    position: fixed;
+    box-shadow: 0px -15px 22px 18px rgba(0,0,0,0.75);
+
+    .hamburger svg,
+    .close svg{
+      width: fit-content;
+    }
+
+    .close{
+      display: none;
+    }
   }
   
   .mobile-nav{
-      width: 350px;
-      height: auto;
-      padding: 2rem;
-      background-color: orange;
-  }
-  
+    width: 350px;
+    height: auto;
+    padding: 1rem;
+    margin-left: auto;
+    transform: translateY(-100%);
+    background-color: orange;
+    position: fixed;
+    top: 85px;
+    right: 0;
+    z-index: 500;
+    transition: v.$transform-transition;
 
+    .mobile-nav-list{
+      list-style: none;
+      
+      .mobile-nav-item{
+        color: white;
+        font-size: 2rem;
+        padding-bottom: 1rem;
+      }
+      
+      .mobile-nav-link{
+        text-decoration: none;
+        color: white;
+        transition: v.$color-transition;
+
+        &:hover,
+        &:focus-visible{
+          color: orange;
+        }
+      }
+    }
+  }
+
+  .open{
+    transform: translateY(0);
+  }
+
+  
 }
