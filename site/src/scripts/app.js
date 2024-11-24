@@ -3,13 +3,18 @@ import { terminusCalculator } from "./terminuscalc"
 
 document.addEventListener('DOMContentLoaded', () => {
 
-    const steps = document.querySelectorAll('.egg-steps p')
-    const closeNoteBtn = document.querySelector('.egg-notes .mintex')
-    const eggNotes = document.querySelector('.egg-notes')
-    const textbody = eggNotes.querySelector('textarea')
-    const eggSteps = document.querySelector('.egg-steps')
-    let noteState = false
-    console.log(`Note State: ${noteState}`)
+    const path = window.location.pathname
+    
+    // alert('app.js is loaded');
+    console.log(`The path is: localhost:8080${path}`);
+
+    const steps = document.querySelectorAll('.egg-steps p');
+    const closeNoteBtn = document.querySelector('.egg-notes .mintex');
+    const eggNotes = document.querySelector('.egg-notes');
+    const textbody = document.querySelector('textarea');
+    const eggSteps = document.querySelector('.egg-steps');
+    let noteState = false;
+    console.log(`Note State: ${noteState}`);
 
     for (const step of steps){
         step.addEventListener('click', () => {
