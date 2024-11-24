@@ -1,0 +1,152 @@
+
+@use '../abstracts/mixins' as r;
+@use '../abstracts/variables' as c;
+
+#page-egg-steps{
+
+    .guide-bodies{
+
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        gap: 2rem;
+
+        @include r.tablet{
+            display: block;
+        }
+
+        @include r.mobile{
+            padding-top: 0;
+        }
+
+        .egg{
+
+            // background: green
+            @include r.tablet{
+                text-align: center;
+            }
+            
+            //The collapsable textarea at the top of the easter egg steps
+            .egg-notes{
+        
+                position: sticky;
+                top: 1rem;
+                z-index: 5;
+                // isolation: isolate;
+                display: inline-block;
+                margin-bottom: 1rem;
+                
+
+                .mintex{
+                    font-size: 2rem;
+                    color: orange;
+                    text-align: right;
+                    position: absolute;
+                    right: 6%;
+                    bottom: 0;
+                    z-index: 5;
+                    cursor: pointer;
+                }
+        
+                //The <textarea> itself
+                .notes-area{
+                    width: 95%;
+                    max-width: 600px;
+                    font-size: 1.5rem;
+                    border-radius: 5px;
+                    border: none;
+                    padding: .5rem;
+
+                    &:focus,
+                    &:focus-within {
+                        outline: none;
+                    }
+
+                }
+            }
+        
+            .egg-steps{
+                // background-color: orange;
+                width: 95%;
+                max-width: 600px;
+                // margin: 0 auto;
+                padding-bottom: 2rem;
+                padding-top: 1rem;
+
+                @include r.tablet{
+                    margin: 0 auto;
+                    // text-align: center;
+                }
+                
+                h3{
+                    font-size: 2rem;
+                    letter-spacing: 0.1ch;
+                    color: c.$clr-green;
+                }
+            
+                p{
+                    font-size: 1.5rem;
+                    position: relative;
+                    display: inline-block;
+                    color: white;
+        
+                    &.complete{
+                        color: orangered;
+                        text-decoration: line-through;
+                    }
+        
+                    &:hover{
+                        cursor: pointer;
+                    }
+                }
+        
+                ul{
+                    padding-left: 1.5rem;
+                    // list-style-position: outside;
+                }
+                
+                li{
+                    // width: auto;
+                    display: list-item;
+                    margin-bottom: 1rem;
+
+                    //768px
+                    @include r.tablet{
+                        margin: 0 auto 1rem;
+
+                        p{
+                            color: orange;
+                        }
+                    }
+                }
+        
+                hr{
+                    max-width: 400px;
+                    margin: 2rem 0;
+                    background-image: linear-gradient(to right, rgba(orange, 0.75), rgba(orange, 0.75), transparent);
+
+                    //768px
+                    @include r.tablet{
+                        margin: 2rem auto;
+                    }
+                }
+                
+                //The highlighted section inside the easter egg steps that gives tips about the steps
+                .note{
+                    font-size: 2rem;
+                    background-color: rgba(orange, 0.5);
+                    border-radius: 5px;
+                    padding: 1rem;
+                }
+            }
+        
+            //The class that is toggled to minimise the textarea at the top of the easter egg steps
+            .minimise{
+                height: 40px !important;
+                // background: red;
+            }
+        }
+
+    }
+    
+}

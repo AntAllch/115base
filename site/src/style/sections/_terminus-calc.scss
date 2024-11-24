@@ -1,0 +1,98 @@
+@use '../abstracts/mixins' as r;
+
+:root {
+    --gap: 1rem;
+    --box-size: 50px;
+}
+
+@include r.mobile{
+    :root {
+        --gap: 0.4rem;
+        --box-size: 45px;
+    }
+}
+
+.terminus-calculator {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    
+    .options-group {
+        display: grid !important;
+        gap: var(--gap);
+        
+        .option-group,
+        .image-selector {
+            display: flex;
+            gap: var(--gap);
+            flex-direction: row;
+            align-items: center;
+        }
+    
+        .option-group {
+            justify-content: center;
+    
+            & > span {
+                font-size: 2.5em;
+                font-weight: 700;
+            }
+        }
+    
+        .image-container {
+            display: grid;
+            align-items: center;
+    
+            input[type=radio] {
+                background: 0 0;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                border: 1px solid var(--cyan);
+                cursor: pointer;
+                display: inline-block;
+                height: 21px;
+                margin: 0;
+                outline: none;
+                position: absolute;
+                transition: background .3s,border-color .3s,box-shadow .2s;
+                vertical-align: top;
+                width: 21px;
+    
+                &:checked + label .box {
+                    filter: hue-rotate(63deg)
+                }
+            }
+    
+            .box {
+                width: var(--box-size);
+                height: var(--box-size);
+                border: solid 6px;
+                border-color: transparent;
+            
+                display: grid;
+                place-items: center;
+                color: white;
+                font-size: 30px;
+                font-weight: bold;
+            
+                background-image: url('/assets/images/terminus/sticky-note.png');
+                background-position: center;
+                background-size: 122%;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+
+    .answers {
+        margin-top: 2rem;
+
+        h3 {
+            font-size: 30px;
+        }
+
+        .outputs {
+            font-size: 60px;
+            font-weight: bold;
+        }
+    }
+}

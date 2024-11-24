@@ -1,0 +1,50 @@
+@use '../abstracts/variables' as c;
+@use '../abstracts/mixins' as r;
+
+.medals{
+
+    // background-color: pink;
+    // outline: 2px solid red;
+    
+    .medals-group_title{
+        font-size: 3rem;
+        color: c.$clr-green;
+        margin-bottom: 2rem;
+        font-weight: bold;
+    }
+
+    .medals-group{
+
+        justify-content: center;
+        gap: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+    
+        .medal{
+    
+            // background-color: green;
+            padding: 1rem;
+            border: 2px solid rgba(orange, 0.5);
+            border-radius: 8px;
+            width: 80%;
+            max-width: 200px;
+            
+            .medal-name{
+                font-size: 2rem;
+                color: orange;
+                margin-bottom: 0.5rem;
+            }
+    
+            .medal-desc{
+                font-size: 1.2rem;
+            }
+    
+        }
+
+    }
+
+}
+
+        // font-size: 3rem;
+        // color: c.$clr-green;
+        // margin-bottom: 2rem;
