@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (egg){
 
         // alert('app.js is loaded');
-        console.log(`The path is: localhost:8080${path}`);
+        // console.log(`The path is: localhost:8080${path}`);
     
         const steps = document.querySelectorAll('.egg-steps p');
         const closeNoteBtn = document.querySelector('.egg-notes .mintex');
