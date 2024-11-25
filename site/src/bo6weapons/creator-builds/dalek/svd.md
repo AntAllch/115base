@@ -5,7 +5,7 @@ date: 2024-11-04
 weapon: 
 -
     attachment: Optic
-    item: Kepler Red Dor 
+    item: Kepler Red Dot 
 -
     attachment: Muzzle
     item: Suppressor 

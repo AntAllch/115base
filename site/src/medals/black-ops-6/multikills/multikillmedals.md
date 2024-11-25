@@ -1,18 +1,27 @@
 ---
 title: Multikills Medals`
-medalCategory: 'Multikills'
+medalCategory: 'MultiKills'
 bo6ZombieMedal: true
 
 medals: 
 -   
-    name: Medal 4 title
-    description: 100 kills rapidly
+    name: Slaughter
+    description: Killed 5 Zombies rapidly with a Weapon
 -   
-    name: Medal 5 title
-    description: 19 kills rapidly
+    name: Massacre
+    description: Killed 10 Zombies rapidly with a Weapon
 -   
-    name: Medal 6 title
-    description: 23 kills rapidly
+    name: Carnage
+    description: Killed 15 Zombies rapidly with a Weapon
+-   
+    name: Bloodbath
+    description: Killed 20 Zombies rapidly with a Weapon
+-   
+    name: Extermination
+    description: Killed 25 Zombies rapidly with a Weapon
+-   
+    name: Lifedrinker
+    description: Killed 30 Zombies rapidly with a Weapon
 
 layout: 'medalsLayout.njk'
 tags: bo6Medal

@@ -5,14 +5,23 @@ bo6ZombieMedal: true
 
 medals: 
 -   
-    name: Medal 1 title
-    description: 10 kills rapidly
+    name: Jack Rabbit
+    description: Killed 15 Zombies in a row without taking damage
 -   
-    name: Medal 2 title
-    description: 11 kills rapidly
+    name: Nimble
+    description: Killed 30 Zombies in a row without taking damage
 -   
-    name: Medal 3 title
-    description: 12 kills rapidly
+    name: Elusive 
+    description: Killed 50 Zombies in a row without taking damage
+-   
+    name: Intangible
+    description: Killed 75 Zombies in a row without taking damage
+-   
+    name: Escape Artist 
+    description: Killed 100 Zombies in a row without taking damage
+-   
+    name: Invincible 
+    description: Killed 200 Zombies in a row without taking damage
 
 layout: 'medalsLayout.njk'
 tags: bo6Medal
