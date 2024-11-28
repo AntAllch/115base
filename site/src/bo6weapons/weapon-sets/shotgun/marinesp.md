@@ -24,6 +24,12 @@ weapon:
 -
     primary: Terminus Location
     item: Rec Yard
+-
+    primary: Uncommon (Green)
+    item: 1000
+-
+    primary: Rare (Blue)
+    item: 2000
 
 tags: weaponBuild
 ---

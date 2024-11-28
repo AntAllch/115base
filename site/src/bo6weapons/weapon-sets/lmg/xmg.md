@@ -24,9 +24,9 @@ weapon:
 -
     primary: Terminus Location
     item: Right Center Island
-# -
-#     primary: Uncommon (Green)
-#     item: 1750
+-
+    primary: Uncommon (Green)
+    item: 2250
 # -
 #     primary: Rare (Blue)
 #     item: 2750

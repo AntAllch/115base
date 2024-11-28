@@ -24,6 +24,15 @@ weapon:
 -
     primary: Terminus Location
     item: Interrogation Rooms
+-
+    primary: Uncommon (Green)
+    item: 1250
+-
+    primary: Rare (Blue)
+    item: 2250
+-
+    primary: Epic (Purple)
+    item: 3250
 
 tags: weaponBuild
 ---

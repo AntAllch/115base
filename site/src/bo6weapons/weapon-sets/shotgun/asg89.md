@@ -24,12 +24,12 @@ weapon:
 -
     primary: Terminus Location
     item: Control Center
-# -
-#     primary: Uncommon (Green)
-#     item: 1750
-# -
-#     primary: Rare (Blue)
-#     item: 2750
+-
+    primary: Uncommon (Green)
+    item: 1000
+-
+    primary: Rare (Blue)
+    item: 2000
 # -
 #     primary: Epic (Purple)
 #     item: 

@@ -21,6 +21,12 @@ weapon:
 -
     primary: Terminus Location
     item: Gun Platform
+# -
+#     primary: Rare (Blue)
+#     item: 2250
+-
+    primary: Epic (Purple)
+    item: 3750
 
 tags: weaponBuild
 ---
