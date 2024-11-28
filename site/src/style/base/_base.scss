@@ -14,12 +14,12 @@ body {
 
   background: 
   linear-gradient(
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.9)
-      ),
-      url("../../assets/images/blackops6.jpg");
-      background-position: center;
-      background-size: cover;
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.9)
+    ),
+    url("../../assets/images/blackops6.jpg");
+  background-position: center;
+  background-size: cover;
 
   margin: 0 auto;
   color: white;
@@ -27,22 +27,37 @@ body {
 
 // .bo6home
 #page-main-home body{
-  // background: 
-  // linear-gradient(
-  //     rgba(0, 0, 0, 0.7),
-  //     rgba(0, 0, 0, 0.9)
-  //     ),
-  //     url("../../assets/images/blackops6.jpg");
-  //     background-position: center;
-  //     background-size: cover;
   
   background: radial-gradient(at center top, #0A0A2D, #07071B);
   background-attachment: fixed;
 }
 
-// .bo6-homepage-content{
-//   padding: 10rem 2rem 2rem;
-// }
+//Liberty Falls and Terminus Pages
+#page-egg-steps body{
+  height: 100vh;
+  background: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.7)
+    ),
+    url("../../assets/images/blackops6zombies.jpg");
+  // background-position: center;
+  // background-size: cover;
+  background-attachment: fixed;
+}
+
+#page-medals body{
+  height: 100vh;
+  background: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.9)
+    ),
+    url("../../assets/images/blackops6medals.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
 .page-content {
   // // background-color: red;

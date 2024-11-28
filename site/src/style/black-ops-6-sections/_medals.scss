@@ -28,8 +28,7 @@
             padding: 1rem;
             border: 2px solid rgba(orange, 0.5);
             border-radius: 8px;
-            width: 80%;
-            max-width: 200px;
+            width: min(80%, 200px);
             
             .medal-name{
                 font-size: 2rem;
@@ -47,6 +46,48 @@
 
 }
 
-        // font-size: 3rem;
-        // color: c.$clr-green;
-        // margin-bottom: 2rem;
+.medal-block,
+.medals,
+#multikills-medals,
+#streaks-medals,
+#gear-medals,
+#combat-medals,
+#scorestreaks-medals{
+    backdrop-filter: blur(0.3rem);
+}
+
+.block-link{
+    text-decoration: none;
+}
+
+.medal-blocks{
+
+    width: 95%;
+    max-width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    
+    
+    .medal-block{
+        width: 300px;
+        padding: 4rem 1rem;
+        border-radius: 8px;
+        border: solid 1px rgba(orange, 0.5);
+        
+        .block-title{
+            color: white;
+            font-size: 2rem;
+            font-weight: 700;
+            letter-spacing: 0.5ch;
+            text-decoration: none;
+            // background-color: bisque;
+        }
+    
+    }
+}
+        

@@ -35,6 +35,11 @@
                 // background-color: bisque;
             }
 
+            &.medals-block{
+                // background-color: rgba(0, 0, 0, 0);
+                backdrop-filter: blur(0.3rem);
+            }
+
             &#liberty-falls{
                 background: 
                     linear-gradient(
