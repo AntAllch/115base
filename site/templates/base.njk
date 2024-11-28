@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" {% if pageClass %} id="page-{{pageClass}}"{% elseif page.fileSlug %} id="page-{{page.fileSlug}}"{% else %} id="page-index"{% endif %}>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+        <title>{% include "header/uniqueTitle.njk" %}</title>
+
+        {# {% include "header/social.njk" %} #}
+
+        {% if noindex %}
+        <meta name="robots" content="noindex" />
+        {% endif %}
+
+        <link rel="stylesheet" href="{{ '/style/style.css' | url }}">
+    </head>
+
+    <body>
+
+        {% include 'header.njk' %}
+        {% include 'bo6mobilenav.njk' %}
+        <div class="page-content">
+            {{ content | safe }}
+        </div>
+        {# {% include 'footer.njk' %} #}
+        {# <div class="wrapper">
+        </div> #}
+
+        <script src="/scripts/app.js"></script>
+        <script src="/scripts/terminuscalc.js"></script>
+        
+    </body>
+</html>

@@ -9,22 +9,57 @@
 body {
   font-family: $ff-body;
   font-size: $fs-6;
-  background: radial-gradient(at center top, #0A0A2D, #07071B);
-  // background: radial-gradient(at center top, rgb(13, 13, 58), #07071B);
+  // background: radial-gradient(at center top, #0A0A2D, #07071B);
+  // background-attachment: fixed;
 
-  background-attachment: fixed;
+  background: 
+  linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.9)
+      ),
+      url("../../assets/images/blackops6.jpg");
+      background-position: center;
+      background-size: cover;
+
   margin: 0 auto;
   color: white;
 }
+
+// .bo6home
+#page-main-home body{
+  // background: 
+  // linear-gradient(
+  //     rgba(0, 0, 0, 0.7),
+  //     rgba(0, 0, 0, 0.9)
+  //     ),
+  //     url("../../assets/images/blackops6.jpg");
+  //     background-position: center;
+  //     background-size: cover;
+  
+  background: radial-gradient(at center top, #0A0A2D, #07071B);
+  background-attachment: fixed;
+}
+
+// .bo6-homepage-content{
+//   padding: 10rem 2rem 2rem;
+// }
 
 .page-content {
   // // background-color: red;
   padding: 9rem 2rem 2rem;
   
-
   @include r.tablet {
     padding: 5rem .5rem .5rem;
   }
+
+//   background: 
+//     linear-gradient(
+//         rgba(0, 0, 0, 0.7),
+//         rgba(0, 0, 0, 0.9)
+//         ),
+//         url("../../assets/images/blackops6.jpg");
+//         background-position: center;
+//         background-size: cover;
 }
 
 .page-content_title,

@@ -1,25 +1,35 @@
 ---
 layout: bo6base.njk 
 title: 115base | BO6
-pageClass: lego
+pageClass: black-ops-6-home
 ---
 
-<div class="container">
+<body class="bo6home">
 
-  <h1 class="page-content_title center-text">Select a Map</h1>
+  <div class="container">
   
-  <div class="game-blocks center-text">
+    <div class="banner">
   
-    {% for map in collections.mainEggs %}
+      <div class="banner-title">Black Ops 6</div>
   
-      <a class="block-link" href="{{ map.url }}">
-        <div class="game-block" id="{{ map.data.title | kebab }}">
-          <p class="block-title">{{ map.data.title }}</p>
-        </div>
-      </a>
+      <h1 class="page-content_title center-text">Select a Map</h1>
   
-    {% endfor %}
+      <div class="game-blocks center-text">
   
+        {% for map in collections.mainEggs %}
+  
+          <a class="block-link" href="{{ map.url }}">
+            <div class="game-block" id="{{ map.data.title | kebab }}">
+              <p class="block-title">{{ map.data.title }}</p>
+            </div>
+          </a>
+  
+        {% endfor %}
+  
+      </div>
+  
+    </div>
+
   </div>
-
-</div>
+  
+</body>

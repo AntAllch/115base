@@ -1,25 +1,58 @@
+@use '../abstracts/mixins' as r;
+
 .game-titles{
     // outline: 2px solid red;
-    width: 900px;
+    width: min(90%, 1000px);
+    height: 500px;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "latest-game latest-game previous-games";
+    gap: 1rem;
+    // outline: 2px solid green;
 
+    @include r.tablet{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+        "latest-game"
+        "previous-games";
+        margin-top: 5rem;
+    }
+
+    .latest-game,
+    .previous-game{
+        border: solid 1px rgba(orange, 0.5);
+    }
+
+    //The big tile on the left
     .latest-game{
         background: 
                 linear-gradient(
                     rgba(0, 0, 0, 0.7),
                     rgba(0, 0, 0, 0.9)
                 ),
-                url("../../assets/images/liberty-falls.webp");
+                url("../../assets/images/blackops6.jpg");
         background-position: center;
         background-size: cover;
-        width: 500px;
-        height: 500px;
-        margin: 0 auto;
-        border: solid 1px rgba(orange, 0.5);
+        // width: 500px;
+        // height: 500px;
         display: flex;
         justify-content: center;
         align-items: center;
         text-decoration: none;
+        border-radius: 8px;
+        // outline: 2px solid red;
+        grid-area: latest-game;
+        
+        @include r.tablet{
+            height: 400px;
+        }
+
+        @include r.mobile{
+            height: 300px;
+            font-size: 2rem;
+        }
         
         .game-title{
             color: white;
@@ -27,6 +60,60 @@
             font-weight: 700;
             letter-spacing: 0.5ch;
             // background-color: bisque;
+
+            @include r.mobile{
+                font-size: 2rem;
+            }
+            
+        }
+    }
+
+    //The smaller tiles
+    .previous-games{
+
+        // outline: 2px solid white;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        grid-area: previous-games;
+        gap: 1rem;
+
+        .previous-game{
+            display: grid;
+            place-items: center;
+            // outline: 2px solid orange;
+            text-decoration: none;
+            font-size: 1.5rem;
+            color: white;
+            height: 100%;
+            border-radius: 8px;
+
+            @include r.tablet{
+                height: 100px;
+            }
+            
+        }
+
+        #dalek-builds{
+            background: 
+                linear-gradient(
+                    rgba(0, 0, 0, 0.7),
+                    rgba(0, 0, 0, 0.9)
+                ),
+                url("../../assets/images/creators/dalek.jpg");
+            background-position: center;
+            background-size: cover;
+        }
+
+        #ar-stats{
+            background: 
+                linear-gradient(
+                    rgba(0, 0, 0, 0.5),
+                    rgba(0, 0, 0, 0.7)
+                ),
+                url("../../assets/images/weapons/ar.webp");
+            background-position: center;
+            background-size: cover;
         }
     }
 }
