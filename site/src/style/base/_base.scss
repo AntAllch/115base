@@ -28,28 +28,35 @@ body {
 // .bo6home
 #page-main-home body{
   
-  background: radial-gradient(at center top, #0A0A2D, #07071B);
+  // background: radial-gradient(at center top, #0A0A2D, #07071B);
+  background: radial-gradient(at center top, #000000, #000000);
   background-attachment: fixed;
 }
 
 //Liberty Falls and Terminus Pages
-#page-egg-steps body::before{
-  content: "";
-  background: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.9)
-      ),
-      url("../../assets/images/blackops6zombies.webp");
-  background-size: cover;
-  background-position: center;
-  position: fixed;  /* This will remain fixed */
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;  /* Place behind other content */
+#page-egg-steps body{
+  background-image: none;
+
+  &::before{
+    content: "";
+    background: 
+      linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.9)
+        ),
+        url("../../assets/images/blackops6zombies.webp");
+    background-size: cover;
+    background-position: center;
+    position: fixed;  /* This will remain fixed */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;  /* Place behind other content */
+  }
+
 }
+
 
 #page-medals body::before{
   content: "";
@@ -76,6 +83,24 @@ body {
   @include r.tablet {
     padding: 5rem .5rem .5rem;
   }
+
+//   background: 
+//     linear-gradient(
+//         rgba(0, 0, 0, 0.7),
+//         rgba(0, 0, 0, 0.9)
+//         ),
+//         url("../../assets/images/blackops6.webp");
+//         background-position: center;
+//         background-size: cover;
+}
+
+#page-main-home .page-content{
+  // // background-color: red;
+  padding: 0 2rem 2rem;
+  
+  // @include r.tablet {
+  //   padding: 5rem .5rem .5rem;
+  // }
 
 //   background: 
 //     linear-gradient(

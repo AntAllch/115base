@@ -39,7 +39,7 @@ hr {
   // background-color: blue;
   max-width: 1400px;
   margin-inline: auto;
-
+  overflow: visible;
 
   @include r.mobile{
     &.mob-center{

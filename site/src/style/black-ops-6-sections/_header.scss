@@ -1,9 +1,8 @@
 @use '../abstracts/mixins' as r;
 @use '../abstracts/variables' as v;
 
+//background color for this header is set in the app.js file
 header{
-  // background-color: orange;
-  background-color: rgba(white, 0.05);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -27,72 +26,86 @@ header{
   }
 
   .nav-list{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 2rem;
-      text-transform: uppercase;
-      font-size: 1.3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    text-transform: uppercase;
+    font-size: 1.3rem;
 
-      @include r.mobile{
-          margin-bottom: 0;
-      }
-
-      .nav-item{
-          
-          .nav-link{
-              text-decoration: none;
-              letter-spacing: 0.5ch;
-              // color: black;
-              color: white;
-              // transition: all 200ms ease-in-out;
-              padding: 0.4ch 0.3ch 0.4ch 0.7ch;
-              border-radius: 10px;
-              
-              &:hover{
-                // color: white;
-                // background-color: #111;
-                position: relative;
-                top: -3px;
-              }
-          }
-
-      }
-  }
-
-  // Navigation under main nav
-  .page-nav{
-    // background-color: orange;
-    background-color: rgba(white, 0.1);
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    transform: translateY(100%);
-    backdrop-filter: blur(3rem);
-    transition: v.$bg-transition;
-    
-    .nav-list{
-      margin-block: 0.5rem;
-      list-style: none;
-      font-size: 1rem;
-      gap: 3rem;
-      padding: 0;
-      
-      .nav-item{
-
-        .page-nav-link{
-          color: orange;
-          text-decoration: none;
-          letter-spacing: 0.5ch;
-          padding: 0.4ch 0.3ch 0.4ch 0.7ch;
-        }
-
-      }
+    @include r.mobile{
+        margin-bottom: 0;
     }
 
+    .nav-item{
+        
+        .nav-link{
+            text-decoration: none;
+            letter-spacing: 0.5ch;
+            color: white;
+        }
+    }
   }
-
 }
+@media (prefers-reduced-motion) {
+  .nav-list{
+    .nav-item{
+      .nav-link{
+        text-decoration: none;
+        letter-spacing: 0.5ch;
+        color: white;
+        // padding: 0.4ch 0.3ch 0.4ch 0.7ch;
+        border-radius: 10px;
+        position: relative;
+
+        &::before{
+          content: "";
+          width: 0;
+          height: 3px;
+          background-color: orange;
+          position: absolute;
+          bottom: -1px;
+          transition: width 0.2s ease-in-out;
+        }
+        
+        &:hover::before{
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+  
+
+  // Navigation under main nav
+.page-nav{
+  background-color: rgba(white, 0.1);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  transform: translateY(100%);
+  backdrop-filter: blur(3rem);
+  transition: v.$bg-transition;
+  
+  .nav-list{
+    margin-block: 0.5rem;
+    list-style: none;
+    font-size: 1rem;
+    gap: 3rem;
+    padding: 0;
+    
+    .nav-item{
+
+      .page-nav-link{
+        color: orange;
+        text-decoration: none;
+        letter-spacing: 0.5ch;
+        padding: 0.4ch 0.3ch 0.4ch 0.7ch;
+      }
+    }
+  }
+}
+
 
 // [aria-current="page"]{
 //   text-decoration: underline;
