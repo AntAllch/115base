@@ -76,7 +76,7 @@
 .game-titles{
     // outline: 2px solid red;
     width: min(90%, 1000px);
-    height: 500px;
+    height: auto;   
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -85,11 +85,8 @@
     // outline: 2px solid green;
 
     @include r.tablet{
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(3, 1fr);
-        grid-template-areas: 
-        "latest-game"
-        "previous-games";
+        // height: 100%;
+        display: block;
         margin-top: 5rem;
     }
 
@@ -101,6 +98,7 @@
 
     //The big tile on the left
     .latest-game{
+        height: 500px;
         background: 
                 linear-gradient(
                     rgba(0, 0, 0, 0.7),
@@ -109,8 +107,6 @@
                 url("../../assets/images/blackops6.webp");
         background-position: center;
         background-size: cover;
-        // width: 500px;
-        // height: 500px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -121,6 +117,7 @@
         
         @include r.tablet{
             height: 400px;
+            margin-bottom: 1rem;
         }
 
         @include r.mobile{
@@ -151,6 +148,10 @@
         flex-direction: column;
         grid-area: previous-games;
         gap: 1rem;
+
+        // @include r.tablet{
+        //     margin-bottom: 5rem;
+        // }
 
         .previous-game{
             display: grid;

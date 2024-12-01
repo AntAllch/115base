@@ -103,6 +103,7 @@ body {
 .page-content {
   // // background-color: red;
   padding: 9rem 2rem 2rem;
+  // height: 100vh;
   
   @include r.tablet {
     padding: 5rem .5rem .5rem;
