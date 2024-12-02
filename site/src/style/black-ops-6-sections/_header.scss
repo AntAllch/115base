@@ -45,7 +45,7 @@ header{
           
         .nav-link{
           text-decoration: none;
-          letter-spacing: 0.5ch;
+          letter-spacing: 4.5px;
           color: white;
           // padding: 0.4ch 0.3ch 0.4ch 0.7ch;
           border-radius: 10px;
@@ -62,7 +62,7 @@ header{
           }
           
           &:hover::before{
-            width: calc(100% - 0.25ch);
+            width: calc(100% - 4.5px);
           }
         }
       }
