@@ -2,8 +2,13 @@
 @use '../abstracts/variables' as v;
 
 //background color for this header is set in the app.js file
+.main-home-header{
+  padding-block: 1rem;
+  display: grid;
+  place-items: center;
+}
+
 header{
-  align-items: center;
   position: fixed;
   width: 100%;
   backdrop-filter: blur(3rem);
