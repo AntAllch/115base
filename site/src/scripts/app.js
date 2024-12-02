@@ -70,11 +70,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
         //Adjust opacity based on scrolling up or down
         header.style.opacity = (isScrollingDown) ? '0' : '1';
-        pageNav.style.opacity = (isScrollingDown) ? '0' : '1';
+        // pageNav.style.opacity = (isScrollingDown) ? '0' : '1';
 
         //Adjust visibility based on scrolling up or down
         header.style.visibility = (isScrollingDown) ? 'hidden' : 'visible';
-        pageNav.style.visibility = (isScrollingDown) ? 'hidden' : 'visible';
+        // pageNav.style.visibility = (isScrollingDown) ? 'hidden' : 'visible';
 
         //Move the header up down based on scrolling up or down
         // header.style.transform = (isScrollingDown) ? 'translateY(-100%)' : 'translateY(0)';

@@ -3,65 +3,64 @@
 
 //background color for this header is set in the app.js file
 header{
-  display: flex;
-  justify-content: space-around;
   align-items: center;
-  padding-block: 1rem;
   position: fixed;
   width: 100%;
   backdrop-filter: blur(3rem);
   z-index: 5;
-  // transition: v.$transform-transition, v.$bg-transition;
   transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out, v.$transform-transition;
-
-
+  
+  
   //115base Logo
   svg{
-      width: 7rem;
-      fill: orange;
-      display: block;
+    width: 7rem;
+    fill: orange;
+    display: block;
   }
-
-  // header.scrolled{
-  //   background-color: orange;
-  // }
-
-  .nav-list{
+  
+  //The div containing the Logo and the Nav
+  .logo-nav{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    text-transform: uppercase;
-    font-size: 1.3rem;
+    justify-content: space-around;
+    align-items: center;
+    padding-block: 1rem;
 
-    @include r.mobile{
-        margin-bottom: 0;
-    }
-
-    .nav-item{
-        
+    .nav-list{
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      text-transform: uppercase;
+      font-size: 1.3rem;
+  
+      @include r.mobile{
+          margin-bottom: 0;
+      }
+  
+      .nav-item{
+          
         .nav-link{
-            text-decoration: none;
-            letter-spacing: 0.5ch;
-            color: white;
-            // padding: 0.4ch 0.3ch 0.4ch 0.7ch;
-            border-radius: 10px;
-            position: relative;
-    
-            &::before{
-              content: "";
-              width: 0;
-              height: 3px;
-              background-color: orange;
-              position: absolute;
-              bottom: -1px;
-              transition: width 0.2s ease-in-out;
-            }
-            
-            &:hover::before{
-              width: calc(100% - 0.25ch);
-            }
+          text-decoration: none;
+          letter-spacing: 0.5ch;
+          color: white;
+          // padding: 0.4ch 0.3ch 0.4ch 0.7ch;
+          border-radius: 10px;
+          position: relative;
+  
+          &::before{
+            content: "";
+            width: 0;
+            height: 3px;
+            background-color: orange;
+            position: absolute;
+            bottom: -1px;
+            transition: width 0.2s ease-in-out;
+          }
+          
+          &:hover::before{
+            width: calc(100% - 0.25ch);
+          }
         }
+      }
     }
   }
 }
@@ -70,20 +69,21 @@ header{
 .page-nav{
   background-color: rgba(white, 0.1);
   width: 100%;
-  position: absolute;
-  bottom: 0;
-  transform: translateY(100%);
   backdrop-filter: blur(3rem);
+  padding-block: 0.5rem;
   transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
   
-  .nav-list{
-    margin-block: 0.5rem;
+  .page-nav-list{
+    display: flex;
+    justify-content: center;
+    margin-block: 0;
     list-style: none;
     font-size: 1rem;
     gap: 3rem;
-    padding: 0;
+    // padding-block: 0.5rem;
+    text-transform: uppercase;
     
-    .nav-item{
+    .page-nav-item{
 
       .page-nav-link{
         color: orange;
@@ -114,7 +114,7 @@ header{
       flex-direction: column;
       align-items: center;
       gap: 1rem;
-      margin-block: 1rem;
+      // margin-block: 1rem;
       
       // .nav-link{
         //   background-color: red;
