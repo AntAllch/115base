@@ -11,8 +11,9 @@ header{
   width: 100%;
   backdrop-filter: blur(3rem);
   z-index: 5;
-  // transition: transform 1ms ease-in-out;
-  transition: v.$transform-transition, v.$bg-transition;
+  // transition: v.$transform-transition, v.$bg-transition;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out, v.$transform-transition;
+
 
   //115base Logo
   svg{
@@ -21,9 +22,9 @@ header{
       display: block;
   }
 
-  header.scrolled{
-    background-color: orange;
-  }
+  // header.scrolled{
+  //   background-color: orange;
+  // }
 
   .nav-list{
     display: flex;
@@ -43,41 +44,29 @@ header{
             text-decoration: none;
             letter-spacing: 0.5ch;
             color: white;
+            // padding: 0.4ch 0.3ch 0.4ch 0.7ch;
+            border-radius: 10px;
+            position: relative;
+    
+            &::before{
+              content: "";
+              width: 0;
+              height: 3px;
+              background-color: orange;
+              position: absolute;
+              bottom: -1px;
+              transition: width 0.2s ease-in-out;
+            }
+            
+            &:hover::before{
+              width: calc(100% - 0.25ch);
+            }
         }
     }
   }
 }
-@media (prefers-reduced-motion) {
-  .nav-list{
-    .nav-item{
-      .nav-link{
-        text-decoration: none;
-        letter-spacing: 0.5ch;
-        color: white;
-        // padding: 0.4ch 0.3ch 0.4ch 0.7ch;
-        border-radius: 10px;
-        position: relative;
 
-        &::before{
-          content: "";
-          width: 0;
-          height: 3px;
-          background-color: orange;
-          position: absolute;
-          bottom: -1px;
-          transition: width 0.2s ease-in-out;
-        }
-        
-        &:hover::before{
-          width: 100%;
-        }
-      }
-    }
-  }
-}
-  
-
-  // Navigation under main nav
+// Navigation under main nav
 .page-nav{
   background-color: rgba(white, 0.1);
   width: 100%;
@@ -85,7 +74,7 @@ header{
   bottom: 0;
   transform: translateY(100%);
   backdrop-filter: blur(3rem);
-  transition: v.$bg-transition;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
   
   .nav-list{
     margin-block: 0.5rem;

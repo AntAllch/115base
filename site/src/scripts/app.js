@@ -65,13 +65,30 @@ document.addEventListener('DOMContentLoaded', () => {
         const pageNav = document.querySelector('.page-nav');
         const currentScroll = window.scrollY;
 
-        //When scrolling down, the header moves up, out of view and when scrolling down the header moves back into view
-        header.style.transform = (currentScroll > lastScrollY) ? 'translateY(-100%)' : 'translateY(0)';
-        header.style.backgroundColor = (window.scrollY < 50) ? 'rgba(255, 255, 255, 0.05)' : 'rgba(10, 10, 45, 0.5)';
-        pageNav.style.backgroundColor = (window.scrollY < 50) ? 'rgba(255, 255, 255, 0.1)' : 'rgba(13, 13, 58, 0.7)';
+        //Determines scroll direction: Up or Down
+        const isScrollingDown = currentScroll > lastScrollY;
+
+        //Adjust opacity based on scrolling up or down
+        header.style.opacity = (isScrollingDown) ? '0' : '1';
+        pageNav.style.opacity = (isScrollingDown) ? '0' : '1';
+
+        //Adjust visibility based on scrolling up or down
+        header.style.visibility = (isScrollingDown) ? 'hidden' : 'visible';
+        pageNav.style.visibility = (isScrollingDown) ? 'hidden' : 'visible';
+
+        //Move the header up down based on scrolling up or down
+        // header.style.transform = (isScrollingDown) ? 'translateY(-100%)' : 'translateY(0)';
 
         //Update the scroll position to the current position
         lastScrollY = currentScroll;
+        
+        
+
+        //Adjust background colors based on scrolling up or down
+        // header.style.backgroundColor = (isScrollingDown) ? 'rgba(255, 255, 255, 0.05)' : 'rgba(10, 10, 45, 0.5)';
+        // pageNav.style.backgroundColor = (isScrollingDown) ? 'rgba(255, 255, 255, 0.1)' : 'rgba(13, 13, 58, 0.7)';
+
+
 
     })
 
