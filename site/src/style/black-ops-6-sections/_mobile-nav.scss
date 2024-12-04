@@ -50,7 +50,8 @@
     top: 85px;
     right: 0;
     z-index: 500;
-    transition: v.$transform-transition;
+    // transition: v.$transform-transition;
+    transition: transform 500ms cubic-bezier(.41,.86,.42,1.03);
 
     .mobile-nav-list{
       list-style: none;

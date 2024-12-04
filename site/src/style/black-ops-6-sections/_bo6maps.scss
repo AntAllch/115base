@@ -1,7 +1,12 @@
+@use '../abstracts/mixins' as r;
+
 .banner{
     // outline: 2px solid red;
     // height: 300px;
-    padding-block: 3rem;
+
+    @include r.tablet{
+        padding-top: 5rem;
+    }
     
     // background: 
     // linear-gradient(

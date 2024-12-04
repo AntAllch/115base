@@ -47,10 +47,12 @@
   <div class='mobile-nav'>
 
     <ul class="mobile-nav-list">
-      <li class="mobile-nav-item"><a a class="mobile-nav-link" {% if page.fileSlug === '/bo6home/' %}aria-current="page"{% endif %} href="/bo6home/">Home</a></li>
+      <li class="mobile-nav-item"><a a class="mobile-nav-link" {% if page.fileSlug === '/' %}aria-current="page"{% endif %} href="/">Home</a></li>
+      <li class="mobile-nav-item"><a a class="mobile-nav-link" {% if page.fileSlug === '/bo6maps/' %}aria-current="page"{% endif %} href="/bo6maps/">Maps</a></li>
+      <li class="mobile-nav-item"><a a class="mobile-nav-link mn" {% if page.fileSlug === '/main-eggs/liberty-falls/' %}aria-current="page"{% endif %} href="/main-eggs/liberty-falls/"> - Liberty Falls</a></li>
+      <li class="mobile-nav-item"><a a class="mobile-nav-link mn" {% if page.fileSlug === '/main-eggs/terminus/' %}aria-current="page"{% endif %} href="/main-eggs/terminus/"> - Terminus</a></li>
+      <li class="mobile-nav-item"><a a class="mobile-nav-link mn" {% if page.fileSlug === '/main-eggs/citadelle-des-morts/' %}aria-current="page"{% endif %} href="/main-eggs/citadelle-des-morts/"> - Citadelle Des Morts</a></li>
       <li class="mobile-nav-item"><a a class="mobile-nav-link" {% if page.fileSlug === '/medals/' %}aria-current="page"{% endif %} href="/medals/">Medals</a></li>
-      <li class="mobile-nav-item"><a a class="mobile-nav-link" {% if page.fileSlug === '/main-eggs/liberty-falls/' %}aria-current="page"{% endif %} href="/main-eggs/liberty-falls/">Liberty Falls</a></li>
-      <li class="mobile-nav-item"><a a class="mobile-nav-link" {% if page.fileSlug === '/main-eggs/terminus/' %}aria-current="page"{% endif %} href="/main-eggs/terminus/">Terminus</a></li>
       <li class="mobile-nav-item"><a a class="mobile-nav-link" {% if page.fileSlug === '/bo6weapons/' %}aria-current="page"{% endif %} href="/bo6weapons/">Weapons</a></li>
     </ul>
 
