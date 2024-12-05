@@ -3,33 +3,33 @@ title: Citadelle Des Morts
 date: 2024-10-30
 weaponLocations: 
 -
-    weapon: Weapon
-    location: Location
-    type: Type
+    weapon: XM4
+    location: Upper Village
+    type: Assault Rifle
 -
-    weapon: 
-    location: 
-    type: 
+    weapon: AS Val
+    location: Courtyard
+    type: Assault Rifle
 -
-    weapon: 
-    location: 
-    type: 
+    weapon: LR 7.62
+    location: Hillside Ramparts
+    type: Sniper Rifle
 -
-    weapon: 
-    location: 
-    type: 
+    weapon: Tanto .22
+    location: Dining Hall
+    type: SMG
 -
-    weapon: 
-    location: 
-    type: 
+    weapon: KSV
+    location: Dungeon
+    type: SMG
 -
-    weapon: 
-    location: 
-    type: 
+    weapon: Marine SP
+    location: Sitting Rooms
+    type: Shotgun
 -
-    weapon: 
-    location: 
-    type: 
+    weapon: GPMG-7
+    location: Undercroft
+    type: LMG
 -
     weapon: 
     location: 
@@ -54,28 +54,34 @@ weaponLocations:
 perkLocations: 
 -
     perk: Quick Revive
-    location: Interrogation Rooms
+    location: Dungeon
 -
-    perk: Juggernog
-    location: Interrogation Rooms
+    perk: Jugger-Nog
+    location: Entrance Hall
 -
     perk: Vulture Aid
-    location: Interrogation Rooms
+    location: Dining Hall
 -
     perk: Deadshot Daquiri
-    location: Interrogation Rooms
+    location: 
 -
-    perk:  
-    location: Interrogation 
+    perk: Melee Macchiato
+    location: Courtyard 
 -
-    perk:  
-    location: Interrogation 
+    perk: Elemental Pop
+    location: Hillside Ramparts 
 -
-    perk:  
-    location: Interrogation 
+    perk: Speed Cola
+    location: Upper Village 
 -
-    perk:  
-    location: Interrogation 
+    perk: Staminup
+    location: Sitting Rooms 
+-
+    perk: 
+    location:   
+-
+    perk: 
+    location:  
 
 
 layout: eggSteps.njk
@@ -85,25 +91,62 @@ tags: mainEgg
 ---
 
 <h3 id='egg-steps'>Pre-Steps</h3>
- 
-Pre Step 1
+
 
 ---
 
-### Step 1 - 
-
-Step 1
+### Step 1
 
 ---
 
-### Step 2 -
+### Step 2
 
-Step 2
+
 
 ---
 
 ### Step 16 - BOSS FIGHT
 
 GET POWERFUL WEAPONS - LEGENDARY 3 PACKED (WITH DEADWIRE OR NAPALM BURST IS GOOD)
+
+---
+
+### Arsenal Locations
+
+Tavern, Courtyard
+
+### Gobblegum Locations
+
+Spawn, Courtyard, Obliette Room (PAP)
+
+### Ammo Cache Locations
+
+Spawn, Upper Village, Courtyard, Village Ramparts, Entrance Hall, Dining Hall, Undercroft, Obliette Room (PAP)
+
+### Oil Trap Locations
+
+Top of Oil Trap - Village Ramparts
+Bottom of Oil Trap - Upper Village
+Top of Oil Trap - Hillside Ramparts
+
+### Point of Power Trap Locations
+
+Courtyard, Sitting Rooms
+
+### Crafting Table Locations
+
+Spawn, Entrance Hall
+
+### Mystery Box Locations
+
+Undercroft
+
+### Armour Locations
+
+Level 2 - Tavern (in the pub)
+Level 3 - Alchemical Lab
+
+
+
 
 
