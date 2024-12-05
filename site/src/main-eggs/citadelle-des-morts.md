@@ -125,8 +125,8 @@ Spawn, Upper Village, Courtyard, Village Ramparts, Entrance Hall, Dining Hall, U
 
 ### Oil Trap Locations
 
-Top of Oil Trap - Village Ramparts
-Bottom of Oil Trap - Upper Village
+Top of Oil Trap - Village Ramparts,
+Bottom of Oil Trap - Upper Village,
 Top of Oil Trap - Hillside Ramparts
 
 ### Point of Power Trap Locations
@@ -143,7 +143,7 @@ Undercroft
 
 ### Armour Locations
 
-Level 2 - Tavern (in the pub)
+Level 2 - Tavern (in the pub),
 Level 3 - Alchemical Lab
 
 
