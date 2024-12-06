@@ -94,8 +94,13 @@ tags: mainEgg
 
 ---
 
-<h3 id='egg-steps'>Pre-Steps</h3>
+<h3 id='egg-steps'>Pre-Steps - Get the Basic Swords</h3>
 
+ - The easter egg cannot be done without the upgraded swords, so the first step is to get the Basic Swords
+
+ - To get the swords, you must wait until atleast round 10 and kill a zombie wearing a knights helmet, it will drop a stamp
+
+ - You then interact with any of the 4 Knights statues holding a sword and you will then be given a sword to pick up
 
 ---
 
