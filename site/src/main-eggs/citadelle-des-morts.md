@@ -3,6 +3,10 @@ title: Citadelle Des Morts
 date: 2024-10-30
 weaponLocations: 
 -
+    weapon: GS45
+    location: Town Square
+    type: Pistol
+-
     weapon: XM4
     location: Upper Village
     type: Assault Rifle
@@ -31,9 +35,9 @@ weaponLocations:
     location: Undercroft
     type: LMG
 -
-    weapon: 
-    location: 
-    type: 
+    weapon: Kompakt 92
+    location: Hilltop
+    type: SMG
 -
     weapon: 
     location: 
@@ -63,7 +67,7 @@ perkLocations:
     location: Dining Hall
 -
     perk: Deadshot Daquiri
-    location: 
+    location: Hilltop
 -
     perk: Melee Macchiato
     location: Courtyard 
@@ -117,11 +121,11 @@ Tavern, Courtyard
 
 ### Gobblegum Locations
 
-Spawn, Courtyard, Obliette Room (PAP)
+Town Square, Courtyard, Oubliette Room (PAP)
 
 ### Ammo Cache Locations
 
-Spawn, Upper Village, Courtyard, Village Ramparts, Entrance Hall, Dining Hall, Undercroft, Obliette Room (PAP)
+Town Square, Upper Village, Courtyard, Village Ramparts, Entrance Hall, Dining Hall, Undercroft, Oubliette Room (PAP)
 
 ### Oil Trap Locations
 
@@ -131,7 +135,7 @@ Top of Oil Trap - Hillside Ramparts
 
 ### Point of Power Trap Locations
 
-Courtyard, Sitting Rooms
+Village Ascent, Courtyard, Sitting Rooms
 
 ### Crafting Table Locations
 
@@ -139,12 +143,12 @@ Spawn, Entrance Hall
 
 ### Mystery Box Locations
 
-Undercroft
+Village Ascent, Hilltop, Undercroft, Entrance Hall
 
 ### Armour Locations
 
 Level 2 - Tavern (in the pub),
-Level 3 - Alchemical Lab
+Level 3 - Alchemical Lab, Oubliette Room (PAP)
 
 
 
