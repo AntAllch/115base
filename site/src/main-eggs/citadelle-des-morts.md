@@ -95,7 +95,7 @@ tags: mainEgg
 
 - A storm will appear and you have to survive with the Stag sword equipped until it has electricity around the blade, you then hit the Vase to transfer the electricity into it
 
-- Once you have done all 3, interact with the Vase and it will place the sword inside, you have to wait a minute and it will return the upgraded Lightning Sword
+- Once you have done all 3, interact with the Vase and it will place the sword inside, you have to wait a few seconds and it will return the upgraded Lightning Sword
 
 ---
 
@@ -103,13 +103,13 @@ tags: mainEgg
 
 - Take the Basic sword and interact with the dragon head at the top of the stairs in Entrance Hall, your Sword will then be placed inside and the dragon will activate
 
-- There will be 3 Braziers that are now filled with fire, you must go to each one and interact with it, you will then be covered with fire and you must run back to the Dragon where you placed your sword
+- There will be 3 Braziers that are now filled with fire, you must go to each one and interact with it, you will then be covered with fire and you must run back to the Dragon where you placed your sword and interact with it to transfer the fire into the Dragon
 
 - The 3 locations are Village Ramparts (near the Lion Cannon), Town Square and (3rd location)
 
 - To make sure you don't die, you can one hit kill Zombies on the way to the dragon and it will fully restore your health
 
-- MAKE SURE YOU DONT RUN OUT OF HEALTH BECAUSE IT WILL END YOUR GAME
+- MAKE SURE YOU DONT RUN OUT OF HEALTH OTHERWISE IT WILL END YOUR GAME
 
 - Once you have done all 3, the Dragon will breath fire on your sword and you can pick up your Upgraded sword
 
