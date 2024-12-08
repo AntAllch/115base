@@ -89,11 +89,11 @@ tags: mainEgg
 
 <h3 id='lightning-sword'>Upgrade Swords - Lightning Sword (Stag)</h3> <br>
 
-- Pick up 3 Lightning Rods: One is next to Deadshot, one you obtain by shooting the electrical box near Speed Cola using a weapon with Dead Wire attached, and the last one drops from a Zombie.
+- Pick up 3 Lightning Rods: One is next to Deadshot, the next one you obtain by using a Shock Charge on the electrical box near Speed Cola OR shooting it using a weapon with Dead Wire attached, and the last one drops from a Zombie (to get this one, you must have the base stag sword and the zombie will spawn in when you are in the Dungeon).
 
 - Once you have obtained all 3, go to a Vase at Hillside Ramparts and interact with it to place all 3 lightning rods inside it
 
-- A storm will appear and you have to get kills with the Stag sword until it has electricity around the blade, you then hit the Vase to transfer the electricity into it
+- A storm will appear and you have to survive with the Stag sword equipped until it has electricity around the blade, you then hit the Vase to transfer the electricity into it
 
 - Once you have done all 3, interact with the Vase and it will place the sword inside, you have to wait a minute and it will return the upgraded Lightning Sword
 
