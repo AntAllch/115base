@@ -194,15 +194,15 @@ Jaw:
 <h3 id='light-sword'>Upgrade Swords - Light Sword (Lion)</h3> <br>
 
 
-- Once you pick up the Basic Sword from the Knight with the Lion armour, 4 glowing Parasites will appear, take them to the door with the Lion head knocker at (location)
+- Once you pick up the Basic Sword from the Knight with the Lion armour, 4 glowing Parasites will appear, take them to the door with the Lion head knocker at Upper Village (in the covered section, on the right side of the Ammo Cache)
 
-- Now you must kill the parasites with the Lion Sword, 1 at a time, once you have killed 1, your sword will glow, hit the door with the Lion head knocker on it using the glowing Lion sword, a symbol will appear on the door, repeat this until you have all 4 glowing symbols on the door
+- Now you must kill the parasites with the Lion Sword, 1 at a time, once you have killed 1, your sword will glow, hit the door with the Lion head knocker on it using the Sword, a symbol will appear on the door, repeat this until you have all 4 glowing symbols on the door
 
-- Once all 4 symbols are on the door, interact with it to go into the room behind the door
+- Once all 4 symbols are on the door, interact with it
 
-- You will come up to a pedestal at the back of the room, interact with it to place your sword into it
+- You will then be placed inside a room, you'll come up to a pedestal at the back of the room, interact with it to place your Sword into it
 
-- You'll see 4 symbols floating in the air and a symbol glowing on the pedestal, you must shoot the same symbol floating in the air as the one on the pedestal, do this for all 4 symbols and your sword will start glowing
+- You'll see 4 symbols floating in the air and a symbol glowing on the pedestal, you must shoot the same symbol floating in the air that appears on the pedestal, do this for all 4 symbols and your Sword will start glowing
 
 - You can now pick up your upgraded Light Sword
 
