@@ -89,7 +89,7 @@ tags: mainEgg
 
 <h3 id='lightning-sword'>Upgrade Swords - Lightning Sword (Stag)</h3> <br>
 
-- Pick up 3 Lightning Rods: One is next to Deadshot, the next one you obtain by using a Shock Charge on the electrical box near Speed Cola OR shooting it using a weapon with Dead Wire attached, and the last one drops from a Zombie (to get this one, you must have the base stag sword and the zombie will spawn in when you are in the Dungeon).
+- Pick up 3 Lightning Rods: One is next to Deadshot, the next one you obtain by using a Shock Charge on the electrical box near Speed Cola OR shooting it using a weapon with Dead Wire attached, and the last one drops from a Zombie (to get this one, you must have the Basic Stag Sword and the zombie will spawn in when you are in the Dungeon).
 
 - Once you have obtained all 3, go to a Vase at Hillside Ramparts and interact with it to place all 3 lightning rods inside it
 
@@ -101,7 +101,7 @@ tags: mainEgg
 
 <h3 id='fire-sword'>Upgrade Swords - Fire Sword (Dragon)</h3> <br>
 
-- Take the Basic sword and interact with the dragon head at the top of the stairs in Entrance Hall, your Sword will then be placed inside and the dragon will activate
+- Take the Basic Dragon Sword and interact with the dragon head at the top of the stairs in Entrance Hall, your Sword will then be placed inside and the dragon will activate
 
 - There will be 3 Braziers that are now filled with fire, you must go to each one and interact with it, you will then be covered with fire and you must run back to the Dragon where you placed your sword and interact with it to transfer the fire into the Dragon
 
@@ -117,7 +117,7 @@ tags: mainEgg
 
 <h3 id='dark-sword'>Upgrade Swords - Dark Sword (Raven)</h3> <br>
 
-- In the Alchemical Room, you need to find 1 of 5 items, the item you need to pick up may change each time you start a new game
+- Pick up the Basic Raven Sword and go to the Alchemical Room, you need to find 1 of 5 items, the item you need to pick up may change each time you start a new game
 
 - The item you are looking for is either: Ram horn, Scorpion, Fish Rock, Raven Skulls or Jaw Bone
 
