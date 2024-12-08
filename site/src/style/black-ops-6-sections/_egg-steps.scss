@@ -5,6 +5,40 @@
 
 #page-egg-steps{
 
+    .dark-puzzle-groups{
+
+        display: flex;
+        // justify-content: space-around;
+        // flex-wrap: wrap;
+        gap: 1rem;
+        outline-offset: 10px;
+        width: min(90%, 100%);
+        margin: 0 auto;
+
+        // @include r.tablet{
+        //     // justify-content: left;
+        // }
+
+        .dark-puzzle{
+            // display: flex;
+            // align-items: flex-start;
+            width: fit-content;
+    
+            p{
+                font-size: 1.5rem;
+                position: relative;
+                display: inline-block;
+                color: white;
+            }
+    
+            img{
+                border: 2px solid rgba(orange, 0.5);
+            }
+        }
+
+    }
+
+
     .guide-bodies{
 
         display: flex;
