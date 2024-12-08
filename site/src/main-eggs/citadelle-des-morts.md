@@ -105,7 +105,7 @@ tags: mainEgg
 
 - There will be 3 Braziers that are now filled with fire, you must go to each one and interact with it, you will then be covered with fire and you must run back to the Dragon where you placed your sword and interact with it to transfer the fire into the Dragon
 
-- The 3 locations are Village Ramparts (near the Lion Cannon), Town Square and (3rd location)
+- The 3 locations are Village Ramparts (near the Lion Cannon), Town Square and Nature Path (near the gate to Town Square)
 
 - To make sure you don't die, you can one hit kill Zombies on the way to the dragon and it will fully restore your health
 
