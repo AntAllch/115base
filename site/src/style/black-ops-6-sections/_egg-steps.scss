@@ -147,7 +147,8 @@
                         }
                     }
                 }
-        
+                
+                //The horizontal line that separates the different sections for ONLY the easter egg steps
                 hr{
                     max-width: 400px;
                     margin: 2rem 0;
@@ -156,6 +157,7 @@
                     //768px
                     @include r.tablet{
                         margin: 2rem auto;
+                        background-image: linear-gradient(to right, transparent, rgba(orange, 0.75), transparent);
                     }
                 }
                 

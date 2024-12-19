@@ -9,13 +9,11 @@ hr {
   width: 90%;
   max-width: 800px;
   height: 1px;
-  // background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(orange, 0.75), rgba(0, 0, 0, 0));
-  // background-color: orange;
+  // background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(orange, 0.75), rgba(0, 0, 0, 0));
 
-  @include r.tablet{
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(orange, 0.75), rgba(0, 0, 0, 0)) !important;
-  }
+  // @include r.tablet{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(orange, 0.75), rgba(0, 0, 0, 0));
+  // }
 
 }
 

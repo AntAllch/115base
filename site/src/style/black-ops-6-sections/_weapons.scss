@@ -1,3 +1,5 @@
+@use '../abstracts/mixins' as r;
+
 #page-weapon-builds{
     
     .game-block{
@@ -118,7 +120,56 @@
     }
 }
 
-// #page-weapon-build{
-
+#page-weapon-stats{
+    .listed-item{
+        flex-wrap: wrap;
+    }
     
+    .item-name, p{
+        text-align: left;
+
+        @include r.mobile{
+            text-align: center;
+        }
+    }
+
+    hr{
+        margin-inline: 0;
+        background-image: linear-gradient(to right, rgba(orange, 0.75), rgba(orange, 0.75), transparent);
+
+        @include r.mobile{
+            margin-inline: auto;
+            background-image: linear-gradient(to right, transparent, rgba(orange, 0.75), transparent);
+        }
+    }
+}
+
+// .weapon-item{
+//     font-size: 1.3rem;
+//     margin-bottom: 1rem;
+    
+//     // hr{
+//     //     background-image: linear-gradient(to right, rgba(orange, 0.75), rgba(orange, 0.75), transparent);
+//     // }
+
+//     @include r.tablet{
+//         text-align: center;
+//     }
+
+//     .item-name{
+//         font-size: 2rem;
+//         color: orange;
+//     }
+    
+//     .weapon-type{
+//         color: orange;
+
+//         @include r.mobile{
+//             display: inline-block;
+//             background-color: rgba(white, 0.1);
+//             padding-inline: 0.5rem;
+//             border-radius: 4px;
+//             margin-top: 0.5rem;
+//         }
+//     }
 // }
