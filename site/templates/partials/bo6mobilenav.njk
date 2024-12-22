@@ -48,10 +48,14 @@
 
     <ul class="mobile-nav-list">
       <li class="mobile-nav-item"><a a class="mobile-nav-link" {% if page.fileSlug === '/' %}aria-current="page"{% endif %} href="/">Home</a></li>
-      <li class="mobile-nav-item"><a a class="mobile-nav-link" {% if page.fileSlug === '/bo6maps/' %}aria-current="page"{% endif %} href="/bo6maps/">Maps</a></li>
-      <li class="mobile-nav-item"><a a class="mobile-nav-link mn" {% if page.fileSlug === '/main-eggs/liberty-falls/' %}aria-current="page"{% endif %} href="/main-eggs/liberty-falls/"> - Liberty Falls</a></li>
-      <li class="mobile-nav-item"><a a class="mobile-nav-link mn" {% if page.fileSlug === '/main-eggs/terminus/' %}aria-current="page"{% endif %} href="/main-eggs/terminus/"> - Terminus</a></li>
-      <li class="mobile-nav-item"><a a class="mobile-nav-link mn" {% if page.fileSlug === '/main-eggs/citadelle-des-morts/' %}aria-current="page"{% endif %} href="/main-eggs/citadelle-des-morts/"> - Citadelle Des Morts</a></li>
+      <div class="mobile-nav-item dropdown">
+        <p class="mobile-nav-link">Maps</p>
+        <a class="mobile-nav-link mn" {% if page.fileSlug === '/main-eggs/liberty-falls/' %}aria-current="page"{% endif %} href="/main-eggs/liberty-falls/"> - Liberty Falls</a>
+        <a class="mobile-nav-link mn" {% if page.fileSlug === '/main-eggs/terminus/' %}aria-current="page"{% endif %} href="/main-eggs/terminus/"> - Terminus</a>
+        <a class="mobile-nav-link mn" {% if page.fileSlug === '/main-eggs/citadelle-des-morts/' %}aria-current="page"{% endif %} href="/main-eggs/citadelle-des-morts/"> - Citadelle Des Morts</a>
+        <svg class='down-arrow' xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-200 240-440l56-56 184 183 184-183 56 56-240 240Zm0-240L240-680l56-56 184 183 184-183 56 56-240 240Z"/></svg>
+      </div>
+    
       <li class="mobile-nav-item"><a a class="mobile-nav-link" {% if page.fileSlug === '/medals/' %}aria-current="page"{% endif %} href="/medals/">Medals</a></li>
       <li class="mobile-nav-item"><a a class="mobile-nav-link" {% if page.fileSlug === '/bo6weapons/' %}aria-current="page"{% endif %} href="/bo6weapons/">Weapons</a></li>
     </ul>

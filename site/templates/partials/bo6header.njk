@@ -23,18 +23,45 @@
 
     <div class="page-nav">
       <ul class="page-nav-list">
+
         <li class="page-nav-item"><a href="#egg-steps" class="page-nav-link">Easter Egg</a></li>
         {% if page.fileSlug === 'terminus' %}<li class="page-nav-item"><a href="#terminus-calculator" class="page-nav-link">Calculator</a></li>{% endif %}
 
-        {% if page.fileSlug === 'citadelle-des-morts' %}<li class="page-nav-item"><a href="#lightning-sword" class="page-nav-link">Lightning Sword</a></li>{% endif %}
+        {# {% if page.fileSlug === 'citadelle-des-morts' %}<li class="page-nav-item"><a href="#lightning-sword" class="page-nav-link">Lightning Sword</a></li>{% endif %}
         {% if page.fileSlug === 'citadelle-des-morts' %}<li class="page-nav-item"><a href="#fire-sword" class="page-nav-link">Fire Sword</a></li>{% endif %}
         {% if page.fileSlug === 'citadelle-des-morts' %}<li class="page-nav-item"><a href="#dark-sword" class="page-nav-link">Dark Sword</a></li>{% endif %}
-        {% if page.fileSlug === 'citadelle-des-morts' %}<li class="page-nav-item"><a href="#light-sword" class="page-nav-link">Light Sword</a></li>{% endif %}
+        {% if page.fileSlug === 'citadelle-des-morts' %}<li class="page-nav-item"><a href="#light-sword" class="page-nav-link">Light Sword</a></li>{% endif %} #}
+        {% if page.fileSlug === 'citadelle-des-morts' %}<li class="page-nav-item" id='swords'>
+          <a href="" class="page-nav-link">Swords</a>
+          <div class="dropdown">
+            <ul class="dropdown-list">
+              <li class="dropdown-item"><a href="#lightning-sword" class="dropdown-link">Lightning Sword</a></li>
+              <li class="dropdown-item"><a href="#fire-sword" class="dropdown-link">Fire Sword</a></li>
+              <li class="dropdown-item"><a href="#dark-sword" class="dropdown-link">Dark Sword</a></li>
+              <li class="dropdown-item"><a href="#light-sword" class="dropdown-link">Light Sword</a></li>
+            </ul>
+          </div>
+        </li>{% endif %}
+
+        {% if page.fileSlug === 'citadelle-des-morts' %}<li class="page-nav-item" id='incantations'>
+          <a href="" class="page-nav-link">Incantations</a>
+          <div class="dropdown">
+            <ul class="dropdown-list">
+              <li class="dropdown-item"><a href="#lightning-incantation" class="dropdown-link">Lightning Incantation</a></li>
+              <li class="dropdown-item"><a href="#fire-incantation" class="dropdown-link">Fire Incantation</a></li>
+              <li class="dropdown-item"><a href="#dark-incantation" class="dropdown-link">Dark Incantation</a></li>
+              <li class="dropdown-item"><a href="#light-incantation" class="dropdown-link">Light Incantation</a></li>
+            </ul>
+          </div>
+        </li>{% endif %}
         
         <li class="page-nav-item"><a href="#wl" class="page-nav-link">Weapons Locations</a></li>
         <li class="page-nav-item"><a href="#pl" class="page-nav-link">Perk locations</a></li>
+
+
       </ul>
     </div>
+
     
   {% endif %}
 

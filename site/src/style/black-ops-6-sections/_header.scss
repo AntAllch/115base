@@ -8,10 +8,15 @@
   place-items: center;
 }
 
+header,
+.dropdown{
+
+  backdrop-filter: blur(3rem);
+}
+
 header{
   position: fixed;
   width: 100%;
-  backdrop-filter: blur(3rem);
   z-index: 5;
   transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out, v.$transform-transition;
   
@@ -88,7 +93,7 @@ header{
   text-align: center;
   background-color: rgba(white, 0.1);
   width: 100%;
-  padding-block: 0.5rem;
+  padding-inline: 1rem;
   transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
   
   .page-nav-list{
@@ -96,18 +101,64 @@ header{
     margin: 0 auto;
     padding: 0;
     list-style: none;
-    gap: 2rem;
     text-transform: uppercase;
     
     .page-nav-item{
 
       .page-nav-link{
+        display: inline-block;
         color: orange;
         text-decoration: none;
         letter-spacing: 0.5ch;
-        padding: 0.4ch 0.3ch 0.4ch 0.7ch;
+        // padding: 0.4ch 0.3ch 0.4ch 0.7ch;
+        margin: 0.5rem 1.5rem;
       }
 
+    }
+  
+    .dropdown{
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: rgba(white, 0.15);
+      padding: 0.5rem 1rem;
+      transition: opacity 0.2s ease-in-out;
+      opacity: 0;
+      pointer-events: none;
+      visibility: hidden;
+  
+      .dropdown-list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 0;
+        gap: 2rem;
+        
+        .dropdown-item{
+  
+          .dropdown-link{
+            text-decoration: none;
+            letter-spacing: 0.5ch;
+            color: white;
+          }
+  
+        }
+      }
+    }
+
+    #swords:hover .dropdown,
+    #swords:focus-within .dropdown,
+    #incantations:hover .dropdown,
+    #incantations:focus-within .dropdown,
+    .dropdown:hover,
+    .dropdown:focus-within{
+      opacity: 1;
+      pointer-events: auto;
+      visibility: visible;
     }
 
   }

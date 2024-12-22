@@ -75,7 +75,45 @@ tags: mainEgg
 
 ---
 
-<h3 id='egg-steps'>Pre-Steps - Get the Basic Swords</h3>
+<h3 id='egg-steps'>Easter Egg Pre-Steps</h3>
+
+- In order to progress this egg, you must get the Basic Swords and upgrade to all 4 Elemental Swords, get all 4 incantations and complete all 4 Point of Power Traps
+
+- You can either complete all 4 Point of Power Traps OR Sword upgrades first, but the incantations can only be collected once you have completed the corresponding Sword element
+
+- Once you have completed the Swords, incantations and Power Traps, you can move onto the next stage
+
+---
+
+### Step 1 - Knights Salute <br>
+
+- After the first set of stairs leading down from the Sitting Room into the Undercroft, you will see a wall with an Orb holder and 4 symbols on it, these symbols correspond to the Elemental Swords (Lightning, Fire, Light, Dark)
+
+- Pay attention to the order of the symbols because the next stage must be done in the correct order. The correct order is a clockwise direction from the top (so the 12, 3, 6 and 9 oclock positions)
+
+- You must use the incantation on the Knight so he glows and then weapon inspect infront of that same Knight, he will then salute and a yellow glow will appear on the Knight (Example: Use the Fire incantation on the Dragon Knight, the Lightning incantation on the Stag Knight, etc)
+
+- You do this infront of all 4 Knights and they MUST be done in the correct order
+
+---
+
+<h3 class='space'>Step 2 - Orb Trials</h3>
+
+Once they all have a yellow glow on them, you will see 4 white beams fire up into the centre of the knights area and they will bring down a white orb, collect the orb and you are ready for the trials stage. You must complete 4 different trials ([Light](#lightning-sword), [Dark](#dark-sword), [Fire](#fire-sword), [Lightning](#lightning-sword))
+
+---
+
+### Step 3 - Guardian Key <br>
+
+- When you have finished all 4 trials, head back to the wall with the 4 symbols on it and place the orb onto the holder on the wall, the wall will then open up and you can go inside the room behind it
+
+- A Ghost of the Owl will appear above the table in the room and talk, while he is talking you can pick up the guardian key (you do not have to listen to what he says, you can just grab the key and run back to Spawn)
+
+- Once you have the key, go back to the Town Square and interact with the front of the Titan statue to place the key into it, the statue will then come to life and you will be teleported into the Boss arena
+
+---
+
+<h3 id='egg-steps'>Get the Basic Swords</h3>
 
 - The easter egg cannot be done without the upgraded swords, so the first step is to get the Basic Swords
 
@@ -109,7 +147,7 @@ tags: mainEgg
 
 - To make sure you don't die, you can one hit kill Zombies on the way to the dragon and it will fully restore your health
 
-- MAKE SURE YOU DONT RUN OUT OF HEALTH OTHERWISE IT WILL END YOUR GAME
+- <span class='note-text'>MAKE SURE YOU DONT RUN OUT OF HEALTH OTHERWISE IT WILL END YOUR GAME</span>
 
 - Once you have done all 3, the Dragon will breath fire on your sword and you can pick up your Upgraded sword
 
@@ -179,7 +217,7 @@ Jaw:
 
 - Once you have entered the correct symbol pair, a portal will open up on the floor in the Tavern Cellar, little purple orbs will start to come out of the puzzle on the wall and move towards you, you need to lead them into the portal by standing the opposite side of the portal so the orbs are sucked into it
 
-- BE AWARE THAT THESE ORBS CAN DAMAGE YOU IF THEY TOUCH YOU
+- <span class='note-text'>BE AWARE THAT THESE ORBS CAN DAMAGE YOU IF THEY TOUCH YOU</span>
 
 - Once you have lead 3 orbs into the portal, the portal will move to a second location, the floor above, in the Tavern
 
@@ -208,70 +246,157 @@ Jaw:
 
 ---
 
-<!-- <h3 id='light-sword'>Incantation - Lightning</h3> <br>
+<h3 id='lightning-incantation'>Incantation - Lightning (Stag)</h3> <br>
 
-Step
+- To start this incantation step, you need to collect <span class='note-incantation'>Otto's Horseshoe</span>
 
---- -->
+- Head to the Barn on Hilltop, and go through the doorway to the right of Deadshot, turn left and you will see another doorway, above that you will see a horseshoe, just shoot it and it will drop onto the floor, you can now interact with it to pick it up
 
-<!-- <h3 id='light-sword'>Incantation - Fire</h3> <br>
+- <span class='note-text'>BE AWARE FOR THIS NEXT STEP, YOU MUST HAVE SPOKEN TO KRAFFT FOR THE LIGHTING STRIKE TO APPEAR</span>
 
-Step
+- Head to the Lion Cannon at the Castle and interact with it to go inside it (this cost 500 points), it will now shoot you back over to Town Square, as you are being shot through the air, a bolt of lightning will appear and you will lose the horseshoe from your inventory
+
+- Once you have landed, look up in the sky for a dark grey cloud with lightning appearing from it (it will take a couple of seconds to appear), go to the cloud and on the floor you will see the horseshoe, interact with it to pick it up (be careful when you approach it because the storm spawns in Zombies)
+
+- Go back into Town Square and go towards the gate that leads to Nature Path, move towards the left of the gate (while still in Town Square), and you will see a golden circular pattern appear on the floor, stand over it and hold your interact button and it will place the horseshoe down
+
+- This will start spawning in Zombies, you must kill them in order for the Zombie souls to go into the horseshoe (basically a soul box)
+
+- Once you have enough souls, a shockwave will appear and kill the rest of the Zombies, a gold glowing chest will then appear out of the floor, to open it, you have to hit it with the corresponding Upgraded Sword, so in this case, the Lightning Sword
 
 ---
 
-<h3 id='light-sword'>Incantation - Dark</h3> <br>
+<h3 id='fire-incantation'>Incantation - Fire (Dragon)</h3> <br>
 
-Step
+- To start this incantation step, you need to collect <span class='note-incantation'>Ra's Ankh</span>
+
+- <span class='note-text'>BE AWARE FOR THIS NEXT STEP, YOU MUST HAVE SPOKEN TO KRAFFT IN ORDER TO BE ABLE TO SET THE PYRES ON FIRE</span>
+
+- The first step is to set 3 pyres on fire, you can do this by either throwing a Molotov, using the Fire Sword ability or Thermogrenades (although this is difficult, so I would avoid this option)
+
+- One pyre can be seen from Hillside Rampart above the entrance to the room with Elemental Pop, the second pyre is on the cliff above Speed Cola (this can be accessed easier by standing infront of the buyable wall, to the left of the unlit Brazier), and the 3rd pyre is above the door that leads into the castle (you can see this by standing infront of the Lion Cannon, facing the castle)
+
+- Each time you set a pyre on fire, it will spawn in a few zombies. Once all 3 are lit, it will spawn in a Doppelghast
+
+- <span class='note-text'>NOTE: YOU DO NOT HAVE TO KILL ANY ZOMBIES THAT SPAWN IN, AS LONG AS ALL 3 PYRES ARE LIT, THE DOPPELGHAST WILL SPAWN IN</span>
+
+- Kill the Doppleghast and it will drop Ra's Ankh, interact with it to pick it up
+
+- Now head to the wall opposite the gate that leads to Upper Village and a golden circular pattern will appears on the floor, stand over it and hold your interact button and it will place down Ra's Ankh
+
+- This will start spawning in Zombies, you must kill them in order for the Zombie souls to go into the Ankh (basically a soul box)
+
+- Once you have enough souls, a shockwave will appear and kill the rest of the Zombies, a gold glowing chest will then appear out of the floor, to open it, you have to hit it with the corresponding Upgraded Sword, so in this case, the Fire Sword
 
 ---
 
-<h3 id='light-sword'>Incantation - Light</h3> <br>
+<h3 id='dark-incantation'>Incantation - Dark (Raven)</h3> <br>
 
-Step
+- To start this incantation step, you need to collect the <span class='note-incantation'>Raven's Foot</span>
 
---- -->
+- Head to the Oubliette Room and at the far end, near the Pack-a-Punch machine, you will see a circular grate on the floor, interact with it and you will be taken through a shortcut in the sewers
 
-### Step 16 - BOSS FIGHT <br>
+- <span class='note-text'>BE AWARE FOR THIS NEXT STEP, YOU MUST HAVE SPOKEN TO KRAFFT IN ORDER FOR THE RAVEN TO APPEAR</span>
 
-GET POWERFUL WEAPONS - LEGENDARY 3 PACKED (WITH DEADWIRE OR NAPALM BURST IS GOOD)
+- When you are near the end of the sewer, on the right hand side you will see a Black Raven, you must shoot it with a bullet weapon (be careful, because you come down quite fast, so you might miss the Raven)
+
+- When you have successfully shot it, it will fly off. When you have landed back on the floor, look up and you will see the Raven. Shoot it with any bullet weapon and it will drop the Raven's Foot. Once it has landed, interact with it to pick it up
+
+- Now head down to the undercroft and walk towards the wall opposite the doorway to the Oubliette Room (inbetween the mystery box location and the doorway to Sitting Room), a golden circular pattern will appear on the floor, stand over it and hold your interact button and it will place down the Raven's Foot
+
+- This will start spawning in Zombies, you must kill them in order for the Zombie souls to go into the Raven's Foot (basically a soul box)
+
+- Once you have enough souls, a shockwave will appear and kill the rest of the Zombies, a gold glowing chest will then appear out of the floor, to open it, you have to hit it with the corresponding Upgraded Sword, so in this case, the Dark Sword
+
+---
+
+<h3 id='light-incantation'>Incantation - Light (Lion)</h3> <br>
+
+- To start this incantation step, you need to collect <span class='note-incantation'>Paladin's Brooch</span>
+
+- <span class='note-text'>BE AWARE FOR THIS NEXT STEP, YOU MUST HAVE SPOKEN TO KRAFFT IN ORDER FOR THE CRYSTALS TO SHINE</span>
+
+- Head to the Dining Room (Knights Room) and look above at where the ceiling used to be, above and infront of the Vulture Aid machine, you will see a glowing red crystal
+
+- Shoot that crystal and it will generate a beam, you have to shoot it until it aligns with the next crystal (the beam will go from  blurry to concentrated)
+
+- Each time you shoot the crystal correctly, it will go to the next crystal, do this 4 seperate times and once it has reached the last one, it will send the beam to a half mannequiun figure on a desk in the Alchemical Lab
+
+- Once it does this, Paladins Brooch will appear on the mannequin, after a few seconds, walk through the beam to break it and the beam will cut off, a couple of seconds later you will be able to interact with the Brooch and pick it up
+
+- Head to the Lion artwork on the wall in the Dining Room, on the right side of the door leading to the Entrance Hall, and a golden circular pattern will appear on the floor, stand over it and hold your interact button and it will place down Paladin's Brooch
+
+- This will start spawning in Zombies, you must kill them in order for the Zombie souls to go into the Brooch (basically a soul box)
+
+- Once you have enough souls, a shockwave will appear and kill the rest of the Zombies, a gold glowing chest will then appear out of the floor, to open it, you have to hit it with the corresponding Upgraded Sword, so in this case, the Upgraded Lion Sword
+
 
 ---
 
 ### Arsenal Locations
 
-Tavern, Courtyard
+Tavern  
+Courtyard  
+Alchemical Lab  
+<br>
 
 ### Gobblegum Locations
 
-Town Square, Courtyard, Oubliette Room (PAP)
+Town Square  
+Courtyard  
+Oubliette Room (PAP)  
+<br>
 
 ### Ammo Cache Locations
 
-Town Square, Upper Village, Courtyard, Village Ramparts, Entrance Hall, Dining Hall, Undercroft, Oubliette Room (PAP)
+Town Square  
+Upper Village  
+Courtyard  
+Village Ramparts  
+Entrance Hall  
+Dining Hall  
+Undercroft  
+Oubliette Room (PAP)  
+<br>
 
 ### Oil Trap Locations
 
-Top of Oil Trap - Village Ramparts,
-Bottom of Oil Trap - Upper Village,
-Top of Oil Trap - Hillside Ramparts
+Top of Oil Trap - Village Ramparts  
+Bottom of Oil Trap - Upper Village  
+Top of Oil Trap - Hillside Ramparts  
+Bottom of Oil Trap - Nature Path  
+<br>
 
 ### Point of Power Trap Locations
 
-Village Ascent, Courtyard, Sitting Rooms
+Nature Path  
+Village Ascent  
+Courtyard  
+Sitting Rooms  
+Dungeon  
+Oubliette Room (PAP)  
+<br>
 
 ### Crafting Table Locations
 
-Spawn, Entrance Hall
+Spawn  
+Entrance Hall  
+<br>
 
 ### Mystery Box Locations
 
-Village Ascent, Hilltop, Undercroft, Entrance Hall
-
+Village Ascent  
+Hilltop  
+Undercroft  
+Entrance Hall  
+<br>  
+  
 ### Armour Locations
 
-Level 2 - Tavern (in the pub),
-Level 3 - Alchemical Lab, Oubliette Room (PAP)
+Level 2 - Tavern (in the pub)  
+Level 2 - Entrance Hall  
+Level 3 - Alchemical Lab, Oubliette Room (PAP)  
+Level 3 - Oubliette Room (PAP)
 
 
 

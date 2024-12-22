@@ -139,6 +139,9 @@ document.addEventListener('DOMContentLoaded', () => {
     
     const hamburger = document.querySelector('.hamburger');
     const close = document.querySelector('.close');
+    const dropdown = document.querySelector('.dropdown');
+    const mn = document.querySelectorAll('.mn');
+    const downArrow = document.querySelector('.down-arrow');
 
     hamburger.addEventListener('click', () => {
         document.querySelector('.mobile-nav').classList.toggle('open');
@@ -152,6 +155,15 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log('close clicked');
         close.style.display = 'none';
         hamburger.style.display = 'block';
+
+    });
+
+    dropdown.addEventListener('click', () => {
+        dropdown.classList.toggle('expanded');
+        mn.forEach(mn => {
+            mn.classList.toggle('visible');
+        });
+        downArrow.classList.toggle('rotate');
 
     });
 

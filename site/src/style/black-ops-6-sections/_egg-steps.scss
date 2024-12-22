@@ -122,9 +122,13 @@
                         cursor: pointer;
                     }
                 }
+
+                a{
+                    color: orange;
+                }
         
                 ul{
-                    padding-left: 1.5rem;
+                    padding-left: 0;
                     // list-style-position: outside;
 
                     @include r.tablet{
@@ -134,18 +138,18 @@
                 
                 li{
                     // width: auto;
-                    display: list-item;
+                    // display: list-item;
                     margin-bottom: 1rem;
+                    list-style: none;
 
                     //768px
                     @include r.tablet{
                         margin: 0 auto 1rem;
-                        list-style: none;
-
-                        p{
-                            color: orange;
-                        }
                     }
+                }
+
+                .space{
+                    margin-bottom: 1rem;
                 }
                 
                 //The horizontal line that separates the different sections for ONLY the easter egg steps
@@ -167,6 +171,20 @@
                     background-color: rgba(orange, 0.5);
                     border-radius: 5px;
                     padding: 1rem;
+                }
+
+                .note-text,
+                .note-incantation{
+                    font-style: italic;
+                }
+
+                .note-incantation{
+                    color: rgb(66, 181, 4);
+                    font-weight: bold;
+                }
+
+                .note-text{
+                    color: orange;
                 }
             }
         
