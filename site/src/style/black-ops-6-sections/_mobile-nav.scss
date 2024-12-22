@@ -19,7 +19,7 @@
     // background-color: rgb(14, 14, 49);
     background-color: black;
     display: flex;
-    // justify-content: space-between;
+    justify-content: space-between;
     align-items: center;
     color: orange;
     padding: 1.5rem 2rem;
@@ -38,9 +38,8 @@
     }
   }
 
-  .mobile-nav-logo{
-    flex: 1;
-  }
+  // .mobile-nav-logo{
+  // }
   
   .mobile-nav{
     // width: 350px;
@@ -90,27 +89,27 @@
         .rotate{
           transform: rotate(-180deg);
         }
-
+        
         .mn{
           margin-left: 10px;
           color: rgba(orange, 0.9) !important;
           visibility: hidden;
           opacity: 0;
           transition: 
-            opacity 200ms ease-in-out,
-            visibility 200ms ease-in-out;
+          opacity 200ms ease-in-out,
+          visibility 200ms ease-in-out;
         }
-  
+        
         .visible{
           opacity: 1;
           visibility: visible;
         }
       }
-
-      .dropdown.expanded{
+      
+      .expanded{
         height: 160px;
       }
-
+      
       .dropdown > .mobile-nav-link{
         display: block;
       }
