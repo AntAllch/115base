@@ -138,27 +138,15 @@ document.addEventListener('DOMContentLoaded', () => {
     // ----------------- MOBILE NAV -----------------
     
     const hamburger = document.querySelector('.hamburger');
-    const close = document.querySelector('.close');
     const mapsDropdown = document.querySelector('.mobile-nav-item.dropdown');
 
-    // Open the mobile nav
+    // Toggle the mobile nav
     hamburger.addEventListener('click', () => {
         document.querySelector('.mobile-nav').classList.toggle('open');
-        console.log('hamburger clicked');
-        hamburger.style.display = 'none';
-        close.style.display = 'block';
+        hamburger.classList.toggle('nav-open');
     });
 
-    // Close the mobile nav
-    close.addEventListener('click', () => {
-        document.querySelector('.mobile-nav').classList.remove('open');
-        console.log('close clicked');
-        close.style.display = 'none';
-        hamburger.style.display = 'block';
-
-    });
-
-    // Click the maps dropdown
+    // Toggle the maps dropdown
     mapsDropdown.addEventListener('click', () => {
         mapsDropdown.classList.toggle('expanded');
     });
