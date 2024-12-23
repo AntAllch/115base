@@ -72,19 +72,19 @@
         
         .down-arrow{
           // outline: 2px solid red;
-          position: absolute;
-          width: fit-content;
-          top: 9px;
-          left: 50px;
           fill: white;
           transition: transform 200ms ease-in-out;
+          width: 30px;
+          height: 30px;
+          transform: translateY(6px);
+        }
+
+        ul {
+          list-style: none;
+          padding-left: 10px;
         }
         
-        // .rotate{
-        //   transform: rotate(-180deg);
-        // }
-        
-        .mn{
+        .sub-item{
           margin-left: 10px;
           color: rgba(orange, 0.9) !important;
           visibility: hidden;
@@ -92,25 +92,22 @@
           transition: 
           opacity 200ms ease-in-out,
           visibility 200ms ease-in-out;
+
         }
 
         &.expanded{
           height: 160px;
 
-          .mn {
+          .sub-item {
             opacity: 1;
             visibility: visible;
           }
 
           .down-arrow{
-            transform: rotate(-180deg);
+            transform: rotate(-180deg) translateY(-6px);
           }
         }
       }
-
-      // .expanded{
-      //   height: 160px;
-      // }
       
       .dropdown > .mobile-nav-link{
         display: block;
