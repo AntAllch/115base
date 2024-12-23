@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" {% if pageClass %} id="page-{{pageClass}}"{% elseif page.fileSlug %} id="page-{{page.fileSlug}}"{% else %} id="page-index"{% endif %}>
+<html data-thing="hi" lang="en" {% if pageClass %} id="page-{{pageClass}}"{% elseif page.fileSlug %} id="page-{{page.fileSlug}}"{% else %} id="page-index"{% endif %}>
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,7 +27,7 @@
         </div> #}
 
         <script src="/scripts/app.js"></script>
-        <script src="/scripts/terminuscalc.js"></script>
+        {# <script src="/scripts/terminuscalc.js"></script> #}
         
     </body>
 </html>

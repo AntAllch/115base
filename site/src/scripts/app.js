@@ -139,10 +139,9 @@ document.addEventListener('DOMContentLoaded', () => {
     
     const hamburger = document.querySelector('.hamburger');
     const close = document.querySelector('.close');
-    const dropdown = document.querySelector('.dropdown');
-    const mn = document.querySelectorAll('.mn');
-    const downArrow = document.querySelector('.down-arrow');
+    const mapsDropdown = document.querySelector('.mobile-nav-item.dropdown');
 
+    // Open the mobile nav
     hamburger.addEventListener('click', () => {
         document.querySelector('.mobile-nav').classList.toggle('open');
         console.log('hamburger clicked');
@@ -150,6 +149,7 @@ document.addEventListener('DOMContentLoaded', () => {
         close.style.display = 'block';
     });
 
+    // Close the mobile nav
     close.addEventListener('click', () => {
         document.querySelector('.mobile-nav').classList.remove('open');
         console.log('close clicked');
@@ -158,16 +158,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     });
 
-    dropdown.addEventListener('click', () => {
-        
-        dropdown.classList.toggle('expanded');
-
-        mn.forEach(mn => {
-            mn.classList.toggle('visible');
-        });
-
-        downArrow.classList.toggle('rotate');
-
+    // Click the maps dropdown
+    mapsDropdown.addEventListener('click', () => {
+        mapsDropdown.classList.toggle('expanded');
     });
 
     // ---------------------------------------------------------------------

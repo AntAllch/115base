@@ -80,9 +80,9 @@
           transition: transform 200ms ease-in-out;
         }
         
-        .rotate{
-          transform: rotate(-180deg);
-        }
+        // .rotate{
+        //   transform: rotate(-180deg);
+        // }
         
         .mn{
           margin-left: 10px;
@@ -93,16 +93,24 @@
           opacity 200ms ease-in-out,
           visibility 200ms ease-in-out;
         }
-        
-        .visible{
-          opacity: 1;
-          visibility: visible;
+
+        &.expanded{
+          height: 160px;
+
+          .mn {
+            opacity: 1;
+            visibility: visible;
+          }
+
+          .down-arrow{
+            transform: rotate(-180deg);
+          }
         }
       }
-      
-      .expanded{
-        height: 160px;
-      }
+
+      // .expanded{
+      //   height: 160px;
+      // }
       
       .dropdown > .mobile-nav-link{
         display: block;
