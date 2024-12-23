@@ -159,10 +159,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     dropdown.addEventListener('click', () => {
+        
         dropdown.classList.toggle('expanded');
+
         mn.forEach(mn => {
             mn.classList.toggle('visible');
         });
+
         downArrow.classList.toggle('rotate');
 
     });

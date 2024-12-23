@@ -125,7 +125,6 @@ header{
       padding: 0.5rem 1rem;
       transition: opacity 0.2s ease-in-out;
       opacity: 0;
-      pointer-events: none;
       visibility: hidden;
   
       .dropdown-list{
@@ -157,7 +156,6 @@ header{
     .dropdown:hover,
     .dropdown:focus-within{
       opacity: 1;
-      pointer-events: auto;
       visibility: visible;
     }
 
