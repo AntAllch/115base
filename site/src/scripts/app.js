@@ -139,8 +139,8 @@ document.addEventListener('DOMContentLoaded', () => {
     
     const hamburger = document.querySelector('.hamburger');
     const close = document.querySelector('.close');
-    const dropdown = document.querySelector('.dropdown');
-    const mn = document.querySelectorAll('.mn');
+    const dropdown = document.querySelector('.mobile-nav-item.dropdown');
+    const subItem = document.querySelectorAll('.sub-item');
     const downArrow = document.querySelector('.down-arrow');
 
     hamburger.addEventListener('click', () => {
@@ -159,11 +159,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     dropdown.addEventListener('click', () => {
-        
+
         dropdown.classList.toggle('expanded');
 
-        mn.forEach(mn => {
-            mn.classList.toggle('visible');
+        subItem.forEach(subItem => {
+            subItem.classList.toggle('visible');
         });
 
         downArrow.classList.toggle('rotate');
