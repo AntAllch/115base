@@ -47,9 +47,9 @@
     height: 100%;
     padding: 1rem;
     margin-left: auto;
-    transform: translateY(-10%);
-    opacity: 0;
-    visibility: hidden;
+    // transform: translateY(-10%);
+    // opacity: 0;
+    // visibility: hidden;
     background-color: lightgray;
     background-color: rgba(black, 0.7);
     backdrop-filter: blur(1rem);
@@ -78,11 +78,12 @@
         position: relative;
 
         .down-arrow{
+          // outline: 2px solid red;
           position: absolute;
+          width: fit-content;
           top: 9px;
-          left: 20px;
+          left: 50px;
           fill: white;
-          // transform: rotate(0deg);
           transition: transform 200ms ease-in-out;
         }
 
