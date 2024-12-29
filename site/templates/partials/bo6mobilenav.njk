@@ -44,7 +44,7 @@
 
   </div>
 
-  <div class='mobile-nav'>
+  <nav class='mobile-nav'>
 
     <ul class="mobile-nav-list">
       <li class="mobile-nav-item"><a class="mobile-nav-link" href="/">Home</a></li>
@@ -54,13 +54,38 @@
         <a class="mobile-nav-link sub-item" href="/main-eggs/liberty-falls/"> - Liberty Falls</a>
         <a class="mobile-nav-link sub-item" href="/main-eggs/terminus/"> - Terminus</a>
         <a class="mobile-nav-link sub-item" href="/main-eggs/citadelle-des-morts/"> - Citadelle Des Morts</a>
-        <svg class='down-arrow' xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-200 240-440l56-56 184 183 184-183 56 56-240 240Zm0-240L240-680l56-56 184 183 184-183 56 56-240 240Z"/></svg>
+        <svg class='down-arrow maps-da' xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-200 240-440l56-56 184 183 184-183 56 56-240 240Zm0-240L240-680l56-56 184 183 184-183 56 56-240 240Z"/></svg>
       </li>
     
+      {# Dropdown for Swords #}
+      {% if page.fileSlug === 'citadelle-des-morts' %}
+        <li class="mobile-nav-item dropdown">
+          <p class="mobile-nav-link dropdown-title">Swords</p>
+          <a class="mobile-nav-link sub-item" href="#lightning-sword"> - Lightning Sword</a>
+          <a class="mobile-nav-link sub-item" href="#fire-sword"> - Fire Sword</a>
+          <a class="mobile-nav-link sub-item" href="#dark-sword"> - Dark Sword</a>
+          <a class="mobile-nav-link sub-item" href="#light-sword"> - Light Sword</a>
+          <svg class='down-arrow swords-da' xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-200 240-440l56-56 184 183 184-183 56 56-240 240Zm0-240L240-680l56-56 184 183 184-183 56 56-240 240Z"/></svg>
+        </li> 
+      {% endif %}
+
+      {# Dropdown for Incantations #}
+      {% if page.fileSlug === 'citadelle-des-morts' %}
+        <li class="mobile-nav-item dropdown">
+          <p class="mobile-nav-link dropdown-title">Incantations</p>
+          <a class="mobile-nav-link sub-item" href="#lightning-sword"> - Lightning Incantation</a>
+          <a class="mobile-nav-link sub-item" href="#fire-sword"> - Fire Incantation</a>
+          <a class="mobile-nav-link sub-item" href="#dark-sword"> - Dark Incantation</a>
+          <a class="mobile-nav-link sub-item" href="#light-sword"> - Light Incantation</a>
+          <svg class='down-arrow incantations-da' xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-200 240-440l56-56 184 183 184-183 56 56-240 240Zm0-240L240-680l56-56 184 183 184-183 56 56-240 240Z"/></svg>
+        </li> 
+      {% endif %}
+      
       <li class="mobile-nav-item"><a class="mobile-nav-link" href="/medals/">Medals</a></li>
       <li class="mobile-nav-item"><a class="mobile-nav-link" href="/bo6weapons/">Weapons</a></li>
     </ul>
 
-  </div>
+
+  </nav>
 
 </div>

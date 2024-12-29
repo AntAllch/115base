@@ -43,9 +43,9 @@
     height: 100%;
     padding: 1rem;
     margin-left: auto;
-    transform: translateY(-10%);
-    opacity: 0;
-    visibility: hidden;
+    // transform: translateY(-10%);
+    // opacity: 0;
+    // visibility: hidden;
     background-color: rgba(black, 0.7);
     backdrop-filter: blur(1rem);
     position: fixed;
@@ -59,6 +59,12 @@
     
     .mobile-nav-list{
       list-style: none;
+      height: 100vh;
+
+      // .mobile-nav-link{
+      //   outline: 2px solid red;
+      //   width: 100%;
+      // }
       
       .dropdown{
         // outline: 2px solid red;
@@ -80,9 +86,20 @@
           position: absolute;
           width: fit-content;
           top: 9px;
-          left: 50px;
           fill: white;
           transition: transform 200ms ease-in-out;
+
+          &.swords-da{
+            left: 75px;
+          }
+
+          &.maps-da{
+            left: 54px;
+          }
+
+          &.incantations-da{
+            left: 122px;
+          }
         }
         
         .rotate{
@@ -107,7 +124,8 @@
       }
       
       .expanded{
-        height: 160px;
+        height: auto;
+        margin-bottom: 0;
       }
       
       // .dropdown > .mobile-nav-link{
