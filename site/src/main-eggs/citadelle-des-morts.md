@@ -322,7 +322,7 @@ Jaw:
 
 - Each time you shoot the crystal correctly, it will go to the next crystal, do this 4 seperate times and once it has reached the last one, it will send the beam to a half mannequiun figure on a desk in the Alchemical Lab
 
-- Once it does this, Paladins Brooch will appear on the mannequin, after a few seconds, stand in front of the mennequin to break the beam, a couple of seconds later you will be able to interact with the Brooch and pick it up
+- Once it does this, Paladins Brooch will appear on the mannequin, after a few seconds, stand in front of the mannequin to break the beam, a couple of seconds later you will be able to interact with the Brooch and pick it up
 
 - Head to the Lion artwork on the wall in the Dining Room, on the right side of the door leading to the Entrance Hall, and a golden circular pattern will appear on the floor, stand over it and hold your interact button and it will place down Paladin's Brooch
 
