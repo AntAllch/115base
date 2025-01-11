@@ -272,7 +272,7 @@ Jaw:
 
 - <span class='note-text'>BE AWARE FOR THIS NEXT STEP, YOU MUST HAVE SPOKEN TO KRAFFT IN ORDER TO BE ABLE TO SET THE PYRES ON FIRE</span>
 
-- The first step is to set 3 pyres on fire, you can do this by either throwing a Molotov, using the Fire Sword ability or Thermogrenades (although this is difficult, so I would avoid this option)
+- The first step is to set 3 pyres on fire, you can do this by either throwing a Molotov, using the Fire Sword ability, Thermogrenades or Hellstorm Scorestreak (although the last 2 are difficult, so I would avoid these options)
 
 - One pyre can be seen from Hillside Rampart above the entrance to the room with Elemental Pop, the second pyre is on the cliff above Speed Cola (this can be accessed easier by standing infront of the buyable wall, to the left of the unlit Brazier), and the 3rd pyre is above the door that leads into the castle (you can see this by standing infront of the Lion Cannon, facing the castle)
 

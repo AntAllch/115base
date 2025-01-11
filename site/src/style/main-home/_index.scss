@@ -11,8 +11,8 @@
 // }
 
 .page-banner{
-    display: grid;
-    place-items: center;
+    // display: flex;
+    // justify-content: center;
     width: 100vw;
     height: 90vh;
     // outline: 2px solid red;
@@ -56,13 +56,16 @@
     // }
 
     .banner-text{
-        font-size: 9rem;
+        font-size: 3rem;
         text-align: center;
         line-height: 0.8;
         letter-spacing: 5px;
         color: orange;
         -webkit-text-stroke: 1px rgba(black, 0.5);
-        padding-inline: 1.5rem;
+        margin: 8rem auto 0;
+        padding: 1rem 1.5rem;
+        background-color: black;
+        width: fit-content;
 
         @include r.tablet{
             font-size: 7rem;
