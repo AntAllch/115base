@@ -113,6 +113,28 @@ Once they all have a yellow glow on them, you will see 4 white beams fire up int
 
 ---
 
+### Boss Fight Tips <br>
+
+- Loadout and Pre-Fight Checklist
+
+- <span class='note-text'>Legendary Tier 3 Packed Gun -- Lion Sword (Charged) -- Full Powered Aether Shroud (2 activations) -- gobblegums (Power Keg, Arsenal Accelerator, Free Fire) -- Self Res -- Kazamir or Monkeys -- 3 Shields -- Sentry Turret -- Max Ammo Gold Powerup -- C4 near Full Power Gold Powerup</span>
+
+- <span class='green-text'>Phase 1 - </span> As soon as the Boss' Health Bar shows up, activate your Aether Shroud and start attacking his legs with your Sword until they explode, you want to do this for both sections of his legs, arms and shoulders. Once your first Aether Shroud has ran out, re-activate it straight away and continute attacking him with your Sword
+
+- Once both Aether Shrouds have run out, start shooting at those exposed areas until they explode for a 2nd time. Once you've shot him for long enough, he will stand in the middle of the arena and go into immune mode. Once The quote from The Owl has almost finished, activate your Arsenal Accelerator. Start killing the Zombies that spawn in to build up your Aether Shroud ability again (You should be able to fully charge 1 activation, maybe 2 if you're lucky).
+
+- <span class='green-text'>Phase 2 - </span> Once the boss moves again, reactivate your Aether Shroud and keep attacking whichever section hasn't exploded yet. Once the Aether Shroud runs out, activate the C4 you placed before the boss fight and pick up the Full Armor drop. Activate your Aether Shroud again and start shooting the areas that need to explode again.  
+
+- Before the end of the 2nd phase you should have his legs, arms and shoulders fully exploded and his chest should be glowing yellow. Once youve shot him enough, he will go into immune mode for a 2nd time. Kill the zombies that spawn in.
+
+- <span class='green-text'>Phase 3 - </span> Just before the boss moves again, place down the Sentry Turret (on the outside edge of the inner circle), activate your Free Fire gobblegum (must have a bullet weapon out to be able to activate it), and then activate your Power Keg, collect it and instantly activate Aether Shroud. 
+
+- Now this is when you just hold down the trigger and aim at his chest. Your Sentry Turret will help a lot with this phase because it will kill Zombies that spawn in, aswell as shooting the boss. Once your Aether Shroud runs out, you will have to survive while shooting him. You will eventually kill him. 
+
+- <span class='green-text'> CONGRATS! You have now completed the 3rd Main Easter Egg Quest</span> 
+
+---
+
 <h3 id='egg-steps'>Get the Basic Swords</h3>
 
 - The easter egg cannot be done without the upgraded swords, so the first step is to get the Basic Swords
