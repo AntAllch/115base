@@ -38,19 +38,19 @@ weaponLocations:
 perkLocations: 
 -
     perk: Quick Revive
-    location:
+    location: Deep Excavation
 -
     perk: Death Perception
-    location:
+    location: Tombs
 -
-    perk:  
-    location:
+    perk: Staminup
+    location: Shrine of the Herophants
 -
-    perk:  
-    location:
+    perk: Speed Cola
+    location: 
 -
-    perk:  
-    location:
+    perk: Jugger Nog
+    location: Dark Aether Nexus
 -
     perk:  
     location:
@@ -74,68 +74,44 @@ tags: mainEgg
 
 ### Arsenal Locations
 
-Tavern  
-Courtyard  
-Alchemical Lab  
-<br>
+Dig Site     
+<br>  
 
 ### Gobblegum Locations
 
-Town Square  
-Courtyard  
-Oubliette Room (PAP)  
-<br>
+Locations Coming Soon   
+<br>  
 
 ### Ammo Cache Locations
 
-Town Square  
-Upper Village  
-Courtyard  
-Village Ramparts  
-Entrance Hall  
-Dining Hall  
-Undercroft  
-Oubliette Room (PAP)  
+Locations Coming Soon   
 <br>
 
-### Oil Trap Locations
+### Arrow Trap Locations
 
-Top of Oil Trap - Village Ramparts  
-Bottom of Oil Trap - Upper Village  
-Top of Oil Trap - Hillside Ramparts  
-Bottom of Oil Trap - Nature Path  
-<br>
+Locations Coming Soon   
+<br>  
 
-### Point of Power Trap Locations
+### Aethereal Lantern Locations
 
-Nature Path  
-Village Ascent  
-Courtyard  
-Sitting Rooms  
-Dungeon  
-Oubliette Room (PAP)  
-<br>
+Locations Coming Soon   
+<br>  
 
 ### Crafting Table Locations
 
-Spawn  
-Entrance Hall  
-<br>
+Shrine of the Herophants     
+<br>  
 
 ### Mystery Box Locations
 
-Village Ascent  
-Hilltop  
-Undercroft  
-Entrance Hall  
+Locations Coming Soon   
 <br>  
   
 ### Armour Locations
 
-Level 2 - Tavern (in the pub)  
-Level 2 - Entrance Hall  
-Level 3 - Alchemical Lab, Oubliette Room (PAP)  
-Level 3 - Oubliette Room (PAP)
+Level 2 - Dig Site  
+Level 3 - Deep Excavation     
+<br>  
 
 
 
