@@ -47,19 +47,16 @@ perkLocations:
     location: Shrine of the Herophants
 -
     perk: Speed Cola
-    location: 
+    location: Ossuary
 -
     perk: Jugger Nog
     location: Dark Aether Nexus
 -
     perk: Deadshot Daquiri
-    location:
+    location: Neolithic Catacombs
 -
     perk: PHD
-    location:
--
-    perk:  
-    location:
+    location: Dig Site
 
 
 layout: eggSteps.njk
@@ -67,8 +64,6 @@ tags: mainEgg
 ---
 
 ### EGG STEPS COMING SOON<br>
-
-
 
 ---
 
