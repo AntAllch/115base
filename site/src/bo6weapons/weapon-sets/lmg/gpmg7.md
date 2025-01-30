@@ -18,6 +18,9 @@ weapon:
 -
     primary: Gold Camo
     item: 10 kills rapidly 15 times
+-
+    primary: Citadelle Location
+    item: Undercroft
 
 tags: weaponBuild
 ---
