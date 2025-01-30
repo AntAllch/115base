@@ -15,13 +15,13 @@ weaponLocations:
     location: Subterranean Temple
     type: LMG
 -
-    weapon: 
-    location: 
-    type: 
+    weapon: AK-74
+    location: Shrine of the Hierophants
+    type: AR
 -
-    weapon: 
-    location: 
-    type: 
+    weapon: XM4
+    location: Ossuary
+    type: AR
 -
     weapon: 
     location: 
@@ -44,7 +44,7 @@ perkLocations:
     location: Tombs
 -
     perk: Staminup
-    location: Shrine of the Herophants
+    location: Shrine of the Hierophants
 -
     perk: Speed Cola
     location: Ossuary
@@ -75,12 +75,14 @@ Dig Site
 ### Gobblegum Locations
 
 Dig Site 
-Ossuary   
+Ossuary  
+Shrine of the Hierophants   
 <br>  
 
 ### Ammo Cache Locations
 
-Dig Site     
+Dig Site  
+Dark Aether Nexus     
 <br>
 
 ### Arrow Trap Locations
@@ -95,7 +97,7 @@ Locations Coming Soon
 
 ### Crafting Table Locations
 
-Shrine of the Herophants  
+Shrine of the Hierophants  
 Dark Aether Nexus  
 Neolithic Catacombs  
 <br>  
@@ -113,7 +115,8 @@ Level 3 - Deep Excavation
 
 ### Shovel Locations
 
-Ossuary    
+Ossuary  
+Tombs (Up high)  
 <br>  
 
 
