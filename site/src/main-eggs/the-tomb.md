@@ -11,9 +11,9 @@ weaponLocations:
     location: Tombs
     type: SMG
 -
-    weapon: 
-    location: 
-    type: 
+    weapon: GPMG-7
+    location: Subterranean Temple
+    type: LMG
 -
     weapon: 
     location: 
@@ -74,7 +74,8 @@ Dig Site
 
 ### Gobblegum Locations
 
-Dig Site    
+Dig Site 
+Ossuary   
 <br>  
 
 ### Ammo Cache Locations
@@ -108,6 +109,11 @@ Locations Coming Soon
 
 Level 2 - Dig Site  
 Level 3 - Deep Excavation     
+<br>  
+
+### Shovel Locations
+
+Ossuary    
 <br>  
 
 
