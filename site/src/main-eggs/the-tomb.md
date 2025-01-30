@@ -3,13 +3,13 @@ title: The Tomb
 date: 2024-10-30
 weaponLocations: 
 -
-    weapon: 
-    location: 
-    type: 
+    weapon: Kompakt 92
+    location: Neolithic Catacombs
+    type: SMG
 -
-    weapon: 
-    location: 
-    type: 
+    weapon: Tanto .22
+    location: Tombs
+    type: SMG
 -
     weapon: 
     location: 
@@ -52,10 +52,10 @@ perkLocations:
     perk: Jugger Nog
     location: Dark Aether Nexus
 -
-    perk:  
+    perk: Deadshot Daquiri
     location:
 -
-    perk:  
+    perk: PHD
     location:
 -
     perk:  
@@ -79,12 +79,12 @@ Dig Site
 
 ### Gobblegum Locations
 
-Locations Coming Soon   
+Dig Site    
 <br>  
 
 ### Ammo Cache Locations
 
-Locations Coming Soon   
+Dig Site     
 <br>
 
 ### Arrow Trap Locations
@@ -99,7 +99,9 @@ Locations Coming Soon
 
 ### Crafting Table Locations
 
-Shrine of the Herophants     
+Shrine of the Herophants  
+Dark Aether Nexus  
+Neolithic Catacombs  
 <br>  
 
 ### Mystery Box Locations
