@@ -1,6 +1,6 @@
 
 @use '../abstracts/mixins' as r;
-@use '../abstracts/variables' as c;
+@use '../abstracts/variables' as v;
 
 
 #page-egg-steps{
@@ -104,7 +104,7 @@
                 h3{
                     font-size: 2rem;
                     letter-spacing: 0.1ch;
-                    color: c.$clr-green;
+                    color: v.$clr-green;
                 }
             
                 p{
@@ -179,7 +179,7 @@
                 }
 
                 .note-incantation{
-                    color: rgb(66, 181, 4);
+                    color: v.$clr-green;
                     font-weight: bold;
                 }
 
@@ -188,7 +188,7 @@
                 }
 
                 .green-text{
-                    color: rgb(66, 181, 4);
+                    color: v.$clr-green;
                     font-weight: bold;
                 }
             }

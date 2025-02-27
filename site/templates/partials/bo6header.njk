@@ -19,7 +19,7 @@
 
 
   {# this will only appear on the Liberty Falls page #}
-  {% if page.fileSlug === 'liberty-falls' or page.fileSlug === 'terminus' or page.fileSlug === "citadelle-des-morts" %}
+  {% if page.fileSlug === 'liberty-falls' or page.fileSlug === 'terminus' or page.fileSlug === "citadelle-des-morts" or page.fileSlug === "the-tomb" %}
 
     <div class="page-nav">
       <ul class="page-nav-list">
@@ -51,6 +51,28 @@
               <li class="dropdown-item"><a href="#fire-incantation" class="dropdown-link">Fire Incantation</a></li>
               <li class="dropdown-item"><a href="#dark-incantation" class="dropdown-link">Dark Incantation</a></li>
               <li class="dropdown-item"><a href="#light-incantation" class="dropdown-link">Light Incantation</a></li>
+            </ul>
+          </div>
+        </li>{% endif %}
+
+        {% if page.fileSlug === 'the-tomb' %}<li class="page-nav-item" id='incantations'>
+          <a href="" class="page-nav-link">Ice Staff</a>
+          <div class="dropdown">
+            <ul class="dropdown-list">
+              <li class="dropdown-item"><a href="#base-ice-staff" class="dropdown-link">Base Ice Staff</a></li>
+              <li class="dropdown-item"><a href="#upgraded-ice-staff" class="dropdown-link">Upgraded Ice Staff</a></li>
+            </ul>
+          </div>
+        </li>{% endif %}
+
+        {% if page.fileSlug === 'the-tomb' %}<li class="page-nav-item" id='incantations'>
+          <a href="" class="page-nav-link">Trials</a>
+          <div class="dropdown">
+            <ul class="dropdown-list">
+              <li class="dropdown-item"><a href="#fire-incantation" class="dropdown-link">Vermin Trial</a></li>
+              <li class="dropdown-item"><a href="#fire-incantation" class="dropdown-link">Parasite Trial</a></li>
+              <li class="dropdown-item"><a href="#fire-incantation" class="dropdown-link">Doppelghast Trial</a></li>
+              <li class="dropdown-item"><a href="#fire-incantation" class="dropdown-link">Amalgam Trial</a></li>
             </ul>
           </div>
         </li>{% endif %}

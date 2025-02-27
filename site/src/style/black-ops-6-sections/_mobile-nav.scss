@@ -77,9 +77,11 @@
         position: relative;
         margin-bottom: 0.8rem;
 
-        // .dropdown-title{
-        //   color: red !important;
-        // }
+        .dropdown-title{
+          // color: red !important;
+          // outline: 2px solid red;
+          text-align: left !important;
+        }
         
         .down-arrow{
           // outline: 2px solid red;
@@ -99,6 +101,10 @@
 
           &.incantations-da{
             left: 122px;
+          }
+
+          &.ice-staff-da{
+            left: 80px;
           }
         }
         

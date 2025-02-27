@@ -85,7 +85,7 @@ tags: mainEgg
 
 ---
 
-### Step 1 - Knights Salute <br>
+### Step 1 - Knights Salute  
 
 - After the first set of stairs leading down from the Sitting Room into the Undercroft, you will see a wall with an Orb holder and 4 symbols on it, these symbols correspond to the Elemental Swords (Lightning, Fire, Light, Dark)
 
@@ -103,7 +103,7 @@ Once they all have a yellow glow on them, you will see 4 white beams fire up int
 
 ---
 
-### Step 3 - Guardian Key <br>
+### Step 3 - Guardian Key  
 
 - When you have finished all 4 trials, head back to the wall with the 4 symbols on it and place the orb onto the holder on the wall, the wall will then open up and you can go inside the room behind it
 
@@ -113,7 +113,7 @@ Once they all have a yellow glow on them, you will see 4 white beams fire up int
 
 ---
 
-### Boss Fight Tips <br>
+### Boss Fight Tips  
 
 - Loadout and Pre-Fight Checklist
 
@@ -147,7 +147,7 @@ Once they all have a yellow glow on them, you will see 4 white beams fire up int
 
 ---
 
-<h3 id='lightning-sword'>Upgrade Swords - Lightning Sword (Stag)</h3> <br>
+<h3 id='lightning-sword'>Upgrade Swords - Lightning Sword (Stag)</h3>  
 
 - Pick up 3 Lightning Rods: One is next to Deadshot, the next one you obtain by using a Shock Charge on the electrical box near Speed Cola OR shooting it using a weapon with Dead Wire attached, and the last one drops from a Zombie (to get this one, you must have the Basic Stag Sword and the zombie will spawn in when you are in the Dungeon).
 
@@ -159,7 +159,7 @@ Once they all have a yellow glow on them, you will see 4 white beams fire up int
 
 ---
 
-<h3 id='fire-sword'>Upgrade Swords - Fire Sword (Dragon)</h3> <br>
+<h3 id='fire-sword'>Upgrade Swords - Fire Sword (Dragon)</h3>  
 
 - Take the Basic Dragon Sword and interact with the dragon head at the top of the stairs in Entrance Hall, your Sword will then be placed inside and the dragon will activate
 
@@ -175,7 +175,7 @@ Once they all have a yellow glow on them, you will see 4 white beams fire up int
 
 ---
 
-<h3 id='dark-sword'>Upgrade Swords - Dark Sword (Raven)</h3> <br>
+<h3 id='dark-sword'>Upgrade Swords - Dark Sword (Raven)</h3>  
 
 - Pick up the Basic Raven Sword and go to the Alchemical Room, you need to find 1 of 5 items, the item you need to pick up may change each time you start a new game
 
@@ -251,7 +251,7 @@ Jaw:
 
 ---
 
-<h3 id='light-sword'>Upgrade Swords - Light Sword (Lion)</h3> <br>
+<h3 id='light-sword'>Upgrade Swords - Light Sword (Lion)</h3>  
 
 
 - Once you pick up the Basic Sword from the Knight with the Lion armour, 4 glowing Parasites will appear, take them to the door with the Lion head knocker at Upper Village (in the covered section, on the right side of the Ammo Cache)
@@ -268,7 +268,7 @@ Jaw:
 
 ---
 
-<h3 id='lightning-incantation'>Incantation - Lightning (Stag)</h3> <br>
+<h3 id='lightning-incantation'>Incantation - Lightning (Stag)</h3>  
 
 - To start this incantation step, you need to collect <span class='note-incantation'>Otto's Horseshoe</span>
 
@@ -288,7 +288,7 @@ Jaw:
 
 ---
 
-<h3 id='fire-incantation'>Incantation - Fire (Dragon)</h3> <br>
+<h3 id='fire-incantation'>Incantation - Fire (Dragon)</h3>  
 
 - To start this incantation step, you need to collect <span class='note-incantation'>Ra's Ankh</span>
 
@@ -312,7 +312,7 @@ Jaw:
 
 ---
 
-<h3 id='dark-incantation'>Incantation - Dark (Raven)</h3> <br>
+<h3 id='dark-incantation'>Incantation - Dark (Raven)</h3>  
 
 - To start this incantation step, you need to collect the <span class='note-incantation'>Raven's Foot</span>
 
@@ -332,7 +332,7 @@ Jaw:
 
 ---
 
-<h3 id='light-incantation'>Incantation - Light (Lion)</h3> <br>
+<h3 id='light-incantation'>Incantation - Light (Lion)</h3>  
 
 - To start this incantation step, you need to collect <span class='note-incantation'>Paladin's Brooch</span>
 

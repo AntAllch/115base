@@ -81,6 +81,16 @@
           <svg class='down-arrow incantations-da' xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-200 240-440l56-56 184 183 184-183 56 56-240 240Zm0-240L240-680l56-56 184 183 184-183 56 56-240 240Z"/></svg>
         </li> 
       {% endif %}
+
+      {# Dropdown for Ice Staff #}
+      {% if page.fileSlug === 'the-tomb' %}
+        <li class="mobile-nav-item dropdown">
+          <p class="mobile-nav-link dropdown-title">Ice Staff</p>
+          <a class="mobile-nav-link sub-item" href="#base-ice-staff"> - Base Ice Staff</a>
+          <a class="mobile-nav-link sub-item" href="#upgraded-ice-staff"> - Upgraded Ice Staff</a>
+          <svg class='down-arrow ice-staff-da' xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-200 240-440l56-56 184 183 184-183 56 56-240 240Zm0-240L240-680l56-56 184 183 184-183 56 56-240 240Z"/></svg>
+        </li> 
+      {% endif %}
       
       <li class="mobile-nav-item"><a class="mobile-nav-link" href="/medals/">Medals</a></li>
       <li class="mobile-nav-item"><a class="mobile-nav-link" href="/bo6weapons/">Weapons</a></li>

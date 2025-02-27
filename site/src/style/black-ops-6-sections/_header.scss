@@ -10,7 +10,6 @@
 
 header,
 .dropdown{
-
   backdrop-filter: blur(3rem);
 }
 
@@ -143,7 +142,22 @@ header{
             text-decoration: none;
             letter-spacing: 0.5ch;
             color: white;
+            transition: color 150ms ease-in-out;
+
+            &:hover,
+            &:focus-visible{
+              color: v.$clr-green;
+            }
           }
+
+          // @keyframes extend-ls {
+          //   from{
+          //     letter-spacing: 0.5ch;
+          //   }
+          //   to{
+          //     letter-spacing: 1ch;
+          //   }
+          // }
   
         }
       }
