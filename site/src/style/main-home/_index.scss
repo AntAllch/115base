@@ -66,10 +66,6 @@
         padding: 1rem 1.5rem;
         background-color: black;
         width: fit-content;
-
-        @include r.tablet{
-            font-size: 7rem;
-        }
     
         // background: url('../../assets/images/liberty-falls.webp');
         // background-clip: text;
