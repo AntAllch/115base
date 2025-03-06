@@ -103,13 +103,13 @@ tags: mainEgg
 
 - When you have completed all 4, you can interact with the pedestal where the broken floating bridge sections are (on the left of the Yellow portal) and now you are ready to go to the Boss fight
 
-- <span class='green-text'>Vermin Trial - Dig Site -</span> For this trial, you just need to kill a certain amount of Vermin within the time limit (this time limit is not shown on screen)
+- <span class='green-text' id='vermin-trial'>Vermin Trial - Dig Site -</span> For this trial, you just need to kill a certain amount of Vermin within the time limit (this time limit is not shown on screen)
 
-- <span class='green-text'>Parasite Trial - Shrine of the Hierophants -</span> For this trial, you need to kill Parasites with a purple glow, when you kill them, they will drop a purple orb, you need to run over to it and it will automatically pick it up, now take it to the glowing statue and it will transfer the energy. Just keep doing this until you transfer the correct amount (usually around 10 or so)
+- <span class='green-text' id='parasite-trial'>Parasite Trial - Shrine of the Hierophants -</span> For this trial, you need to kill Parasites with a purple glow, when you kill them, they will drop a purple orb, you need to run over to it and it will automatically pick it up, now take it to the glowing statue and it will transfer the energy. Just keep doing this until you transfer the correct amount (usually around 10 or so)
 
-- <span class='green-text'>Doppelghast Trial - Ossuary -</span> For this trial, similar to the Vermin trial, you just need to kill Doppelghasts within the time limit (this time limit is not shown on screen) <span class='green-text'>TIP: Use charged Ice Staff shots to kill them</span>
+- <span class='green-text' id='doppelghast-trial'>Doppelghast Trial - Ossuary -</span> For this trial, similar to the Vermin trial, you just need to kill Doppelghasts within the time limit (this time limit is not shown on screen) <span class='green-text'>TIP: Use charged Ice Staff shots to kill them</span>
 
-- <span class='green-text'>Amalgam Trial - Deep Excavation -</span> For this trial, you need to kill an Amalgam, once its health is down to a certain amount, it will generate a shield and tether to another Zombie, just kill that Zombie and the shield will disappear, and you can carry on damaging the Amalgam, repeat these steps until you have killed it
+- <span class='green-text' id='amalgam-trial'>Amalgam Trial - Deep Excavation -</span> For this trial, you need to kill an Amalgam, once its health is down to a certain amount, it will generate a shield and tether to another Zombie, just kill that Zombie and the shield will disappear, and you can carry on damaging the Amalgam, repeat these steps until you have killed it
 
 ---
 

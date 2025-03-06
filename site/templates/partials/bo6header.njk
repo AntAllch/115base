@@ -27,10 +27,7 @@
         <li class="page-nav-item"><a href="#egg-steps" class="page-nav-link">Easter Egg</a></li>
         {% if page.fileSlug === 'terminus' %}<li class="page-nav-item"><a href="#terminus-calculator" class="page-nav-link">Calculator</a></li>{% endif %}
 
-        {# {% if page.fileSlug === 'citadelle-des-morts' %}<li class="page-nav-item"><a href="#lightning-sword" class="page-nav-link">Lightning Sword</a></li>{% endif %}
-        {% if page.fileSlug === 'citadelle-des-morts' %}<li class="page-nav-item"><a href="#fire-sword" class="page-nav-link">Fire Sword</a></li>{% endif %}
-        {% if page.fileSlug === 'citadelle-des-morts' %}<li class="page-nav-item"><a href="#dark-sword" class="page-nav-link">Dark Sword</a></li>{% endif %}
-        {% if page.fileSlug === 'citadelle-des-morts' %}<li class="page-nav-item"><a href="#light-sword" class="page-nav-link">Light Sword</a></li>{% endif %} #}
+        {# Thid will appear on the Citadelle page #}
         {% if page.fileSlug === 'citadelle-des-morts' %}<li class="page-nav-item" id='swords'>
           <a href="" class="page-nav-link">Swords</a>
           <div class="dropdown">
@@ -55,6 +52,7 @@
           </div>
         </li>{% endif %}
 
+        {# Thid will appear on The Tomb page #}
         {% if page.fileSlug === 'the-tomb' %}<li class="page-nav-item" id='incantations'>
           <a href="" class="page-nav-link">Ice Staff</a>
           <div class="dropdown">
@@ -69,10 +67,10 @@
           <a href="" class="page-nav-link">Trials</a>
           <div class="dropdown">
             <ul class="dropdown-list">
-              <li class="dropdown-item"><a href="#fire-incantation" class="dropdown-link">Vermin Trial</a></li>
-              <li class="dropdown-item"><a href="#fire-incantation" class="dropdown-link">Parasite Trial</a></li>
-              <li class="dropdown-item"><a href="#fire-incantation" class="dropdown-link">Doppelghast Trial</a></li>
-              <li class="dropdown-item"><a href="#fire-incantation" class="dropdown-link">Amalgam Trial</a></li>
+              <li class="dropdown-item"><a href="#vermin-trial" class="dropdown-link">Vermin Trial</a></li>
+              <li class="dropdown-item"><a href="#parasite-trial" class="dropdown-link">Parasite Trial</a></li>
+              <li class="dropdown-item"><a href="#doppelghast-trial" class="dropdown-link">Doppelghast Trial</a></li>
+              <li class="dropdown-item"><a href="#amalgam-trial" class="dropdown-link">Amalgam Trial</a></li>
             </ul>
           </div>
         </li>{% endif %}
