@@ -6,10 +6,10 @@
 @use 'base/typography';
 @use 'base/base';
 @use 'base/wrapper';
+@use 'base/mobile-nav';
 
 @use 'black-ops-6-sections/header';
 @use 'black-ops-6-sections/bo6maps';
-@use 'black-ops-6-sections/mobile-nav';
 @use 'black-ops-6-sections/game-blocks';
 @use 'black-ops-6-sections/weapons';
 @use 'black-ops-6-sections/listed-item';
