@@ -81,7 +81,7 @@ body {
 
 }
 
-
+// Black Ops 6 Medals page
 #page-medals body::before{
   content: "";
   background: 
@@ -129,4 +129,30 @@ body {
   font-size: 3rem;
   color: c.$clr-green;
   margin-block: 3rem 1rem;
+}
+
+
+// ---------------------------------------------------------------------------
+
+#page-warframe-home body{
+  // background-image: none;
+  background-color: red;
+
+  &::before{
+    content: "";
+    background: 
+      linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.9)
+        ),
+        url("../../assets/images/warframe.webp");
+    background-size: cover;
+    background-position: center;
+    position: fixed;  /* This will remain fixed */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;  /* Place behind other content */
+  }
 }

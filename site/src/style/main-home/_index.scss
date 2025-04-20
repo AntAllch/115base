@@ -168,24 +168,13 @@
             
         }
 
-        #citadelle-des-morts{
+        #bo6{
             background: 
                 linear-gradient(
                     rgba(0, 0, 0, 0.7),
                     rgba(0, 0, 0, 0.9)
                 ),
-                url("../../assets/images/citadelle.webp");
-            background-position: center;
-            background-size: cover;
-        }
-
-        #liberty-falls{
-            background: 
-                linear-gradient(
-                    rgba(0, 0, 0, 0.7),
-                    rgba(0, 0, 0, 0.9)
-                ),
-                url("../../assets/images/liberty-falls.webp");
+                url("../../assets/images/blackops6.webp");
             background-position: center;
             background-size: cover;
         }
@@ -197,6 +186,17 @@
                     rgba(0, 0, 0, 0.7)
                 ),
                 url("../../assets/images/terminus.webp");
+            background-position: center;
+            background-size: cover;
+        }
+
+        #citadelle-des-morts{
+            background: 
+                linear-gradient(
+                    rgba(0, 0, 0, 0.7),
+                    rgba(0, 0, 0, 0.9)
+                ),
+                url("../../assets/images/citadelle.webp");
             background-position: center;
             background-size: cover;
         }
