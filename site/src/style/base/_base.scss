@@ -9,30 +9,30 @@
 body {
   font-family: $ff-body;
   font-size: $fs-6;
+  margin: 0 auto;
+  color: white;
   
   // background: radial-gradient(at center top, #0A0A2D, #07071B);
   // background-attachment: fixed;
 
-  &::before{
-    content: "";
-    background: 
-      linear-gradient(
-        rgba(0, 0, 0, 0.7),
-        rgba(0, 0, 0, 0.9)
-        ),
-        url("../../assets/images/blackops6.webp");
-    background-size: cover;
-    background-position: center;
-    position: fixed;  /* This will remain fixed */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;  /* Place behind other content */
-  }
+  // &::before{
+  //   content: "";
+  //   background: 
+  //     linear-gradient(
+  //       rgba(0, 0, 0, 0.7),
+  //       rgba(0, 0, 0, 0.9)
+  //       ),
+  //       url("../../assets/images/blackops6.webp");
+  //   background-size: cover;
+  //   background-position: center;
+  //   position: fixed;  /* This will remain fixed */
+  //   top: 0;
+  //   left: 0;
+  //   width: 100%;
+  //   height: 100%;
+  //   z-index: -1;  /* Place behind other content */
+  // }
 
-  margin: 0 auto;
-  color: white;
 }
 
 //The main homepage
@@ -134,9 +134,8 @@ body {
 
 // ---------------------------------------------------------------------------
 
-#page-warframe-home body{
-  // background-image: none;
-  background-color: red;
+#page-warframe-home body,
+#page-warframe-locations body{
 
   &::before{
     content: "";
