@@ -8,5 +8,4 @@ itemLocations:
  description: These can be found in Plains of Eidilon on Earth, mainly around camps (marked by a little mountain icon on the map)
 
 tags: warframeLocation
-
 ---
