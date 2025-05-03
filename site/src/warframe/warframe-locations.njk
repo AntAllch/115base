@@ -8,4 +8,24 @@ pageClass: warframe-locations
 
   <p class='wf-page-dec'>Locations Coming Soon</p>
 
+  <div class="accordion-group">
+
+    <div class="accordion-item">
+
+      <p class="accordion-title">A</p>
+
+          {# <p class="accordion-content"><span class="ac-span-bold">Argon Crystal</span> - These can be obtained through Missions in The Void</p>
+          <p class="accordion-content"><span class="ac-span-bold">Argon Crystal</span> - These can be obtained through Missions in The Void</p>
+          <p class="accordion-content"><span class="ac-span-bold">Argon Crystal</span> - These can be obtained through Missions in The Void</p>
+          <p class="accordion-content"><span class="ac-span-bold">Argon Crystal</span> - These can be obtained through Missions in The Void</p>
+          <p class="accordion-content"><span class="ac-span-bold">Argon Crystal</span> - These can be obtained through Missions in The Void</p> #}
+
+      {% for location in itemLocations %}
+
+        <p class="accordion-content"><span class="ac-span-bold">{{ location.data.item }}</span> - {{ location.data.description }}</p>
+
+      {% endfor %}
+
+    </div>
+
 </body>

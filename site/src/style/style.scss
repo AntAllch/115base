@@ -2,21 +2,22 @@
 @use 'abstracts/utility';
 @use 'abstracts/mixins';
 
+@use 'base/header';
+@use 'base/game-blocks';
 @use 'base/reset';
-@use 'base/typography';
 @use 'base/base';
 @use 'base/wrapper';
+@use 'base/typography';
 @use 'base/mobile-nav';
+@use 'base/accordion';
+@use 'base/footer';
 
-@use 'black-ops-6-sections/header';
 @use 'black-ops-6-sections/bo6maps';
-@use 'black-ops-6-sections/game-blocks';
 @use 'black-ops-6-sections/weapons';
 @use 'black-ops-6-sections/listed-item';
 @use 'black-ops-6-sections/egg-steps';
 @use 'black-ops-6-sections/terminus-calc';
 @use 'black-ops-6-sections/medals';
-@use 'black-ops-6-sections/footer';
 
 @use 'warframe-sections/warframe-home';
 @use 'warframe-sections/warframe-locations';

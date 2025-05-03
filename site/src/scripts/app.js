@@ -1,5 +1,6 @@
 const moment = require("moment") // For date formatting
 import { terminusCalculator } from "./terminuscalc"
+import { accordion } from "./accordion"
 
 document.addEventListener('DOMContentLoaded', () => {
 

@@ -1,7 +1,6 @@
 ---
 title: Liberty Falls
 date: 2024-10-30
-
 weaponLocations: 
 -
  weapon: GS45

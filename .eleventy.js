@@ -8,7 +8,7 @@ module.exports = function(eleventyConfig) {
     // Recomplile 11ty when files change
     eleventyConfig.addWatchTarget("./src/style/")
 
-    // ---------------------------- BLACK OPS 6 COLLECTIONS ----------------------------
+    // ---------------------------- START - BLACK OPS 6 COLLECTIONS ----------------------------
 
     // A Collection for main Easter Eggs -----------------
     eleventyConfig.addCollection("mainEggs", collection => {
@@ -54,7 +54,18 @@ module.exports = function(eleventyConfig) {
     //     return collection.getFilteredByTag("weaponBuild").filter(item => item.data.stefanWeaponClass)
     // });
 
-    // ---------------------------------------------------------------------------------
+    // ---------------------------- END - BLACK OPS 6 COLLECTIONS ----------------------------
+
+    
+
+    // ---------------------------- START - WARFRAME COLLECTIONS ----------------------------
+
+    eleventyConfig.addCollection("warframeLocations", collection => {
+        return collection.getFilteredByTag("warframeLocation")
+    });
+
+    // ---------------------------- END - WARFRAME COLLECTIONS ----------------------------
+
 
 
     // Expose Nunjucks filters
