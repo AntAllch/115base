@@ -25,9 +25,8 @@ pageClass: warframe-locations
 						{# Loop through the "items" in the warframeItem frontmatter data#}
 						{% for item in warframeItem.data.items %}
 							<p class="accordion-content">
-								<span class="ac-span-bold">{{ item.name }}</span>
-								- {{ item.description }}
-								</p>
+								<span class="ac-span-bold">{{ item.name }}</span> - {{ item.description }}
+							</p>
 						{% endfor %}
 					</div>
 				{% endif %}
