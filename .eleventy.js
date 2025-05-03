@@ -60,8 +60,8 @@ module.exports = function(eleventyConfig) {
 
     // ---------------------------- START - WARFRAME COLLECTIONS ----------------------------
 
-    eleventyConfig.addCollection("warframeLocations", collection => {
-        return collection.getFilteredByTag("warframeLocation")
+    eleventyConfig.addCollection("warframeItems", collection => {
+        return collection.getFilteredByTag("warframeItem")
     });
 
     // ---------------------------- END - WARFRAME COLLECTIONS ----------------------------
@@ -71,6 +71,7 @@ module.exports = function(eleventyConfig) {
     // Expose Nunjucks filters
     eleventyConfig.addFilter("prettyDate", prettyDate);
     eleventyConfig.addFilter("kebab", kebab);
+    eleventyConfig.addFilter("split", (str, delimiter) => str.split(delimiter));
 
     // Automatically open up the browser on script runs
     eleventyConfig.setBrowserSyncConfig({

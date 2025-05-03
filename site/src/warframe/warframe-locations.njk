@@ -6,26 +6,31 @@ pageClass: warframe-locations
 
 <body class='warframe-locations-body'>
 
-  <p class='wf-page-dec'>Locations Coming Soon</p>
+	<p class='wf-page-dec'>Locations Coming Soon</p>
 
-  <div class="accordion-group">
+	<div class="accordion-group">
+		{# Set the letters to loop through #}
+		{% set letters = "abcdefghijklmnopqrstuvwxyz" | split("") %}
+		
+		{% for warframeItem in collections.warframeItems %}
+			{# Loop through the letters #}
+			{% for letter in letters %}
 
-    <div class="accordion-item">
+			{# If the warframeItem's alphabet data (in the 11tydata.js file) matches the letter, then create the accordion item #}
+				{% if warframeItem.data.alphabet == letter %}
+					<div class="accordion-item">
+						{# Display the letter as the accordion title #}
+						<p class="accordion-title">{{ letter | upper }}</p>
 
-      <p class="accordion-title">A</p>
-
-          {# <p class="accordion-content"><span class="ac-span-bold">Argon Crystal</span> - These can be obtained through Missions in The Void</p>
-          <p class="accordion-content"><span class="ac-span-bold">Argon Crystal</span> - These can be obtained through Missions in The Void</p>
-          <p class="accordion-content"><span class="ac-span-bold">Argon Crystal</span> - These can be obtained through Missions in The Void</p>
-          <p class="accordion-content"><span class="ac-span-bold">Argon Crystal</span> - These can be obtained through Missions in The Void</p>
-          <p class="accordion-content"><span class="ac-span-bold">Argon Crystal</span> - These can be obtained through Missions in The Void</p> #}
-
-      {% for location in itemLocations %}
-
-        <p class="accordion-content"><span class="ac-span-bold">{{ location.data.item }}</span> - {{ location.data.description }}</p>
-
-      {% endfor %}
-
-    </div>
-
+						{# Loop through the "items" in the warframeItem frontmatter data#}
+						{% for item in warframeItem.data.items %}
+							<p class="accordion-content">
+								<span class="ac-span-bold">{{ item.name }}</span>
+								- {{ item.description }}
+								</p>
+						{% endfor %}
+					</div>
+				{% endif %}
+			{% endfor %}
+		{% endfor %}
 </body>
