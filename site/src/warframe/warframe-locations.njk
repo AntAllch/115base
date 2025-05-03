@@ -6,11 +6,11 @@ pageClass: warframe-locations
 
 <body class='warframe-locations-body'>
 
-	<p class='wf-page-dec'>Locations Coming Soon</p>
+	<p class='wf-page-dec'>Item Locations</p>
 
 	<div class="accordion-group">
 		{# Set the letters to loop through #}
-		{% set letters = "abcdefghijklmnopqrstuvwxyz" | split("") %}
+		{% set letters = "abcdefghijklmnopqrstuvwxyz" %}
 		
 		{% for warframeItem in collections.warframeItems %}
 			{# Loop through the letters #}
@@ -18,6 +18,7 @@ pageClass: warframe-locations
 
 			{# If the warframeItem's alphabet data (in the 11tydata.js file) matches the letter, then create the accordion item #}
 				{% if warframeItem.data.alphabet == letter %}
+
 					<div class="accordion-item">
 						{# Display the letter as the accordion title #}
 						<p class="accordion-title">{{ letter | upper }}</p>
@@ -28,7 +29,9 @@ pageClass: warframe-locations
 								<span class="ac-span-bold">{{ item.name }}</span> - {{ item.description }}
 							</p>
 						{% endfor %}
+            
 					</div>
+
 				{% endif %}
 			{% endfor %}
 		{% endfor %}
