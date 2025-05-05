@@ -5,13 +5,11 @@ titleBar.forEach(title => {
     title.addEventListener('click', () => {
         
         const accordionItem = title.closest('.accordion-item');
-        const currentHeight = accordionItem.style.height;
-        
-        if (currentHeight === 'auto' || !currentHeight) {
-            accordionItem.style.height = '44px';
-        } else {
-            accordionItem.style.height = 'auto';
-        }
+              accordionItem.classList.toggle('rotate-symbol');
+
+        const accordionContentGroup = accordionItem.querySelector('.accordion-content-group');
+              accordionContentGroup.classList.toggle('active-accordion');
+              console.log(accordionContentGroup.classList);
 
     });
 

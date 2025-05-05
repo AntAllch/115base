@@ -1,4 +1,4 @@
-module.exports = {
-  tags: ["warframeItem"],
-  alphabet: "d"
-}
+// module.exports = {
+//   tags: ["warframeItem"],
+//   alphabet: "d"
+// }
