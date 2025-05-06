@@ -12,7 +12,7 @@ pageClass: warframe-locations
 	<div class="accordion-group">
 
 		{# Set the letters to loop through #}
-		{% set letters = "abcdefghijklmnopqrstuvwxyz" %}
+		{% set letters = "abcdefghijklmnopqrstuvwxyz" | split("") %}
 		
 		{% for warframeItem in collections.warframeItems %}
 
