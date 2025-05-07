@@ -12,7 +12,7 @@
   
   svg{
     width: 5.5rem;
-    fill: orange
+    // fill: orange
   }
   
   .mobile-header{
@@ -21,10 +21,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: orange;
-    padding: 1.6rem 2rem;
+    // color: orange;
+    padding: 1.95rem 2rem;
     z-index: 1000;
     width: 100%;
+    // height: 100%
     position: fixed;
     box-shadow: 0px -15px 22px 18px rgba(0,0,0,0.75);
 
@@ -52,7 +53,7 @@
     transform: translateY(-10%);
     opacity: 0;
     visibility: hidden;
-    background-color: rgba(black, 0.7);
+    background-color: rgba(black, 0.3);
     backdrop-filter: blur(1rem);
     position: fixed;
     top: 85px;
