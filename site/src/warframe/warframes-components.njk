@@ -9,24 +9,28 @@ pageClass: warframes-components
 	<p class='page-content_title center-text'>How do I build that Warframe?</p>
 	<p class='page-content_subtitle center-text'>Where do I get the components from?</p>
 
+	<p class='page-content_subinfo center-text'>Repeat each mission until you get all the components, then buy the Warframe's blueprint from the market</p>
+
+	<input type="text" id="searchInput" class="search-input" placeholder="Search items...">
+
 	<div class="accordion-group">
 		{# Set the letters to loop through #}
 		{% set letters = "abcdefghijklmnopqrstuvwxyz" | split("") %}
 		
-		{% for warframeItem in collections.warframeItems %}
+		{% for warframesComponent in collections.warframesComponents %}
 			{# Loop through the letters #}
 			{% for letter in letters %}
 				{# If the warframeItem's alphabet data (in the 11tydata.js file) matches the letter, then create the accordion item #}
-				{% if warframeItem.data.alphabet == letter %}
+				{% if warframesComponent.data.alphabet == letter %}
 					<div class="accordion-item" data-letter="{{ letter | upper }}">
 						{# Display the letter as the accordion title #}
 						<p class="accordion-title">{{ letter | upper }}</p>
 
 						<div class="accordion-content-group">
-							{# Loop through the "items" in the warframeItem frontmatter data#}
-							{% for item in warframeItem.data.items %}
+							{# Loop through the "items" in the warframesComponent frontmatter data#}
+							{% for item in warframesComponent.data.items %}
 								<p class="accordion-content">
-								<span class="ac-span-bold">{{ item.name }}</span> - {{ item.description }}
+								<span class="ac-span-bold">{{ item.name }}</span> - <strong>Planet: </strong>{{ item.planet }} - <strong>Mission: </strong>{{ item.mission }} - <strong>Boss: </strong>{{ item.boss }}
 								</p>
 							{% endfor %}
 						</div>

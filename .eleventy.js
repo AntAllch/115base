@@ -64,6 +64,10 @@ module.exports = function(eleventyConfig) {
         return collection.getFilteredByTag("warframeItem")
     });
 
+    eleventyConfig.addCollection("warframesComponents", collection => {
+        return collection.getFilteredByTag("warframesComponent")
+    });
+
     // ---------------------------- END - WARFRAME COLLECTIONS ----------------------------
 
 
