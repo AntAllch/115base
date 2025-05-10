@@ -9,21 +9,21 @@ pageClass: warframe-locations
 	<p class='wf-page-dec center-text'>Where do I get that from?</p>
 	<p class='page-content_title center-text'>Item Locations</p>
 
-	<div class="accordion-group">
+	{# Add search input #}
+	<input type="text" id="searchInput" class="search-input" placeholder="Search items...">
+	{# <div class="search-container">
+	</div> #}
 
+	<div class="accordion-group">
 		{# Set the letters to loop through #}
 		{% set letters = "abcdefghijklmnopqrstuvwxyz" | split("") %}
 		
 		{% for warframeItem in collections.warframeItems %}
-
 			{# Loop through the letters #}
 			{% for letter in letters %}
-
 				{# If the warframeItem's alphabet data (in the 11tydata.js file) matches the letter, then create the accordion item #}
 				{% if warframeItem.data.alphabet == letter %}
-
-					<div class="accordion-item">
-
+					<div class="accordion-item" data-letter="{{ letter | upper }}">
 						{# Display the letter as the accordion title #}
 						<p class="accordion-title">{{ letter | upper }}</p>
 
@@ -36,14 +36,9 @@ pageClass: warframe-locations
 							{% endfor %}
 						</div>
 
-            		</div>
-
+					</div>
 				{% endif %}
-
 			{% endfor %}
-
 		{% endfor %}
-
 	</div>
-
 </body>

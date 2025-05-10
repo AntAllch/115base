@@ -1,18 +1,17 @@
-const titleBar = document.querySelectorAll('.accordion-title');
-
-titleBar.forEach(title => {
+document.addEventListener('DOMContentLoaded', function() {
     
-    title.addEventListener('click', () => {
-        
-        const accordionItem = title.closest('.accordion-item');
-              accordionItem.classList.toggle('rotate-symbol');
+    // Accordion functionality
+    const titleBar = document.querySelectorAll('.accordion-title');
+    
+    titleBar.forEach(title => {
+        title.addEventListener('click', () => {
+            const accordionItem = title.closest('.accordion-item');
+            const accordionContentGroup = accordionItem.querySelector('.accordion-content-group');
 
-        const accordionContentGroup = accordionItem.querySelector('.accordion-content-group');
-              accordionContentGroup.classList.toggle('active-accordion');
-              console.log(accordionContentGroup.classList);
-
+            accordionItem.classList.toggle('rotate-symbol');
+            accordionContentGroup.classList.toggle('active-accordion');
+            console.log(accordionContentGroup.classList);
+        }); 
     });
 
 });
-
-

@@ -56,16 +56,19 @@
     // }
 
     .banner-text{
+        width: fit-content;
         font-size: 3rem;
         text-align: center;
         line-height: 0.8;
         letter-spacing: 5px;
-        color: orange;
+        color: white;
         -webkit-text-stroke: 1px rgba(black, 0.5);
         margin: 9.5rem auto 0;
-        padding: 1rem 1.5rem;
+        padding-block: 1rem;
+        padding-left: 1.5rem;
+        padding-right: calc(1.5rem - 7.5px);
         background-color: black;
-        width: fit-content;
+        border-radius: 0.25rem;
     
         // background: url('../../assets/images/liberty-falls.webp');
         // background-clip: text;
