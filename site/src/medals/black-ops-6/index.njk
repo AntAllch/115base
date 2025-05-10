@@ -8,7 +8,7 @@ pageClass: medals
 
     <h1 class="page-content_title center-text">Zombie Medals</h1>
 
-    <div class="medal-blocks center-text">
+    <div class="game-blocks center-text">
 
         {# Create an array of creators #}
         {% set medals = [] %}
@@ -24,7 +24,7 @@ pageClass: medals
         {# Loop through the category array to add them to the page #}
         {% for medal in medals %}
             <a class="block-link" href="/medals/black-ops-6/{{ medal | kebab }}">
-                <div class="medal-block" id="{{ medal | kebab }}-builds">
+                <div class="medal-block game-block" id="{{ medal | kebab }}-builds">
                     <p class="block-title">{{ medal }}</p>
                 </div>
             </a>

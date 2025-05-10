@@ -152,11 +152,14 @@ body {
   margin-block: 3rem 1rem;
 }
 
-
+// .wf-page-dec{
+//   font-size: 5rem;
+// }
 // ---------------------------------------------------------------------------
 
 #page-warframe-home body,
-#page-warframe-locations body{
+#page-warframe-locations body,
+#page-warframes-components body{
 
   &::before{
     content: "";
