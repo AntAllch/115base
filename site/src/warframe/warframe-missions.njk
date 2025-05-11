@@ -1,0 +1,34 @@
+---
+layout: bases/warframebase.njk 
+title: 115base | Warframe Missions
+pageClass: warframe-missions
+---
+
+<body class='warframe-locations-body'>
+
+	<p class='page-content_title center-text'>Where do I find this type of mission?</p>
+	<p class='page-content_subtitle center-text'>Which planet is it on?</p>
+
+	<input type="text" id="searchInput" class="search-input" placeholder="Search items...">
+
+	<div class="accordion-group">
+		
+		{% for warframeMission in collections.warframeMissions %}
+			<div class="accordion-item">
+				{# Display the mission type as the accordion title #}
+				<p class="accordion-title">{{ warframeMission.data.planet }}</p>
+
+				<div class="accordion-content-group">
+					{# Loop through the "items" in the frontmatter data#}
+					{% for item in warframeMission.data.items %}
+						<p class="accordion-content">
+						<span class="ac-span-bold">{{ item.missiontype }}</span> - <strong>Mission: </strong>{{ item.mission }}
+						</p>
+					{% endfor %}
+				</div>
+
+			</div>
+		{% endfor %}
+
+	</div>
+</body>
