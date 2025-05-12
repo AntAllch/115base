@@ -16,6 +16,7 @@ items:
  missiontype: Exterminate
  mission: Gaia
  level: 1-5
+#  can you remove the data from level: and missiontype please
 -
  missiontype: Exterminate
  mission: Mantle
