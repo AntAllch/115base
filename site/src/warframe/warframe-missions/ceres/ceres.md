@@ -1,43 +1,56 @@
 ---
 items:
 -
- missiontype: 
- mission: Casta
- level: 
+  missiontype: Spy
+  mission: Bode
+  level: 12-14
+  enemytype: Grineer
+# -
+#   missiontype: 
+#   mission: Casta
+#   level: 
 -
- missiontype: 
- mission: Lex
- level: 
+  missiontype: Interception
+  mission: Cinxia
+  level: 12-17
+  enemytype: Grineer
+# -
+#   missiontype: 
+#   mission: Draco
+#   level: 
+# -
+#   missiontype: 
+#   mission: Gabii
+#   level: 
+# -
+#   missiontype: 
+#   mission: Kiste
+#   level: 
+# -
+#   missiontype: 
+#   mission: Lex
+#   level: 
 -
- missiontype: 
- mission: Bode
- level: 
+  missiontype: Hijack
+  mission: Ludi
+  level: 15-17
+  enemytype: Grineer
 -
- missiontype: 
- mission: Ker
- level: 
+  missiontype: Rescue
+  mission: Nuovo
+  level: 13-15
+  enemytype: Grineer
 -
- missiontype: 
- mission: Nuovo
- level: 
--
- missiontype: 
- mission: Ludi
- level: 
--
- missiontype: 
- mission: Pallas
- level: 
--
- missiontype: 
- mission: Draco
- level: 
--
- missiontype: 
- mission: Cerberus
- level: 
--
- missiontype: 
- mission: Captain Vor & Lieutenant Lech Kril
- level: 
---- 
+  missiontype: Exterminate
+  mission: Pallas
+  level: 12-14
+  enemytype: Kuva Grineer
+# -
+#   missiontype: 
+#   mission: Seimeni
+#   level: 
+# -
+#   missiontype: 
+#   mission: Thon
+#   level: 
+---

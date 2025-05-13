@@ -22,7 +22,8 @@ pageClass: warframe-missions
 					{# Loop through the "items" in the frontmatter data#}
 					{% for item in warframeMission.data.items %}
 						<p class="accordion-content">
-						<span class="ac-span-bold">{{ item.missiontype }}</span> - <strong>Mission: </strong>{{ item.mission }} - <strong>Level: </strong>{{ item.level }}
+						<span class="ac-span-bold">{{ item.missiontype }}</span> - <strong>Mission: </strong>{{ item.mission }}
+						 - <strong>Level: </strong>{{ item.level }} - <strong>Enemy: </strong>{{ item.enemytype }}
 						</p>
 					{% endfor %}
 				</div>

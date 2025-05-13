@@ -1,43 +1,43 @@
 ---
 items:
 -
- missiontype: 
- mission: Terrorem
- level: 
+  missiontype: Capture
+  mission: Horend
+  level: 12-14
+  enemytype: Grineer
 -
- missiontype: 
- mission: Magnacidium
- level: 
+  missiontype: Defense
+  mission: Hyf
+  level: 15-20
+  enemytype: Grineer
 -
- missiontype: 
- mission: Persto
- level: 
+  missiontype: Sabotage
+  mission: Formido
+  level: 14-16
+  enemytype: Grineer
 -
- missiontype: 
- mission: Terrorem
- level: 
+  missiontype: Survival
+  mission: Terrorem
+  level: 25-35
+  enemytype: Grineer
 -
- missiontype: 
- mission: Magnacidium
- level: 
+  missiontype: Exterminate
+  mission: Phlegyas
+  level: 13-15
+  enemytype: Grineer
 -
- missiontype: 
- mission: Persto
- level: 
+  missiontype: Assassination
+  mission: Exequias
+  level: 30-35
+  enemytype: Target - Zealoid Prelate
 -
- missiontype: 
- mission: Terrorem
- level: 
+  missiontype: Assassination
+  mission: Magnacidium
+  level: 20-25
+  enemytype: Target - Lephantis
 -
- missiontype: 
- mission: Magnacidium
- level: 
--
- missiontype: 
- mission: Persto
- level: 
--
- missiontype: 
- mission: Lephantis
- level: 
---- 
+  missiontype: Mobile Defense
+  mission: Dirus
+  level: 15-17
+  enemytype: Grineer
+---

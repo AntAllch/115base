@@ -1,51 +1,73 @@
 ---
 items:
 -
- missiontype: 
- mission: Coba
- level: 
+  missiontype: Defense
+  mission: Coba
+  level: 6-16 (Event)
+  enemytype: Grineer
 -
- missiontype: 
- mission: Lith
- level: 
+  missiontype: Defense
+  mission: Lith
+  level: 2-5
+  enemytype: Grineer
 -
- missiontype: 
- mission: Cambria
- level: 
+  missiontype: Spy
+  mission: Cambria
+  level: 3-6
+  enemytype: Grineer
 -
- missiontype: 
- mission: Gaia
- level: 
+  missiontype: Interception
+  mission: Gaia
+  level: 1-6
+  enemytype: Grineer
 -
- missiontype: 
- mission: Mantle
- level: 
+  missiontype: Capture
+  mission: Mantle
+  level: 2-4
+  enemytype: Grineer
 -
- missiontype: 
- mission: Tikal
- level: 
+  missiontype: Excavation
+  mission: Tikal
+  level: 6-16 (Event)
+  enemytype: Grineer
 -
- missiontype: 
- mission: Lex
- level: 
+  missiontype: Exterminate
+  mission: E Prime
+  level: 1-3
+  enemytype: Grineer
 -
- missiontype: 
- mission: Pacific
- level: 
+  missiontype: Exterminate
+  mission: Mariana
+  level: 1-3
+  enemytype: Grineer
 -
- missiontype: 
- mission: Cervantes
- level: 
+  missiontype: Sabotage
+  mission: Cervantes
+  level: 4-6
+  enemytype: Grineer
 -
- missiontype: 
- mission: Everest
- level: 
+  missiontype: Rescue
+  mission: Pacific
+  level: 3-6
+  enemytype: Grineer
 -
- missiontype: 
- mission: Lua
- level: 
+  missiontype: Excavation
+  mission: Everest
+  level: 1-6
+  enemytype: Grineer
 -
- missiontype: 
- mission: Vay Hek
- level: 
+  missiontype: Mobile Defense
+  mission: Eurasia
+  level: 3-6
+  enemytype: Grineer
+-
+  missiontype: Mobile Defense (Archwing)
+  mission: Erpo
+  level: 1-6
+  enemytype: Grineer
+-
+  missiontype: Assassination
+  mission: Oro
+  level: 20-25
+  enemytype: Target - Vay Hek Terra Frame
 ---
