@@ -5,10 +5,10 @@ items:
   mission: Bode
   level: 12-14
   enemytype: Grineer
-# -
-#   missiontype: 
-#   mission: Casta
-#   level: 
+-
+  missiontype: Defense
+  mission: Casta
+  level: 12-17
 -
   missiontype: Interception
   mission: Cinxia
