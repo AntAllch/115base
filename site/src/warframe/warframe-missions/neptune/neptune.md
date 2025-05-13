@@ -1,33 +1,43 @@
 ---
 items:
 -
- missiontype: Defense
+ missiontype: 
  mission: Laomedeia
+ level: 
 -
- missiontype: Mobile Defense
+ missiontype: 
  mission: Proteus
+ level: 
 -
- missiontype: Exterminate
+ missiontype: 
  mission: Triton
+ level: 
 -
- missiontype: Exterminate
+ missiontype: 
  mission: Nereid
+ level: 
 -
- missiontype: Sabotage
+ missiontype: 
  mission: Larissa
+ level: 
 -
- missiontype: Spy
+ missiontype: 
  mission: Sao
+ level: 
 -
- missiontype: Survival
+ missiontype: 
  mission: Neso
+ level: 
 -
- missiontype: Survival
+ missiontype: 
  mission: Salacia
+ level: 
 -
- missiontype: Interception
+ missiontype: 
  mission: Psamathe
+ level: 
 -
- missiontype: Assassination
+ missiontype: 
  mission: Raptors
+ level: 
 --- 

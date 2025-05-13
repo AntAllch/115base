@@ -1,36 +1,47 @@
 ---
 items:
 -
- missiontype: Defense
+ missiontype: 
  mission: Io
+ level: 
 -
- missiontype: Defense
+ missiontype: 
  mission: Callisto
+ level: 
 -
- missiontype: Mobile Defense
+ missiontype: 
  mission: Ganymede
+ level: 
 -
- missiontype: Exterminate
+ missiontype: 
  mission: Adrastea
+ level: 
 -
- missiontype: Exterminate
+ missiontype: 
  mission: Metis
+ level: 
 -
- missiontype: Sabotage
+ missiontype: 
  mission: Cameria
+ level: 
 -
- missiontype: Spy
+ missiontype: 
  mission: Elara
+ level: 
 -
- missiontype: Survival
+ missiontype: 
  mission: Themisto
+ level: 
 -
- missiontype: Survival
+ missiontype: 
  mission: Ananke
+ level: 
 -
- missiontype: Interception
+ missiontype: 
  mission: Galilea
+ level: 
 -
- missiontype: Assassination
+ missiontype: 
  mission: Alad V
+ level: 
 ---

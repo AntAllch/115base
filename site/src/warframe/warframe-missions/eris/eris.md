@@ -1,33 +1,43 @@
 ---
 items:
 -
- missiontype: Defense
+ missiontype: 
  mission: Akkad
+ level: 
 -
- missiontype: Mobile Defense
+ missiontype: 
  mission: Zabala
+ level: 
 -
- missiontype: Exterminate
+ missiontype: 
  mission: Naeglar
+ level: 
 -
- missiontype: Exterminate
+ missiontype: 
  mission: Saxis
+ level: 
 -
- missiontype: Sabotage
+ missiontype: 
  mission: Isos
+ level: 
 -
- missiontype: Spy
+ missiontype: 
  mission: Cyath
+ level: 
 -
- missiontype: Survival
+ missiontype: 
  mission: Xini
+ level: 
 -
- missiontype: Survival
+ missiontype: 
  mission: Gnathos
+ level: 
 -
- missiontype: Interception
+ missiontype: 
  mission: Kala-azar
+ level: 
 -
- missiontype: Assassination
+ missiontype: 
  mission: Jordas Golem
+ level: 
 --- 

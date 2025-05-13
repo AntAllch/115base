@@ -1,33 +1,43 @@
 ---
 items:
 -
- missiontype: Defense
+ missiontype: 
  mission: Valefor
+ level: 
 -
- missiontype: Mobile Defense
+ missiontype: 
  mission: Larzac
+ level: 
 -
- missiontype: Exterminate
+ missiontype: 
  mission: Morax
+ level: 
 -
- missiontype: Exterminate
+ missiontype: 
  mission: Paimon
+ level: 
 -
- missiontype: Sabotage
+ missiontype: 
  mission: Baal
+ level: 
 -
- missiontype: Spy
+ missiontype: 
  mission: Ose
+ level: 
 -
- missiontype: Survival
+ missiontype: 
  mission: Cholistan
+ level: 
 -
- missiontype: Survival
+ missiontype: 
  mission: Armaros
+ level: 
 -
- missiontype: Interception
+ missiontype: 
  mission: Vodyanoi
+ level: 
 -
- missiontype: Assassination
+ missiontype: 
  mission: Raptors
+ level: 
 --- 

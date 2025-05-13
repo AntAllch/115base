@@ -1,33 +1,43 @@
 ---
 items:
 -
- missiontype: Defense
- mission: Lares
--
- missiontype: Defense
- mission: Pantheon
--
- missiontype: Exterminate
+ missiontype: 
  mission: Apollodorus
+ level: 
 -
- missiontype: Exterminate
- mission: Terminus
--
- missiontype: Sabotage
+ missiontype: 
  mission: Elion
+ level: 
 -
- missiontype: Spy
- mission: Odin
+ missiontype: 
+ mission: Terminus
+ level: 
 -
- missiontype: Survival
+ missiontype: 
  mission: M Prime
+ level: 
 -
- missiontype: Survival
- mission: Caloris
--
- missiontype: Interception
+ missiontype: 
  mission: Boethius
+ level: 
 -
- missiontype: Assassination
+ missiontype: 
+ mission: Caloris
+ level: 
+-
+ missiontype: 
+ mission: Pantheon
+ level: 
+-
+ missiontype: 
+ mission: Odin
+ level: 
+-
+ missiontype: 
+ mission: Suisei
+ level: 
+-
+ missiontype: 
  mission: Vor
+ level: 
 ---

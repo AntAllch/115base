@@ -1,33 +1,43 @@
 ---
 items:
 -
- missiontype: Defense
+ missiontype: 
  mission: Outer Terminus
+ level: 
 -
- missiontype: Mobile Defense
+ missiontype: 
  mission: Oceanum
+ level: 
 -
- missiontype: Exterminate
+ missiontype: 
  mission: Cerberus
+ level: 
 -
- missiontype: Exterminate
+ missiontype: 
  mission: Palus
+ level: 
 -
- missiontype: Sabotage
+ missiontype: 
  mission: Cypress
+ level: 
 -
- missiontype: Spy
+ missiontype: 
  mission: Hydra
+ level: 
 -
- missiontype: Survival
+ missiontype: 
  mission: Hieracon
+ level: 
 -
- missiontype: Survival
+ missiontype: 
  mission: Sechura
+ level: 
 -
- missiontype: Interception
+ missiontype: 
  mission: Cerberus
+ level: 
 -
- missiontype: Assassination
+ missiontype: 
  mission: Ambulas
+ level: 
 --- 

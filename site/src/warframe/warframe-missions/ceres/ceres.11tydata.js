@@ -1,4 +1,4 @@
 module.exports = {
   tags: ["warframeMission"],
-  planet: "Ceres"
+  // planet: "Ceres"
 }; 

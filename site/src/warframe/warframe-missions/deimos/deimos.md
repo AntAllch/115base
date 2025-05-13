@@ -1,33 +1,43 @@
 ---
 items:
 -
- missiontype: Defense
+ missiontype: 
  mission: Terrorem
+ level: 
 -
- missiontype: Mobile Defense
+ missiontype: 
  mission: Magnacidium
+ level: 
 -
- missiontype: Exterminate
+ missiontype: 
  mission: Persto
+ level: 
 -
- missiontype: Exterminate
+ missiontype: 
  mission: Terrorem
+ level: 
 -
- missiontype: Sabotage
+ missiontype: 
  mission: Magnacidium
+ level: 
 -
- missiontype: Spy
+ missiontype: 
  mission: Persto
+ level: 
 -
- missiontype: Survival
+ missiontype: 
  mission: Terrorem
+ level: 
 -
- missiontype: Survival
+ missiontype: 
  mission: Magnacidium
+ level: 
 -
- missiontype: Interception
+ missiontype: 
  mission: Persto
+ level: 
 -
- missiontype: Assassination
+ missiontype: 
  mission: Lephantis
+ level: 
 --- 

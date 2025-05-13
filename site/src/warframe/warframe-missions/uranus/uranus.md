@@ -1,33 +1,43 @@
 ---
 items:
 -
- missiontype: Defense
+ missiontype: 
  mission: Stephano
+ level: 
 -
- missiontype: Mobile Defense
+ missiontype: 
  mission: Desdemona
+ level: 
 -
- missiontype: Exterminate
+ missiontype: 
  mission: Umbriel
+ level: 
 -
- missiontype: Exterminate
+ missiontype: 
  mission: Rosalind
+ level: 
 -
- missiontype: Sabotage
+ missiontype: 
  mission: Puck
+ level: 
 -
- missiontype: Spy
+ missiontype: 
  mission: Ophelia
+ level: 
 -
- missiontype: Survival
+ missiontype: 
  mission: Ariel
+ level: 
 -
- missiontype: Survival
+ missiontype: 
  mission: Miranda
+ level: 
 -
- missiontype: Interception
+ missiontype: 
  mission: Cressida
+ level: 
 -
- missiontype: Assassination
+ missiontype: 
  mission: Tyl Regor
+ level: 
 --- 

@@ -1,33 +1,43 @@
 ---
 items:
 -
- missiontype: Defense
+ missiontype: 
  mission: Hydron
+ level: 
 -
- missiontype: Mobile Defense
+ missiontype: 
  mission: Marid
+ level: 
 -
- missiontype: Exterminate
+ missiontype: 
  mission: Sangeru
+ level: 
 -
- missiontype: Exterminate
+ missiontype: 
  mission: Adaro
+ level: 
 -
- missiontype: Sabotage
+ missiontype: 
  mission: Brugia
+ level: 
 -
- missiontype: Spy
+ missiontype: 
  mission: Kappa
+ level: 
 -
- missiontype: Survival
+ missiontype: 
  mission: Vodyanoi
+ level: 
 -
- missiontype: Survival
+ missiontype: 
  mission: Berehynia
+ level: 
 -
- missiontype: Interception
+ missiontype: 
  mission: Coba
+ level: 
 -
- missiontype: Assassination
+ missiontype: 
  mission: Kela De Thaym
+ level: 
 --- 

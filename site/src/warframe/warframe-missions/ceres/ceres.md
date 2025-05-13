@@ -1,43 +1,43 @@
 ---
 items:
 -
- missiontype: Defense
+ missiontype: 
  mission: Casta
- level: 20-25
+ level: 
 -
- missiontype: Mobile Defense
+ missiontype: 
  mission: Lex
- level: 20-25
+ level: 
 -
- missiontype: Exterminate
+ missiontype: 
  mission: Bode
- level: 20-25
+ level: 
 -
- missiontype: Exterminate
+ missiontype: 
  mission: Ker
- level: 20-25
+ level: 
 -
- missiontype: Sabotage
+ missiontype: 
  mission: Nuovo
- level: 20-25
+ level: 
 -
- missiontype: Spy
+ missiontype: 
  mission: Ludi
- level: 20-25
+ level: 
 -
- missiontype: Survival
+ missiontype: 
  mission: Pallas
- level: 20-25
+ level: 
 -
- missiontype: Survival
+ missiontype: 
  mission: Draco
- level: 20-25
+ level: 
 -
- missiontype: Interception
+ missiontype: 
  mission: Cerberus
- level: 20-25
+ level: 
 -
- missiontype: Assassination
+ missiontype: 
  mission: Captain Vor & Lieutenant Lech Kril
- level: 25-30
+ level: 
 --- 

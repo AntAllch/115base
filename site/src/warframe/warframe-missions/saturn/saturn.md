@@ -1,36 +1,47 @@
 ---
 items:
 -
- missiontype: Defense
+ missiontype: 
  mission: Helene
+ level: 
 -
- missiontype: Defense
+ missiontype: 
  mission: Piscinas
+ level: 
 -
- missiontype: Mobile Defense
+ missiontype: 
  mission: Caracol
+ level: 
 -
- missiontype: Exterminate
+ missiontype: 
  mission: Cassini
+ level: 
 -
- missiontype: Exterminate
+ missiontype: 
  mission: Dione
+ level: 
 -
- missiontype: Sabotage
+ missiontype: 
  mission: Telesto
+ level: 
 -
- missiontype: Spy
+ missiontype: 
  mission: Pandora
+ level: 
 -
- missiontype: Survival
+ missiontype: 
  mission: Titan
+ level: 
 -
- missiontype: Survival
+ missiontype: 
  mission: Enceladus
+ level: 
 -
- missiontype: Interception
+ missiontype: 
  mission: Rhea
+ level: 
 -
- missiontype: Assassination
+ missiontype: 
  mission: General Sargas Ruk
+ level: 
 ---

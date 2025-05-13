@@ -1,33 +1,43 @@
 ---
 items:
 -
- missiontype: Defense
+ missiontype: 
  mission: Stickney
+ level: 
 -
- missiontype: Mobile Defense
+ missiontype: 
  mission: Roche
+ level: 
 -
- missiontype: Exterminate
+ missiontype: 
  mission: Gulliver
+ level: 
 -
- missiontype: Exterminate
+ missiontype: 
  mission: Sharpless
+ level: 
 -
- missiontype: Sabotage
+ missiontype: 
  mission: Skyresh
+ level: 
 -
- missiontype: Spy
+ missiontype: 
  mission: Shklovsky
+ level: 
 -
- missiontype: Survival
+ missiontype: 
  mission: Kepler
+ level: 
 -
- missiontype: Survival
+ missiontype: 
  mission: Hall
+ level: 
 -
- missiontype: Interception
+ missiontype: 
  mission: Grildrig
+ level: 
 -
- missiontype: Assassination
+ missiontype: 
  mission: The Sergeant
+ level: 
 --- 

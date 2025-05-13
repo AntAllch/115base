@@ -1,52 +1,51 @@
 ---
 items:
 -
- missiontype: Survival
+ missiontype: 
  mission: Coba
- level: 1-5
+ level: 
 -
- missiontype: Defense
+ missiontype: 
  mission: Lith
- level: 1-5
+ level: 
 -
- missiontype: Mobile Defense
+ missiontype: 
  mission: Cambria
- level: 1-5
+ level: 
 -
- missiontype: Exterminate
+ missiontype: 
  mission: Gaia
- level: 1-5
-#  can you remove the data from level: and missiontype please
+ level: 
 -
- missiontype: Exterminate
+ missiontype: 
  mission: Mantle
- level: 1-5
+ level: 
 -
- missiontype: Sabotage
+ missiontype: 
  mission: Tikal
- level: 1-5
+ level: 
 -
- missiontype: Defense
+ missiontype: 
  mission: Lex
- level: 1-5
+ level: 
 -
- missiontype: Spy
+ missiontype: 
  mission: Pacific
- level: 1-5
+ level: 
 -
- missiontype: Survival
+ missiontype: 
  mission: Cervantes
- level: 1-5
+ level: 
 -
- missiontype: Defense
+ missiontype: 
  mission: Everest
- level: 1-5
+ level: 
 -
- missiontype: Interception
+ missiontype: 
  mission: Lua
- level: 10-15
+ level: 
 -
- missiontype: Assassination
+ missiontype: 
  mission: Vay Hek
- level: 10-15
+ level: 
 ---

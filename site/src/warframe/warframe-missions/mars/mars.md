@@ -1,39 +1,51 @@
 ---
 items:
 -
- missiontype: Defense
+ missiontype: 
  mission: Olympus
+ level: 
 -
- missiontype: Defense
+ missiontype: 
  mission: Ara
+ level: 
 -
- missiontype: Mobile Defense
+ missiontype: 
  mission: Alator
+ level: 
 -
- missiontype: Mobile Defense
+ missiontype: 
  mission: Martialis
+ level: 
 -
- missiontype: Exterminate
+ missiontype: 
  mission: Arval
+ level: 
 -
- missiontype: Exterminate
+ missiontype: 
  mission: War
+ level: 
 -
- missiontype: Sabotage
+ missiontype: 
  mission: Gradivus
+ level: 
 -
- missiontype: Spy
+ missiontype: 
  mission: Tharsis
+ level: 
 -
- missiontype: Survival
+ missiontype: 
  mission: Augustus
+ level: 
 -
- missiontype: Survival
+ missiontype: 
  mission: Wahiba
+ level: 
 -
- missiontype: Interception
+ missiontype: 
  mission: Spear
+ level: 
 -
- missiontype: Assassination
+ missiontype: 
  mission: The Sergeant
+ level: 
 ---
