@@ -18,10 +18,11 @@ items:
 #   missiontype: 
 #   mission: Draco
 #   level: 
-# -
-#   missiontype: 
-#   mission: Gabii
-#   level: 
+-
+  missiontype: Survival
+  mission: Gabii
+  level: 15-25 (Event)
+  enemytype: Infested 
 # -
 #   missiontype: 
 #   mission: Kiste
