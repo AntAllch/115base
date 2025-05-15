@@ -1,4 +1,4 @@
 module.exports = {
   tags: ["warframeItem"],
-  alphabet: "g"
+  alphabet: "k"
 }
