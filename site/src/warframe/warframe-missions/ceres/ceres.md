@@ -26,10 +26,11 @@ items:
 #   missiontype: 
 #   mission: Kiste
 #   level: 
-# -
-#   missiontype: 
-#   mission: Lex
-#   level: 
+-
+  missiontype: Capture
+  mission: Lex
+  level: 14-16
+  enemytype: Grineer
 -
   missiontype: Hijack
   mission: Ludi
@@ -45,10 +46,11 @@ items:
   mission: Pallas
   level: 12-14
   enemytype: Kuva Grineer
-# -
-#   missiontype: 
-#   mission: Seimeni
-#   level: 
+-
+  missiontype: Defense
+  mission: Seimeni
+  level: 15-25 (Event)
+  enemytype: Infested
 # -
 #   missiontype: 
 #   mission: Thon
