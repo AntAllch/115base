@@ -19,7 +19,7 @@ pageClass: warframe-missions
 				<p class="accordion-title">{{ warframeMission.data.planet }}</p>
 
 				<div class="accordion-content-group">
-					{# Loop through the "items" in the frontmatter data#}
+					{# Loop through the "items" in the frontmatter data #}
 					{% for item in warframeMission.data.items %}
 						<p class="accordion-content">
 						<span class="ac-span-bold">{{ item.missiontype }}</span> - <strong>Mission: </strong>{{ item.mission }}
