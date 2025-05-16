@@ -36,3 +36,11 @@
 .subtitle{
     color: c.$clr-green;
 }
+
+.tips{
+
+    &:nth-of-type(2n){
+        color: c.$clr-green;
+        font-style: italic;
+    }
+}

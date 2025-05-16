@@ -1,36 +1,78 @@
 ---
 items:
 -
- missiontype: Defense
- mission: Kiliken
+  missiontype: Exterminate
+  mission: E Gate
+  level: 3-5
+  enemytype: Corpus
 -
- missiontype: Defense
- mission: Malva
+  missiontype: Defense
+  mission: Tessera
+  level: 3-8
+  enemytype: Corpus
 -
- missiontype: Mobile Defense
- mission: Cytherean
+  missiontype: Excavation
+  mission: Kiliken
+  level: 3-8
+  enemytype: Corpus
 -
- missiontype: Exterminate
- mission: Linea
+  missiontype: Exterminate
+  mission: Montes
+  level: 3-8
+  enemytype: Corpus
 -
- missiontype: Exterminate
- mission: Unda
+  missiontype: Survival
+  mission: V Prime
+  level: 3-8
+  enemytype: Corpus
 -
- missiontype: Sabotage
- mission: Tessera
+  missiontype: Interception
+  mission: Cytherean
+  level: 3-8
+  enemytype: Corpus
 -
- missiontype: Spy
- mission: Romula
+  missiontype: Spy
+  mission: Unda
+  level: 4-6
+  enemytype: Corpus
 -
- missiontype: Survival
- mission: V Prime
+  missiontype: Rescue
+  mission: Linea
+  level: 5-7
+  enemytype: Corpus
 -
- missiontype: Survival
- mission: Ishtar
+  missiontype: Capture
+  mission: Venera
+  level: 5-7
+  enemytype: Corpus
 -
- missiontype: Interception
- mission: Aphrodite
+  missiontype: Mobile Defense
+  mission: Aphrodite
+  level: 6-8
+  enemytype: Corpus
 -
- missiontype: Assassination
- mission: The Jackal
+  missiontype: Assassination
+  mission: Fossa
+  level: 6-8
+  enemytype: Corpus
+-
+  missiontype: Sabotage
+  mission: Ishtar
+  level: 6-8
+  enemytype: Corpus
+-
+  missiontype: Survival (Dark Sector)
+  mission: Malva
+  level: 8-18
+  enemytype: Corpus
+-
+  missiontype: Defense (Dark Sector)
+  mission: Romula
+  level: 8-18
+  enemytype: Corpus
+-
+  missiontype: Open World
+  mission: Orb Vallis
+  level: 10-30
+  enemytype: Corpus
 ---

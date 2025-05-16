@@ -3,7 +3,5 @@ items:
 -
  name: Argon Crystal
  description: These can be obtained through enemy drops in Void Missions
-# -
-#  name: Arsenal
-#  description: These can be found in Plains of Eidilon on Earth, mainly around camps (marked by a little mountain icon on the map)
+ tips: For increased drop rate, use Resource Boosters, Warframe abilities such as Pilfering (from Hydroid or Khora) or Desecrate (from Nekros), break Argon Deposits, and play with a squad (more enemies, more loot)
 ---

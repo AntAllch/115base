@@ -1,45 +1,69 @@
-<!--
 ---
 items:
 -
- missiontype: 
- mission: Akkad
- level: 
+  missiontype: Sabotage
+  mission: Naeglar
+  level: 30-34
+  enemytype: Infested
 -
- missiontype: 
- mission: Zabala
- level: 
+  missiontype: Assassination
+  mission: Mutalist Alad V Assassinate
+  level: 30-35
+  enemytype: Infested
 -
- missiontype: 
- mission: Naeglar
- level: 
+  missiontype: Defense
+  mission: Kala-azar
+  level: 30-40
+  enemytype: Infested
 -
- missiontype: 
- mission: Saxis
- level: 
+  missiontype: Survival
+  mission: Nimus
+  level: 30-40
+  enemytype: Infested
 -
- missiontype: 
- mission: Isos
- level: 
+  missiontype: Interception
+  mission: Xini
+  level: 30-40
+  enemytype: Infested
 -
- missiontype: 
- mission: Cyath
- level: 
+  missiontype: Assassination
+  mission: Jordas Golem Assassinate
+  level: 32-34
+  enemytype: Infested
 -
- missiontype: 
- mission: Xini
- level: 
+  missiontype: Capture
+  mission: Isos
+  level: 32-36
+  enemytype: Infested
 -
- missiontype: 
- mission: Gnathos
- level: 
+  missiontype: Rescue
+  mission: Brugia
+  level: 32-36
+  enemytype: Infested
 -
- missiontype: 
- mission: Kala-azar
- level: 
+  missiontype: Mobile Defense
+  mission: Solium
+  level: 34-38
+  enemytype: Infested
 -
- missiontype: 
- mission: Jordas Golem
- level: 
+  missiontype: Infested Salvage
+  mission: Oestrus
+  level: 34-38
+  enemytype: Infested
+-
+  missiontype: Exterminate
+  mission: Saxis
+  level: 34-38
+  enemytype: Infested
+-
+  missiontype: Survival (Dark Sector)
+  mission: Zabala
+  level: 35-45
+  enemytype: Infested
+-
+  missiontype: Defense (Dark Sector)
+  mission: Akkad
+  level: 35-45
+  enemytype: Infested
 ---
---> 
+ 

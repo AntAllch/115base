@@ -1,45 +1,83 @@
-<!--
 ---
 items:
 -
- missiontype: 
- mission: Hydron
- level: 
+  missiontype: Rescue
+  mission: Naga
+  level: 30-34
+  enemytype: Grineer
 -
- missiontype: 
- mission: Marid
- level: 
+  missiontype: Interception
+  mission: Berehynia
+  level: 30-40
+  enemytype: Grineer
 -
- missiontype: 
- mission: Berehynia
- level: 
+  missiontype: Survival
+  mission: Selkie
+  level: 30-40
+  enemytype: Grineer
 -
- missiontype: 
- mission: Selkie
- level: 
+  missiontype: Defense
+  mission: Hydron
+  level: 30-40
+  enemytype: Grineer
 -
- missiontype: 
- mission: Adaro
- level: 
+  missiontype: Sabotage
+  mission: Rusalka
+  level: 32-36
+  enemytype: Grineer
 -
- missiontype: 
- mission: Charybdis
- level: 
+  missiontype: Exterminate
+  mission: Adaro
+  level: 32-36
+  enemytype: Grineer
 -
- missiontype: 
- mission: Sangeru
- level: 
+  missiontype: Disruption
+  mission: Kappa
+  level: 34-38
+  enemytype: Grineer
 -
- missiontype: 
- mission: Vodyanoi
- level: 
+  missiontype: Hijack
+  mission: Marid
+  level: 34-38
+  enemytype: Grineer
 -
- missiontype: 
- mission: Yam
- level: 
+  missiontype: Mobile Defense
+  mission: Charybdis
+  level: 34-38
+  enemytype: Grineer
 -
- missiontype: 
- mission: Kela De Thaym
- level: 
+  missiontype: Assassination
+  mission: Merrow
+  level: 35-40
+  enemytype: Grineer
+-
+  missiontype: Spy
+  mission: Kelpie
+  level: 35-40
+  enemytype: Grineer
+-
+  missiontype: Survival (Dark Sector)
+  mission: Amarna
+  level: 35-45
+  enemytype: Grineer
+-
+  missiontype: Defense (Dark Sector)
+  mission: Sangeru
+  level: 35-45
+  enemytype: Grineer
+-
+  missiontype: Arena
+  mission: Nakki
+  level: 40-40
+  enemytype: Grineer
+-
+  missiontype: Arena
+  mission: Yam
+  level: 60-60
+  enemytype: Grineer
+-
+  missiontype: Arena
+  mission: Vodyanoi
+  level: 85-85
+  enemytype: Grineer
 ---
---> 

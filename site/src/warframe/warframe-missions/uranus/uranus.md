@@ -1,49 +1,78 @@
-<!--
 ---
 items:
 -
- missiontype: 
- mission: Stephano
- level: 
+  missiontype: Exterminate
+  mission: Sycorax
+  level: 24-26
+  enemytype: Grineer
 -
- missiontype: 
- mission: Ophelia
- level: 
+  missiontype: Defense
+  mission: Stephano
+  level: 24-29
+  enemytype: Grineer
 -
- missiontype: 
- mission: Umbriel
- level: 
+  missiontype: Interception
+  mission: Umbriel
+  level: 24-29
+  enemytype: Grineer
 -
- missiontype: 
- mission: Ariel
- level: 
+  missiontype: Interception
+  mission: Caelus
+  level: 24-29
+  enemytype: Grineer
 -
- missiontype: 
- mission: Puck
- level: 
+  missiontype: Survival
+  mission: Ophelia
+  level: 24-29
+  enemytype: Grineer
 -
- missiontype: 
- mission: Miranda
- level: 
+  missiontype: Rescue
+  mission: Caliban
+  level: 25-27
+  enemytype: Grineer
 -
- missiontype: 
- mission: Rosalind
- level: 
+  missiontype: Capture
+  mission: Ariel
+  level: 25-27
+  enemytype: Grineer
 -
- missiontype: 
- mission: Desdemona
- level: 
+  missiontype: Survival (Dark Sector)
+  mission: Assur
+  level: 25-35
+  enemytype: Grineer
 -
- missiontype: 
- mission: Cressida
- level: 
+  missiontype: Sabotage
+  mission: Desdemona
+  level: 26-28
+  enemytype: Grineer
 -
- missiontype: 
- mission: Titania
- level: 
+  missiontype: Spy
+  mission: Rosalind
+  level: 27-29
+  enemytype: Grineer
 -
- missiontype: 
- mission: Tyl Regor
- level: 
+  missiontype: Assassination
+  mission: Titania
+  level: 27-29
+  enemytype: Grineer
+-
+  missiontype: Exterminate
+  mission: Puck
+  level: 27-29
+  enemytype: Grineer
+-
+  missiontype: Mobile Defense
+  mission: Cressida
+  level: 27-29
+  enemytype: Grineer
+-
+  missiontype: Disruption (Dark Sector)
+  mission: Ur
+  level: 30-35
+  enemytype: Grineer
+-
+  missiontype: Ascension
+  mission: Brutus
+  level: 45-50
+  enemytype: Grineer
 ---
---> 

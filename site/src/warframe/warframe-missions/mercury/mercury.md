@@ -1,45 +1,63 @@
-<!--
 ---
 items:
 -
- missiontype: 
- mission: Apollodorus
- level: 
+  missiontype: Relay
+  mission: Larunda Relay
+  level: 0-0
+  enemytype: Relay
 -
- missiontype: 
- mission: Elion
- level: 
+  missiontype: Rescue
+  mission: Caloris
+  level: 6-8
+  enemytype: Grineer
 -
- missiontype: 
- mission: Terminus
- level: 
+  missiontype: Exterminate
+  mission: Pantheon
+  level: 6-8
+  enemytype: Grineer
 -
- missiontype: 
- mission: M Prime
- level: 
+  missiontype: Interception
+  mission: Odin
+  level: 6-11
+  enemytype: Grineer
 -
- missiontype: 
- mission: Boethius
- level: 
+  missiontype: Defense
+  mission: Lares
+  level: 6-11
+  enemytype: Grineer
 -
- missiontype: 
- mission: Caloris
- level: 
+  missiontype: Survival
+  mission: Apollodorus
+  level: 6-11
+  enemytype: Grineer
 -
- missiontype: 
- mission: Pantheon
- level: 
+  missiontype: Capture
+  mission: Elion
+  level: 7-9
+  enemytype: Grineer
 -
- missiontype: 
- mission: Odin
- level: 
+  missiontype: Exterminate
+  mission: M Prime
+  level: 7-9
+  enemytype: Grineer
 -
- missiontype: 
- mission: Suisei
- level: 
+  missiontype: Sabotage
+  mission: Terminus
+  level: 8-10
+  enemytype: Grineer
 -
- missiontype: 
- mission: Vor
- level: 
+  missiontype: Spy
+  mission: Suisei
+  level: 8-10
+  enemytype: Grineer
+-
+  missiontype: Assassination
+  mission: Tolstoj
+  level: 8-10
+  enemytype: Grineer
+-
+  missiontype: Mobile Defense
+  mission: Boethius
+  level: 8-10
+  enemytype: Grineer
 ---
--->

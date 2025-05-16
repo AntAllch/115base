@@ -14,19 +14,21 @@ items:
   mission: Cinxia
   level: 12-17
   enemytype: Grineer
-# -
-#   missiontype: 
-#   mission: Draco
-#   level: 
 -
   missiontype: Survival
+  mission: Draco
+  level: 12-17
+  enemytype: Grineer
+-
+  missiontype: Survival (Dark Sector)
   mission: Gabii
-  level: 15-25 (Event)
+  level: 15-25
   enemytype: Infested 
-# -
-#   missiontype: 
-#   mission: Kiste
-#   level: 
+-
+  missiontype: Mobile Defense
+  mission: Kiste
+  level: 13-15
+  enemytype: Grineer
 -
   missiontype: Capture
   mission: Lex
@@ -48,12 +50,13 @@ items:
   level: 12-14
   enemytype: Kuva Grineer
 -
-  missiontype: Defense
+  missiontype: Defense (Dark Sector)
   mission: Seimeni
-  level: 15-25 (Event)
+  level: 15-25
   enemytype: Infested
-# -
-#   missiontype: 
-#   mission: Thon
-#   level: 
+-
+  missiontype: Sabotage
+  mission: Thon
+  level: 15-17
+  enemytype: Grineer
 ---
