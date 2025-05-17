@@ -1,6 +1,9 @@
 ---
 items:
 -
+  missiontype: Relay 
+  mission: Orcus Relay
+-
   missiontype: Mobile Defense
   mission: Minthe
   level: 30-34

@@ -1,6 +1,9 @@
 ---
 items:
 -
+  missiontype: Relay
+  mission: Kuiper Relay
+-
   missiontype: Sabotage
   mission: Naeglar
   level: 30-34

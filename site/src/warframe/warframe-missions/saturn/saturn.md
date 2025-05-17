@@ -1,6 +1,9 @@
 ---
 items:
 -
+  missiontype: Relay
+  mission: Kronia Relay
+-
   missiontype: Pursuit
   mission: Pandora
   level: 21-23

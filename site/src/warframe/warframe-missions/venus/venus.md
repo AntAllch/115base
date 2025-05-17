@@ -1,6 +1,9 @@
 ---
 items:
 -
+  missiontype: Relay
+  mission: Vesper Relay
+-
   missiontype: Exterminate
   mission: E Gate
   level: 3-5

@@ -1,6 +1,9 @@
 ---
 items:
 -
+  missiontype: Relay
+  mission: Maroo's Bazaar
+-
   missiontype: Disruption
   mission: Olympus
   level: 15-20

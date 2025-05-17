@@ -1,6 +1,9 @@
 ---
 items:
 -
+  missiontype: Relay
+  mission: Leonav Relay
+-
   missiontype: Mobile Defense
   mission: Morax
   level: 18-20

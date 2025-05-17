@@ -3,8 +3,6 @@ items:
 -
   missiontype: Relay
   mission: Larunda Relay
-  level: 0-0
-  enemytype: Relay
 -
   missiontype: Rescue
   mission: Caloris

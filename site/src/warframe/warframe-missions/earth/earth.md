@@ -1,6 +1,9 @@
 ---
 items:
 -
+  missiontype: Relay
+  mission: Strata Relay
+-
   missiontype: Defense
   mission: Coba
   level: 6-16 (Event)
