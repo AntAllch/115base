@@ -144,7 +144,9 @@ Tombs
 Deep Excavation  
 Shrine of the Hierophants  
 Ossuary  
-Neolithic Catacombs<br>  
+Neolithic Catacombs
+<br>
+<br>  
 
 ### Crafting Table Locations
 
