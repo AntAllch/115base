@@ -144,14 +144,14 @@ Tombs
 Deep Excavation  
 Shrine of the Hierophants  
 Ossuary  
-Neolithic Catacombs
-<br>  
+Neolithic Catacombs<br>  
 
 ### Crafting Table Locations
 
 Shrine of the Hierophants  
 Dark Aether Nexus  
-Neolithic Catacombs<br>  
+Neolithic Catacombs  
+<br>  
 
 ### Mystery Box Locations
 
