@@ -151,8 +151,7 @@ Neolithic Catacombs
 
 Shrine of the Hierophants  
 Dark Aether Nexus  
-Neolithic Catacombs  
-<br>  
+Neolithic Catacombs<br>  
 
 ### Mystery Box Locations
 
