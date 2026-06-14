@@ -120,9 +120,10 @@ header{
       top: 100%;
       left: 0;
       width: 100%;
-      background-color: rgba(white, 0.15);
+      // background-color: rgba(white, 0.15);
+      background-color: orange;
       padding: 0.5rem 1rem;
-      transition: opacity 0.2s ease-in-out;
+      // transition: opacity 0.2s ease-in-out;
       opacity: 0;
       visibility: hidden;
   
@@ -141,7 +142,8 @@ header{
           .dropdown-link{
             text-decoration: none;
             letter-spacing: 0.5ch;
-            color: white;
+            // color: white;
+            color: black;
             transition: color 150ms ease-in-out;
 
             &:hover,

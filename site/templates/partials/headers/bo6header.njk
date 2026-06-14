@@ -18,9 +18,9 @@
     
   </div>
 
-
-  {# this will only appear on the Liberty Falls page #}
-  {% if page.fileSlug === 'liberty-falls' or page.fileSlug === 'terminus' or page.fileSlug === "citadelle-des-morts" or page.fileSlug === "the-tomb" %}
+  
+  {# Don't forget to add the page.fileSlug line to the code below whenever you add a new map #}
+  {% if page.fileSlug === 'liberty-falls' or page.fileSlug === 'terminus' or page.fileSlug === "citadelle-des-morts" or page.fileSlug === "the-tomb" or page.fileSlug === "shattered-veil" %}
 
     <div class="page-nav">
       <ul class="page-nav-list">
@@ -28,7 +28,7 @@
         <li class="page-nav-item"><a href="#egg-steps" class="page-nav-link">Easter Egg</a></li>
         {% if page.fileSlug === 'terminus' %}<li class="page-nav-item"><a href="#terminus-calculator" class="page-nav-link">Calculator</a></li>{% endif %}
 
-        {# Thid will appear on the Citadelle page #}
+        {# This will appear on the Citadelle page #}
         {% if page.fileSlug === 'citadelle-des-morts' %}<li class="page-nav-item" id='swords'>
           <a href="" class="page-nav-link">Swords</a>
           <div class="dropdown">
@@ -53,7 +53,7 @@
           </div>
         </li>{% endif %}
 
-        {# Thid will appear on The Tomb page #}
+        {# This will only appear on The Tomb page #}
         {% if page.fileSlug === 'the-tomb' %}<li class="page-nav-item" id='incantations'>
           <a href="" class="page-nav-link">Ice Staff</a>
           <div class="dropdown">
@@ -75,9 +75,27 @@
             </ul>
           </div>
         </li>{% endif %}
-        
+
+        {# This will only appear on The Shattered Veil page #}
+        {% if page.fileSlug === 'shattered-veil' %}
+        <li class="page-nav-item"><a href="#ray-gun-mk2" class="page-nav-link">Raygun Mark II</a></li>
+        {% endif %}
+
+        {# {% if page.fileSlug === 'shattered-veil' %}<li class="page-nav-item" id='incantations'>
+          <a href="" class="page-nav-link">Trials</a>
+          <div class="dropdown">
+            <ul class="dropdown-list">
+              <li class="dropdown-item"><a href="#vermin-trial" class="dropdown-link">Vermin Trial</a></li>
+              <li class="dropdown-item"><a href="#parasite-trial" class="dropdown-link">Parasite Trial</a></li>
+              <li class="dropdown-item"><a href="#doppelghast-trial" class="dropdown-link">Doppelghast Trial</a></li>
+              <li class="dropdown-item"><a href="#amalgam-trial" class="dropdown-link">Amalgam Trial</a></li>
+            </ul>
+          </div>
+        </li>{% endif %} #}
+
         <li class="page-nav-item"><a href="#wl" class="page-nav-link">Weapons Locations</a></li>
         <li class="page-nav-item"><a href="#pl" class="page-nav-link">Perk locations</a></li>
+        
 
 
       </ul>

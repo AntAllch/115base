@@ -3,81 +3,117 @@ title: Shattered Veil
 date: 2024-10-30
 weaponLocations: 
 -
+    weapon: GS45
+    location: Garden Pond (Spawn)
+    type: Pistol
+-
     weapon: Kompakt 92
-    location: Neolithic Catacombs
+    location: Shem's Henge
     type: SMG
 -
     weapon: Tanto .22
-    location: Tombs
+    location: Conservatory
     type: SMG
 -
-    weapon: GPMG-7
-    location: Subterranean Temple
-    type: LMG
+    weapon: Marine SP
+    location: Motor Court
+    type: Shotgun
 -
     weapon: AK-74
-    location: Shrine of the Hierophants
+    location: East Foyer
+    type: AR
+-
+    weapon: Ames 85
+    location: Grand Foyer
     type: AR
 -
     weapon: XM4
-    location: Ossuary
+    location: West Hallways
     type: AR
 -
-    weapon: Marine SP
-    location: Dig Site
-    type: Shotgun
+    weapon: AEK-973
+    location: West Hallways
+    type: AR
+-
+    weapon: LR 7.62
+    location: Rear Patio
+    type: Sniper
+-
+    weapon: Swat 5.56
+    location: Study
+    type: Marksman Rifle
+-
+    weapon: GPMG-7
+    location: Mainframe Chamber 
+    type: LMG
+    
 
 perkLocations: 
 -
     perk: Quick Revive
-    location: Deep Excavation
--
-    perk: Death Perception
-    location: Tombs
--
-    perk: Staminup
-    location: Shrine of the Hierophants
+    location: Conservatory
 -
     perk: Speed Cola
-    location: Ossuary
+    location: Shem's Henge
 -
     perk: Jugger Nog
-    location: Dark Aether Nexus
+    location: Grand Foyer
 -
-    perk: Deadshot Daquiri
-    location: Neolithic Catacombs
+    perk: Staminup
+    location: East Foyer
+-
+    perk: Elemental Pop
+    location: East Balcony
 -
     perk: PHD
-    location: Dig Site
-
+    location: Nursery
+-
+    perk: Death Perception
+    location: West Hallways
+-
+    perk: Double Tap
+    location: Rear Patio
+-
+    perk: Wunderfizz
+    location: Service Tunnel
 
 layout: eggSteps.njk
 tags: mainEgg
 ---
 
-<h3 class='space' id="base-ice-staff">EGG STEPS COMING SOON</h3>  
+<h3 id='egg-steps'>Easter Egg Pre-Steps</h3>  
 
-<!-- - <span class='note-text'>NOTE: YOU CAN COLLECT THE STAFF PARTS IN ANY ORDER</span> -->
+- In order to progress this egg, you must obtain the Ray Gun MKII via the free method or the Mystery Box
+
+- Once you have obtained the Ray Gun MKII canisters, you can then complete the Quests in any order
+
+- You can either collect 1 canister and then do the quest or you can collect all 3 canisters and then do all 3 quests
+
+- When you have completed the Ray Gun MKII quests, you are then on to the <span class='note-text'>boss fight<span>
 
 ---
 
-<!-- <h3 class='space' id='upgraded-ice-staff'>Step 2 - Upgrade Ice Staff</h3>
+<h3 class='space' id='ray-gun-mk2'>Step 1 - Obtain the Ray Gun MKII</h3>
 
-- Use the staff to shoot 3 Aetheric Lamps to freeze them within 10 seconds of each other, if you are successful, you will hear a quote from Archibold
+- Kill the Lab Technician in order to get a golden floppy disk. He can either be found in the Service Tunnel or Mainframe Chamber
 
-- Go to the Dark Aether and head towards the middle of the map and look up towards the sky where all the floating rocks are, you need to look for rocks with glowing purple symbols on them, once you have found one, shoot the synbol with the Ice Staff and the rock will lower itself down so you can see the symbol easier, you have to do this on 3 different rocks
+- Insert the floppy disk into the fax machine located near the T-Rex in the East Foyer
 
-- <span class='note-text'>NOTE: MAKE SURE YOU REMEMBER THE SYMBOLS, YOU'LL NEED TO USE THEM IN THE NEXT STEP</span>
+- You will then have to defend the Fax Machine from Vermin until it prints the Project Janice paper
 
-- Once you have all 3 symbols, you'll notice one of the portals will close, you need to make your way to the other side of that portal and you'll see the symbols, shoot them in any order using the Ice Staff and the portal will re-open <span class='green-text'>TIP: You'll know if you shot the correct symbols because they will appear on the bottom on the portal once it reopens</span>
+- Once it prints, take a look at the paper, it will contain a four-letter word. Once you have the word you need to head to the Nursery Room Chalkboard
 
-- Go through the portal and you'll be teleported to a floating rock with a purple orb in front of you, interact with the orb and the screen will flash white.
+- On the chalkboard you will see 6 groups of letters. Look in each group for the letters of the word (in order of the word) and count the number of letters in that group to get your 4-digit code <span class="note-text">(e.g. if MOTH is your word and the group containing the letter "M" has 8 letters, then your first number is 8. Repeat that for the remaining 3 letters)<span>
 
-- You now need to follow the orb and stay close to it. When the orb stops moving, you'll need to get some kills so it moves again. Repeat those steps and follow the orb all the way round the Dark Aether until it goes to the hole in the wall where you placed the Base Ice Staff. Once this is complete, the screen will flash white again
+- When you have all 4 digits of the code, head to the Service Tunnel and you will see a big glass door. Input the 4 digit code on the keypad
 
-- Now you can interact with the wall and the Ice Staff will be upgraded
+- Kill the Doppelgast and it will drop a servered arm. Pick it up, head to the Armory room nearby and use it on the handle next to the Ray Gun MKII
 
---- -->
+<!-- - <span class='note-text'>NOTE: MAKE SURE YOU REMEMBER THE SYMBOLS, YOU'LL NEED TO USE THEM IN THE NEXT STEP</span> -->
+
+
+
+---
 
 <!-- ### Arsenal Locations
 
